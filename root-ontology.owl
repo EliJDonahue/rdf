@@ -4,9 +4,9 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:rdf1="http://www.aras.fake/rdf/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:base="http://purl.org/aras-poc/base#">
     <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/KCYX74tJfQQEBU9K6GNGZ"/>
     
 
@@ -42,246 +42,246 @@
     
 
 
-    <!-- http://www.aras.fake/rdf/R0qdE4om1FhkrYrjwUyxoH -->
+    <!-- http://purl.org/aras-poc/base#R0qdE4om1FhkrYrjwUyxoH -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R0qdE4om1FhkrYrjwUyxoH">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R0qdE4om1FhkrYrjwUyxoH">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/R8ZVaoVlugMs2TUAInXALBa"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#R8ZVaoVlugMs2TUAInXALBa"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:label>related_id</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R4gL1tjIpEUZGDoFIhiZLk -->
+    <!-- http://purl.org/aras-poc/base#R4gL1tjIpEUZGDoFIhiZLk -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R4gL1tjIpEUZGDoFIhiZLk">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R4gL1tjIpEUZGDoFIhiZLk">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RnSh8Se32TN9enmlozs4oF"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RnSh8Se32TN9enmlozs4oF"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
         <rdfs:label>drawing_size</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R74holvS3zExt0PBK0SSnxA -->
+    <!-- http://purl.org/aras-poc/base#R74holvS3zExt0PBK0SSnxA -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R74holvS3zExt0PBK0SSnxA">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R74holvS3zExt0PBK0SSnxA">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RHtWrfFrecsRRr18j1QQKW"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RHtWrfFrecsRRr18j1QQKW"/>
         <rdfs:label>native_file</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R7LJCivkQRpa8FE6TuiEibQ -->
+    <!-- http://purl.org/aras-poc/base#R7LJCivkQRpa8FE6TuiEibQ -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R7LJCivkQRpa8FE6TuiEibQ">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R7LJCivkQRpa8FE6TuiEibQ">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RWiB8qziTpnPwqHYz7Puug"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RWiB8qziTpnPwqHYz7Puug"/>
         <rdfs:label>managed_by_id</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R7ShLtIfwo8NGRRdySSuOUZ -->
+    <!-- http://purl.org/aras-poc/base#R7ShLtIfwo8NGRRdySSuOUZ -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R7ShLtIfwo8NGRRdySSuOUZ">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R7ShLtIfwo8NGRRdySSuOUZ">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:label>from_template</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R7u8z6t5viUtPcc40cHttrp -->
+    <!-- http://purl.org/aras-poc/base#R7u8z6t5viUtPcc40cHttrp -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R7u8z6t5viUtPcc40cHttrp">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R7u8z6t5viUtPcc40cHttrp">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RCPCaJNPMUVxClrkabYymxq"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RCPCaJNPMUVxClrkabYymxq"/>
         <rdfs:label>created_by_id</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R853bInIuPX9sSJ4irzAzqr -->
+    <!-- http://purl.org/aras-poc/base#R853bInIuPX9sSJ4irzAzqr -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R853bInIuPX9sSJ4irzAzqr">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R853bInIuPX9sSJ4irzAzqr">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RDKlN5vABAwfzRudYEGivAP"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RDKlN5vABAwfzRudYEGivAP"/>
         <rdfs:label>permission_id</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8ULDYF3811Lxlsplk2uwso -->
+    <!-- http://purl.org/aras-poc/base#R8ULDYF3811Lxlsplk2uwso -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R8ULDYF3811Lxlsplk2uwso">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R8ULDYF3811Lxlsplk2uwso">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/R8fcC4JHaiKhW2CIuDPbJq7"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#R8fcC4JHaiKhW2CIuDPbJq7"/>
         <rdfs:label>team_id</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8WGf5ZDNtzbDFQrd5lB79V -->
+    <!-- http://purl.org/aras-poc/base#R8WGf5ZDNtzbDFQrd5lB79V -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R8WGf5ZDNtzbDFQrd5lB79V">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R8WGf5ZDNtzbDFQrd5lB79V">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/R9D51xom2MoYZRPtWSaq0Hr"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#R9D51xom2MoYZRPtWSaq0Hr"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
         <rdfs:label>specification_type</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8mT2ZI0DPxL81RNv88KhiY -->
+    <!-- http://purl.org/aras-poc/base#R8mT2ZI0DPxL81RNv88KhiY -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R8mT2ZI0DPxL81RNv88KhiY">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R8mT2ZI0DPxL81RNv88KhiY">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RHtWrfFrecsRRr18j1QQKW"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RHtWrfFrecsRRr18j1QQKW"/>
         <rdfs:label>shattered_model_file</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R9hIcxF1sTlfvCbwueJnMIz -->
+    <!-- http://purl.org/aras-poc/base#R9hIcxF1sTlfvCbwueJnMIz -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/R9hIcxF1sTlfvCbwueJnMIz">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#R9hIcxF1sTlfvCbwueJnMIz">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RCPCaJNPMUVxClrkabYymxq"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RCPCaJNPMUVxClrkabYymxq"/>
         <rdfs:label>modified_by_id</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBGbSQ4ZLqO2LupBEgPbnbx -->
+    <!-- http://purl.org/aras-poc/base#RBGbSQ4ZLqO2LupBEgPbnbx -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RBGbSQ4ZLqO2LupBEgPbnbx">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RBGbSQ4ZLqO2LupBEgPbnbx">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RHtWrfFrecsRRr18j1QQKW"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RHtWrfFrecsRRr18j1QQKW"/>
         <rdfs:label>viewable_file</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBjwtY3itGGjNYKVchGbY4h -->
+    <!-- http://purl.org/aras-poc/base#RBjwtY3itGGjNYKVchGbY4h -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RBjwtY3itGGjNYKVchGbY4h">
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/R2VK0GlEMLXBoM8oGGoKDz"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RBjwtY3itGGjNYKVchGbY4h">
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#R2VK0GlEMLXBoM8oGGoKDz"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">values</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBk97JMdffYOdikHoFFmgTB -->
+    <!-- http://purl.org/aras-poc/base#RBk97JMdffYOdikHoFFmgTB -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RBk97JMdffYOdikHoFFmgTB">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RBk97JMdffYOdikHoFFmgTB">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rl1feRNeRCQFqkh18mSh13"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rl1feRNeRCQFqkh18mSh13"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
         <rdfs:label>itemtype</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBpR2WSVsHXyJrI69KP9rDX -->
+    <!-- http://purl.org/aras-poc/base#RBpR2WSVsHXyJrI69KP9rDX -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RBpR2WSVsHXyJrI69KP9rDX">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RBpR2WSVsHXyJrI69KP9rDX">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/R8ZVaoVlugMs2TUAInXALBa"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#R8ZVaoVlugMs2TUAInXALBa"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:label>source_id</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RCQrsL8lpO5VojW39bOWx3 -->
+    <!-- http://purl.org/aras-poc/base#RCQrsL8lpO5VojW39bOWx3 -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RCQrsL8lpO5VojW39bOWx3">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RCQrsL8lpO5VojW39bOWx3">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RDyK1IyELn5etPFJ45UACPP"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RDyK1IyELn5etPFJ45UACPP"/>
         <rdfs:label>current_state</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RD1TwDuTSrwSfIVUvFPOHL2 -->
+    <!-- http://purl.org/aras-poc/base#RD1TwDuTSrwSfIVUvFPOHL2 -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RD1TwDuTSrwSfIVUvFPOHL2">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RD1TwDuTSrwSfIVUvFPOHL2">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RWiB8qziTpnPwqHYz7Puug"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RWiB8qziTpnPwqHYz7Puug"/>
         <rdfs:label>owned_by_id</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDD0Clu9LJZjRWuMxKaTLje -->
+    <!-- http://purl.org/aras-poc/base#RDD0Clu9LJZjRWuMxKaTLje -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RDD0Clu9LJZjRWuMxKaTLje">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RDD0Clu9LJZjRWuMxKaTLje">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
         <rdfs:label>authoring_tool</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDOk64ozcmEt530YDhGor8b -->
+    <!-- http://purl.org/aras-poc/base#RDOk64ozcmEt530YDhGor8b -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RDOk64ozcmEt530YDhGor8b">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RDOk64ozcmEt530YDhGor8b">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RvZJJMRR4I3sD9IssMKeaQ"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RvZJJMRR4I3sD9IssMKeaQ"/>
         <rdfs:label>thumbnail</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDjQazDsMjbqxbW9a4mbKLA -->
+    <!-- http://purl.org/aras-poc/base#RDjQazDsMjbqxbW9a4mbKLA -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RDjQazDsMjbqxbW9a4mbKLA">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RDjQazDsMjbqxbW9a4mbKLA">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RCPCaJNPMUVxClrkabYymxq"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RCPCaJNPMUVxClrkabYymxq"/>
         <rdfs:label>locked_by_id</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RFtC3mMGLbPPnKLuFzPBga -->
+    <!-- http://purl.org/aras-poc/base#RFtC3mMGLbPPnKLuFzPBga -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RFtC3mMGLbPPnKLuFzPBga">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RFtC3mMGLbPPnKLuFzPBga">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RHtWrfFrecsRRr18j1QQKW"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RHtWrfFrecsRRr18j1QQKW"/>
         <rdfs:label>monolithic_model_file</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RhSZNneQDeZ3BnlydgWKis -->
+    <!-- http://purl.org/aras-poc/base#RhSZNneQDeZ3BnlydgWKis -->
 
-    <owl:ObjectProperty rdf:about="http://www.aras.fake/rdf/RhSZNneQDeZ3BnlydgWKis">
+    <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#RhSZNneQDeZ3BnlydgWKis">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
-        <rdfs:range rdf:resource="http://www.aras.fake/rdf/RHtWrfFrecsRRr18j1QQKW"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#RHtWrfFrecsRRr18j1QQKW"/>
         <rdfs:label>view_file</rdfs:label>
     </owl:ObjectProperty>
     
@@ -298,425 +298,425 @@
     
 
 
-    <!-- http://www.aras.fake/rdf/R6mEDLpLnzrSPf6euCzbmz -->
+    <!-- http://purl.org/aras-poc/base#R6mEDLpLnzrSPf6euCzbmz -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R6mEDLpLnzrSPf6euCzbmz">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R6mEDLpLnzrSPf6euCzbmz">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>is_standard</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R7ACLKcesEIokrU84vByYyY -->
+    <!-- http://purl.org/aras-poc/base#R7ACLKcesEIokrU84vByYyY -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R7ACLKcesEIokrU84vByYyY">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R7ACLKcesEIokrU84vByYyY">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label>x_min</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R7KMqMnmU04arNyfoac8OHf -->
+    <!-- http://purl.org/aras-poc/base#R7KMqMnmU04arNyfoac8OHf -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R7KMqMnmU04arNyfoac8OHf">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R7KMqMnmU04arNyfoac8OHf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>external_type</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R7gPP5A8kCnxDT8A7bPJMjk -->
+    <!-- http://purl.org/aras-poc/base#R7gPP5A8kCnxDT8A7bPJMjk -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R7gPP5A8kCnxDT8A7bPJMjk">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R7gPP5A8kCnxDT8A7bPJMjk">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label>z_min</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R7xRLGLLkl0ww79LveZLT2I -->
+    <!-- http://purl.org/aras-poc/base#R7xRLGLLkl0ww79LveZLT2I -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R7xRLGLLkl0ww79LveZLT2I">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R7xRLGLLkl0ww79LveZLT2I">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>label</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R87nfHTobtYcov8VTpvOjxb -->
+    <!-- http://purl.org/aras-poc/base#R87nfHTobtYcov8VTpvOjxb -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R87nfHTobtYcov8VTpvOjxb">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R87nfHTobtYcov8VTpvOjxb">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>is_released</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8CpQfOPy4fvaox2YnoZTej -->
+    <!-- http://purl.org/aras-poc/base#R8CpQfOPy4fvaox2YnoZTej -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R8CpQfOPy4fvaox2YnoZTej">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R8CpQfOPy4fvaox2YnoZTej">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>authoring_tool_version</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8LJJuzWa8Q2SAlQygOF1tA -->
+    <!-- http://purl.org/aras-poc/base#R8LJJuzWa8Q2SAlQygOF1tA -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R8LJJuzWa8Q2SAlQygOF1tA">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R8LJJuzWa8Q2SAlQygOF1tA">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>major_rev</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8Wq4s82mqeebX3e8XFSXFn -->
+    <!-- http://purl.org/aras-poc/base#R8Wq4s82mqeebX3e8XFSXFn -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R8Wq4s82mqeebX3e8XFSXFn">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R8Wq4s82mqeebX3e8XFSXFn">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>new_version</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8X88Za5oQMyMDQmTLvScHH -->
+    <!-- http://purl.org/aras-poc/base#R8X88Za5oQMyMDQmTLvScHH -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R8X88Za5oQMyMDQmTLvScHH">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R8X88Za5oQMyMDQmTLvScHH">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>generation</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8hBh6xO8hcEnEkXOdrgXZN -->
+    <!-- http://purl.org/aras-poc/base#R8hBh6xO8hcEnEkXOdrgXZN -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R8hBh6xO8hcEnEkXOdrgXZN">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R8hBh6xO8hcEnEkXOdrgXZN">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>classification</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8lu3OBbuoqtxGwVFgKTIKq -->
+    <!-- http://purl.org/aras-poc/base#R8lu3OBbuoqtxGwVFgKTIKq -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R8lu3OBbuoqtxGwVFgKTIKq">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R8lu3OBbuoqtxGwVFgKTIKq">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>id</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R9M7kYeOSHfNYwQGjPd840g -->
+    <!-- http://purl.org/aras-poc/base#R9M7kYeOSHfNYwQGjPd840g -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R9M7kYeOSHfNYwQGjPd840g">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R9M7kYeOSHfNYwQGjPd840g">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>is_current</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R9O6EoEGfHkHAekzUckFHPS -->
+    <!-- http://purl.org/aras-poc/base#R9O6EoEGfHkHAekzUckFHPS -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R9O6EoEGfHkHAekzUckFHPS">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R9O6EoEGfHkHAekzUckFHPS">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>value</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/R9c41oYVu9V1BbrIEsXc2yq -->
+    <!-- http://purl.org/aras-poc/base#R9c41oYVu9V1BbrIEsXc2yq -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/R9c41oYVu9V1BbrIEsXc2yq">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#R9c41oYVu9V1BbrIEsXc2yq">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RBhslvR46MvavcZINTIDkJG"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RBhslvR46MvavcZINTIDkJG"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:label>effective_date</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RB53JZvrg1XgsluPb7cYFPX -->
+    <!-- http://purl.org/aras-poc/base#RB53JZvrg1XgsluPb7cYFPX -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RB53JZvrg1XgsluPb7cYFPX">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RB53JZvrg1XgsluPb7cYFPX">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>config_id</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBSanmFaEGi360eFtnqcTqx -->
+    <!-- http://purl.org/aras-poc/base#RBSanmFaEGi360eFtnqcTqx -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RBSanmFaEGi360eFtnqcTqx">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RBSanmFaEGi360eFtnqcTqx">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>external_id</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBTMPPh3O0n6pkdox7NZfz8 -->
+    <!-- http://purl.org/aras-poc/base#RBTMPPh3O0n6pkdox7NZfz8 -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RBTMPPh3O0n6pkdox7NZfz8">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RBTMPPh3O0n6pkdox7NZfz8">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label>y_max</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBdOTi3jKn4Wj0lai1zVaFw -->
+    <!-- http://purl.org/aras-poc/base#RBdOTi3jKn4Wj0lai1zVaFw -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RBdOTi3jKn4Wj0lai1zVaFw">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RBdOTi3jKn4Wj0lai1zVaFw">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>filter</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBjDYTZpvSH4XoZQM4NPIfX -->
+    <!-- http://purl.org/aras-poc/base#RBjDYTZpvSH4XoZQM4NPIfX -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RBjDYTZpvSH4XoZQM4NPIfX">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RBjDYTZpvSH4XoZQM4NPIfX">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>scale</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBqT5oww9BCc1ztraSZcY6Y -->
+    <!-- http://purl.org/aras-poc/base#RBqT5oww9BCc1ztraSZcY6Y -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RBqT5oww9BCc1ztraSZcY6Y">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RBqT5oww9BCc1ztraSZcY6Y">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label>y_min</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RCPjhYk6UZnIYeDmWvqStMZ -->
+    <!-- http://purl.org/aras-poc/base#RCPjhYk6UZnIYeDmWvqStMZ -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RCPjhYk6UZnIYeDmWvqStMZ">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RCPjhYk6UZnIYeDmWvqStMZ">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>description</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RCrAPVg2YFa76u8WSHN1cOk -->
+    <!-- http://purl.org/aras-poc/base#RCrAPVg2YFa76u8WSHN1cOk -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RCrAPVg2YFa76u8WSHN1cOk">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RCrAPVg2YFa76u8WSHN1cOk">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>keyed_name</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDCUTkvSVaro0Okgx03RA5R -->
+    <!-- http://purl.org/aras-poc/base#RDCUTkvSVaro0Okgx03RA5R -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RDCUTkvSVaro0Okgx03RA5R">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RDCUTkvSVaro0Okgx03RA5R">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>minor_rev</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDDH1Scxq8HzQ0TLbGetfDP -->
+    <!-- http://purl.org/aras-poc/base#RDDH1Scxq8HzQ0TLbGetfDP -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RDDH1Scxq8HzQ0TLbGetfDP">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RDDH1Scxq8HzQ0TLbGetfDP">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label>z_max</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDPyng7IV2I7ZuXhQq8K0TM -->
+    <!-- http://purl.org/aras-poc/base#RDPyng7IV2I7ZuXhQq8K0TM -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RDPyng7IV2I7ZuXhQq8K0TM">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RDPyng7IV2I7ZuXhQq8K0TM">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>has_files</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDgt6E61nALpqf4yIIcoVgL -->
+    <!-- http://purl.org/aras-poc/base#RDgt6E61nALpqf4yIIcoVgL -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RDgt6E61nALpqf4yIIcoVgL">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RDgt6E61nALpqf4yIIcoVgL">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label>x_max</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDhopDplXxkqOEksJnFvs90 -->
+    <!-- http://purl.org/aras-poc/base#RDhopDplXxkqOEksJnFvs90 -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RDhopDplXxkqOEksJnFvs90">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RDhopDplXxkqOEksJnFvs90">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>state</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDrZ4fsgwznZcxgvcPLdipM -->
+    <!-- http://purl.org/aras-poc/base#RDrZ4fsgwznZcxgvcPLdipM -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RDrZ4fsgwznZcxgvcPLdipM">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RDrZ4fsgwznZcxgvcPLdipM">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:label>modified_on</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDu2BxL5QHELTFt6yDPsspj -->
+    <!-- http://purl.org/aras-poc/base#RDu2BxL5QHELTFt6yDPsspj -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RDu2BxL5QHELTFt6yDPsspj">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RDu2BxL5QHELTFt6yDPsspj">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RBhslvR46MvavcZINTIDkJG"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RBhslvR46MvavcZINTIDkJG"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:label>superseded_date</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDvcgvY1kZWlKcgK1zO9Gjd -->
+    <!-- http://purl.org/aras-poc/base#RDvcgvY1kZWlKcgK1zO9Gjd -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RDvcgvY1kZWlKcgK1zO9Gjd">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RDvcgvY1kZWlKcgK1zO9Gjd">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>not_lockable</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDz4KxEeTFP7pxdLJ64cc6u -->
+    <!-- http://purl.org/aras-poc/base#RDz4KxEeTFP7pxdLJ64cc6u -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RDz4KxEeTFP7pxdLJ64cc6u">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RDz4KxEeTFP7pxdLJ64cc6u">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RBhslvR46MvavcZINTIDkJG"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RBhslvR46MvavcZINTIDkJG"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>item_number</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RFe3lzpswJKxWe43gD8JGb -->
+    <!-- http://purl.org/aras-poc/base#RFe3lzpswJKxWe43gD8JGb -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RFe3lzpswJKxWe43gD8JGb">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RFe3lzpswJKxWe43gD8JGb">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>has_change_pending</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RP5ctIWzRB1QwYy9g8GTh0 -->
+    <!-- http://purl.org/aras-poc/base#RP5ctIWzRB1QwYy9g8GTh0 -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RP5ctIWzRB1QwYy9g8GTh0">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RP5ctIWzRB1QwYy9g8GTh0">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RBhslvR46MvavcZINTIDkJG"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RBhslvR46MvavcZINTIDkJG"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>name</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/ReY6BdtDcHQMaGfFya1OnM -->
+    <!-- http://purl.org/aras-poc/base#ReY6BdtDcHQMaGfFya1OnM -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/ReY6BdtDcHQMaGfFya1OnM">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#ReY6BdtDcHQMaGfFya1OnM">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>is_template</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RrQSPAlyRi2thdL71GVFuK -->
+    <!-- http://purl.org/aras-poc/base#RrQSPAlyRi2thdL71GVFuK -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RrQSPAlyRi2thdL71GVFuK">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RrQSPAlyRi2thdL71GVFuK">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RBhslvR46MvavcZINTIDkJG"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RBhslvR46MvavcZINTIDkJG"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:label>release_date</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RsJG8rNLCLgdqH7gyjuX7 -->
+    <!-- http://purl.org/aras-poc/base#RsJG8rNLCLgdqH7gyjuX7 -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RsJG8rNLCLgdqH7gyjuX7">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RsJG8rNLCLgdqH7gyjuX7">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>external_owner</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.aras.fake/rdf/RzoInYu9XdTzjGgkFEQzUZ -->
+    <!-- http://purl.org/aras-poc/base#RzoInYu9XdTzjGgkFEQzUZ -->
 
-    <owl:DatatypeProperty rdf:about="http://www.aras.fake/rdf/RzoInYu9XdTzjGgkFEQzUZ">
+    <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#RzoInYu9XdTzjGgkFEQzUZ">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:label>created_on</rdfs:label>
     </owl:DatatypeProperty>
@@ -734,96 +734,96 @@
     
 
 
-    <!-- http://www.aras.fake/rdf/R2VK0GlEMLXBoM8oGGoKDz -->
+    <!-- http://purl.org/aras-poc/base#R2VK0GlEMLXBoM8oGGoKDz -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/R2VK0GlEMLXBoM8oGGoKDz">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#R2VK0GlEMLXBoM8oGGoKDz">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:label>List</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8ZVaoVlugMs2TUAInXALBa -->
+    <!-- http://purl.org/aras-poc/base#R8ZVaoVlugMs2TUAInXALBa -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/R8ZVaoVlugMs2TUAInXALBa">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#R8ZVaoVlugMs2TUAInXALBa">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Aras Item with a source/parent Item. May or may not have a related Item.</rdfs:comment>
         <rdfs:label>Relationship</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8fcC4JHaiKhW2CIuDPbJq7 -->
+    <!-- http://purl.org/aras-poc/base#R8fcC4JHaiKhW2CIuDPbJq7 -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/R8fcC4JHaiKhW2CIuDPbJq7">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#R8fcC4JHaiKhW2CIuDPbJq7">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Team item in the Aras data model.</rdfs:comment>
         <rdfs:label>Team</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc -->
+    <!-- http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:label>Value</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/R9D51xom2MoYZRPtWSaq0Hr -->
+    <!-- http://purl.org/aras-poc/base#R9D51xom2MoYZRPtWSaq0Hr -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/R9D51xom2MoYZRPtWSaq0Hr">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#R9D51xom2MoYZRPtWSaq0Hr">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
         <rdfs:label>Specification Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBhslvR46MvavcZINTIDkJG -->
+    <!-- http://purl.org/aras-poc/base#RBhslvR46MvavcZINTIDkJG -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/RBhslvR46MvavcZINTIDkJG">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/Rl1feRNeRCQFqkh18mSh13"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#RBhslvR46MvavcZINTIDkJG">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Rl1feRNeRCQFqkh18mSh13"/>
         <rdfs:label>Change Controlled Item</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/RCPCaJNPMUVxClrkabYymxq -->
+    <!-- http://purl.org/aras-poc/base#RCPCaJNPMUVxClrkabYymxq -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/RCPCaJNPMUVxClrkabYymxq">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#RCPCaJNPMUVxClrkabYymxq">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The User item in the Aras data model.</rdfs:comment>
         <rdfs:label>User</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDKlN5vABAwfzRudYEGivAP -->
+    <!-- http://purl.org/aras-poc/base#RDKlN5vABAwfzRudYEGivAP -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/RDKlN5vABAwfzRudYEGivAP">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#RDKlN5vABAwfzRudYEGivAP">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Permission item in the Aras data model.</rdfs:comment>
         <rdfs:label>Permission</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf -->
+    <!-- http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RBhslvR46MvavcZINTIDkJG"/>
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RBhslvR46MvavcZINTIDkJG"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:label>Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj -->
+    <!-- http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj">
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The root building block of the Aras data model.</rdfs:comment>
         <rdfs:label>Item</rdfs:label>
@@ -831,65 +831,65 @@
     
 
 
-    <!-- http://www.aras.fake/rdf/RDyK1IyELn5etPFJ45UACPP -->
+    <!-- http://purl.org/aras-poc/base#RDyK1IyELn5etPFJ45UACPP -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/RDyK1IyELn5etPFJ45UACPP">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#RDyK1IyELn5etPFJ45UACPP">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Life Cycle State item in the Aras data model.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Life Cycle State</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/RHtWrfFrecsRRr18j1QQKW -->
+    <!-- http://purl.org/aras-poc/base#RHtWrfFrecsRRr18j1QQKW -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/RHtWrfFrecsRRr18j1QQKW">
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#RHtWrfFrecsRRr18j1QQKW">
         <rdfs:label>File</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/RWiB8qziTpnPwqHYz7Puug -->
+    <!-- http://purl.org/aras-poc/base#RWiB8qziTpnPwqHYz7Puug -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/RWiB8qziTpnPwqHYz7Puug">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#RWiB8qziTpnPwqHYz7Puug">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Identity item in the Aras data model.</rdfs:comment>
         <rdfs:label>Identity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL -->
+    <!-- http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/Rd1KURa0SqK7IMYtXYskpL">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RBhslvR46MvavcZINTIDkJG"/>
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#Rd1KURa0SqK7IMYtXYskpL">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RBhslvR46MvavcZINTIDkJG"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:label>CAD</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/Rl1feRNeRCQFqkh18mSh13 -->
+    <!-- http://purl.org/aras-poc/base#Rl1feRNeRCQFqkh18mSh13 -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/Rl1feRNeRCQFqkh18mSh13">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDWDKFksP9B9uxVaz2fu9Yj"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#Rl1feRNeRCQFqkh18mSh13">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDWDKFksP9B9uxVaz2fu9Yj"/>
         <rdfs:label>Poly Item</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/RnSh8Se32TN9enmlozs4oF -->
+    <!-- http://purl.org/aras-poc/base#RnSh8Se32TN9enmlozs4oF -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/RnSh8Se32TN9enmlozs4oF">
-        <rdfs:subClassOf rdf:resource="http://www.aras.fake/rdf/RDTlevFoHw0A1X0bFB6DOvf"/>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#RnSh8Se32TN9enmlozs4oF">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#RDTlevFoHw0A1X0bFB6DOvf"/>
         <rdfs:label>Drawing Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.aras.fake/rdf/RvZJJMRR4I3sD9IssMKeaQ -->
+    <!-- http://purl.org/aras-poc/base#RvZJJMRR4I3sD9IssMKeaQ -->
 
-    <owl:Class rdf:about="http://www.aras.fake/rdf/RvZJJMRR4I3sD9IssMKeaQ">
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#RvZJJMRR4I3sD9IssMKeaQ">
         <rdfs:label>Vault Image</rdfs:label>
     </owl:Class>
     
@@ -906,252 +906,252 @@
     
 
 
-    <!-- http://www.aras.fake/rdf/R0GTKlDjhF0VHRiDVWGWRv -->
+    <!-- http://purl.org/aras-poc/base#R0GTKlDjhF0VHRiDVWGWRv -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/R0GTKlDjhF0VHRiDVWGWRv">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R2VK0GlEMLXBoM8oGGoKDz"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/R7pUdHkDY2WC1VNLo7EU4wL"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/R876oHQ48Xb1C9v1I3By9ry"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/R8GLFwz4qhB789Iqb0PiulC"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/R92ahdKbNePaTRHFIMbAF1m"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/R98zpUjdgIftu9eAUnBfHsi"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/R9Ku9W4G8RZ7tZ5AKu8gMbF"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/R9OONWFTRSRcZ9EfYneqodd"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/R9kO6YRkLuVfoT8MlJzfxSg"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RBJ7XqyNWqLEFuj0T5DtJix"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RBQp5HwOh17Zd6eBBvyqfwL"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RBZOFZ2MVtuthYT2nsuYscl"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RBgyDabHzA0OkxT3mT17qVc"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RC3wtQDtN4pgfThl4gt7uMT"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RC5ze6Gac1xUL1UAGFzxMfB"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RC6YyZX1uenaFCAVeKvhNxm"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RCERkxrkllWF5K28oqZnUAc"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RCJzVJMP85yrg1bJANlFJa0"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RCpVUECnM4jyZJbrmxMX5Du"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RDVNJvpjlonCpyQBAzDm4ZP"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RMGKS52TkQYubjJRnVyM7W"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RNB4nXFdiujE9mIuw90blo"/>
-        <rdf1:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://www.aras.fake/rdf/RkXZ7VSp7luEySjOqzahIo"/>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#R0GTKlDjhF0VHRiDVWGWRv">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R2VK0GlEMLXBoM8oGGoKDz"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#R7pUdHkDY2WC1VNLo7EU4wL"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#R876oHQ48Xb1C9v1I3By9ry"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#R8GLFwz4qhB789Iqb0PiulC"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#R92ahdKbNePaTRHFIMbAF1m"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#R98zpUjdgIftu9eAUnBfHsi"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#R9Ku9W4G8RZ7tZ5AKu8gMbF"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#R9OONWFTRSRcZ9EfYneqodd"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#R9kO6YRkLuVfoT8MlJzfxSg"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RBJ7XqyNWqLEFuj0T5DtJix"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RBQp5HwOh17Zd6eBBvyqfwL"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RBZOFZ2MVtuthYT2nsuYscl"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RBgyDabHzA0OkxT3mT17qVc"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RC3wtQDtN4pgfThl4gt7uMT"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RC5ze6Gac1xUL1UAGFzxMfB"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RC6YyZX1uenaFCAVeKvhNxm"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RCERkxrkllWF5K28oqZnUAc"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RCJzVJMP85yrg1bJANlFJa0"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RCpVUECnM4jyZJbrmxMX5Du"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RDVNJvpjlonCpyQBAzDm4ZP"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RMGKS52TkQYubjJRnVyM7W"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RNB4nXFdiujE9mIuw90blo"/>
+        <base:RBjwtY3itGGjNYKVchGbY4h rdf:resource="http://purl.org/aras-poc/base#RkXZ7VSp7luEySjOqzahIo"/>
         <rdfs:label>Authoring Tools</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/R7pUdHkDY2WC1VNLo7EU4wL -->
+    <!-- http://purl.org/aras-poc/base#R7pUdHkDY2WC1VNLo7EU4wL -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/R7pUdHkDY2WC1VNLo7EU4wL">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creo</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#R7pUdHkDY2WC1VNLo7EU4wL">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creo</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Creo</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/R876oHQ48Xb1C9v1I3By9ry -->
+    <!-- http://purl.org/aras-poc/base#R876oHQ48Xb1C9v1I3By9ry -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/R876oHQ48Xb1C9v1I3By9ry">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SolidWorks</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#R876oHQ48Xb1C9v1I3By9ry">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SolidWorks</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>SolidWorks</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/R8GLFwz4qhB789Iqb0PiulC -->
+    <!-- http://purl.org/aras-poc/base#R8GLFwz4qhB789Iqb0PiulC -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/R8GLFwz4qhB789Iqb0PiulC">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor PADS</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#R8GLFwz4qhB789Iqb0PiulC">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor PADS</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Mentor PADS</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/R92ahdKbNePaTRHFIMbAF1m -->
+    <!-- http://purl.org/aras-poc/base#R92ahdKbNePaTRHFIMbAF1m -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/R92ahdKbNePaTRHFIMbAF1m">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Access</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#R92ahdKbNePaTRHFIMbAF1m">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Access</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Microsoft Access</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/R98zpUjdgIftu9eAUnBfHsi -->
+    <!-- http://purl.org/aras-poc/base#R98zpUjdgIftu9eAUnBfHsi -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/R98zpUjdgIftu9eAUnBfHsi">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor Xpedition</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#R98zpUjdgIftu9eAUnBfHsi">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor Xpedition</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Mentor Xpedition</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/R9Ku9W4G8RZ7tZ5AKu8gMbF -->
+    <!-- http://purl.org/aras-poc/base#R9Ku9W4G8RZ7tZ5AKu8gMbF -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/R9Ku9W4G8RZ7tZ5AKu8gMbF">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altium Designer</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#R9Ku9W4G8RZ7tZ5AKu8gMbF">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altium Designer</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Altium Designer</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/R9OONWFTRSRcZ9EfYneqodd -->
+    <!-- http://purl.org/aras-poc/base#R9OONWFTRSRcZ9EfYneqodd -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/R9OONWFTRSRcZ9EfYneqodd">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AutoCAD</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#R9OONWFTRSRcZ9EfYneqodd">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AutoCAD</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>AutoCAD</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/R9kO6YRkLuVfoT8MlJzfxSg -->
+    <!-- http://purl.org/aras-poc/base#R9kO6YRkLuVfoT8MlJzfxSg -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/R9kO6YRkLuVfoT8MlJzfxSg">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor Board Station</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#R9kO6YRkLuVfoT8MlJzfxSg">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor Board Station</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Mentor Board Station</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBJ7XqyNWqLEFuj0T5DtJix -->
+    <!-- http://purl.org/aras-poc/base#RBJ7XqyNWqLEFuj0T5DtJix -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RBJ7XqyNWqLEFuj0T5DtJix">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NX</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RBJ7XqyNWqLEFuj0T5DtJix">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NX</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>NX</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBQp5HwOh17Zd6eBBvyqfwL -->
+    <!-- http://purl.org/aras-poc/base#RBQp5HwOh17Zd6eBBvyqfwL -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RBQp5HwOh17Zd6eBBvyqfwL">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CATIA</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RBQp5HwOh17Zd6eBBvyqfwL">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CATIA</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>CATIA</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBZOFZ2MVtuthYT2nsuYscl -->
+    <!-- http://purl.org/aras-poc/base#RBZOFZ2MVtuthYT2nsuYscl -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RBZOFZ2MVtuthYT2nsuYscl">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altium P-CAD</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RBZOFZ2MVtuthYT2nsuYscl">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altium P-CAD</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Altium P-CAD</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RBgyDabHzA0OkxT3mT17qVc -->
+    <!-- http://purl.org/aras-poc/base#RBgyDabHzA0OkxT3mT17qVc -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RBgyDabHzA0OkxT3mT17qVc">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Powerpoint</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RBgyDabHzA0OkxT3mT17qVc">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Powerpoint</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Microsoft Powerpoint</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RC3wtQDtN4pgfThl4gt7uMT -->
+    <!-- http://purl.org/aras-poc/base#RC3wtQDtN4pgfThl4gt7uMT -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RC3wtQDtN4pgfThl4gt7uMT">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text Editor</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RC3wtQDtN4pgfThl4gt7uMT">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text Editor</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Text Editor</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RC5ze6Gac1xUL1UAGFzxMfB -->
+    <!-- http://purl.org/aras-poc/base#RC5ze6Gac1xUL1UAGFzxMfB -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RC5ze6Gac1xUL1UAGFzxMfB">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Outlook</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RC5ze6Gac1xUL1UAGFzxMfB">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Outlook</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Microsoft Outlook</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RC6YyZX1uenaFCAVeKvhNxm -->
+    <!-- http://purl.org/aras-poc/base#RC6YyZX1uenaFCAVeKvhNxm -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RC6YyZX1uenaFCAVeKvhNxm">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro/ENGINEER</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RC6YyZX1uenaFCAVeKvhNxm">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro/ENGINEER</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Pro/ENGINEER</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RCERkxrkllWF5K28oqZnUAc -->
+    <!-- http://purl.org/aras-poc/base#RCERkxrkllWF5K28oqZnUAc -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RCERkxrkllWF5K28oqZnUAc">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence OrCAD</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RCERkxrkllWF5K28oqZnUAc">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence OrCAD</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Cadence OrCAD</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RCJzVJMP85yrg1bJANlFJa0 -->
+    <!-- http://purl.org/aras-poc/base#RCJzVJMP85yrg1bJANlFJa0 -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RCJzVJMP85yrg1bJANlFJa0">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Excel</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RCJzVJMP85yrg1bJANlFJa0">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Excel</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Microsoft Excel</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RCpVUECnM4jyZJbrmxMX5Du -->
+    <!-- http://purl.org/aras-poc/base#RCpVUECnM4jyZJbrmxMX5Du -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RCpVUECnM4jyZJbrmxMX5Du">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inventor</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RCpVUECnM4jyZJbrmxMX5Du">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inventor</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Inventor</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RDVNJvpjlonCpyQBAzDm4ZP -->
+    <!-- http://purl.org/aras-poc/base#RDVNJvpjlonCpyQBAzDm4ZP -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RDVNJvpjlonCpyQBAzDm4ZP">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Word</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RDVNJvpjlonCpyQBAzDm4ZP">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Word</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Microsoft Word</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RMGKS52TkQYubjJRnVyM7W -->
+    <!-- http://purl.org/aras-poc/base#RMGKS52TkQYubjJRnVyM7W -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RMGKS52TkQYubjJRnVyM7W">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solid Edge</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RMGKS52TkQYubjJRnVyM7W">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solid Edge</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Solid Edge</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RNB4nXFdiujE9mIuw90blo -->
+    <!-- http://purl.org/aras-poc/base#RNB4nXFdiujE9mIuw90blo -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RNB4nXFdiujE9mIuw90blo">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence Allegro</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RNB4nXFdiujE9mIuw90blo">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence Allegro</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Cadence Allegro</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.aras.fake/rdf/RkXZ7VSp7luEySjOqzahIo -->
+    <!-- http://purl.org/aras-poc/base#RkXZ7VSp7luEySjOqzahIo -->
 
-    <owl:NamedIndividual rdf:about="http://www.aras.fake/rdf/RkXZ7VSp7luEySjOqzahIo">
-        <rdf:type rdf:resource="http://www.aras.fake/rdf/R93SnMXGfDNOwd9tdVrnTEc"/>
-        <rdf1:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other</rdf1:R9O6EoEGfHkHAekzUckFHPS>
+    <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#RkXZ7VSp7luEySjOqzahIo">
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#R93SnMXGfDNOwd9tdVrnTEc"/>
+        <base:R9O6EoEGfHkHAekzUckFHPS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other</base:R9O6EoEGfHkHAekzUckFHPS>
         <rdfs:label>Other</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
