@@ -25,24 +25,24 @@ classification | Item | xsd:string
 config_id | Item | xsd:string 
 created_by | Item | [User](#user) 
 created_on | Item | xsd:dateTime 
-current_state | Item | [Life Cycle State]() 
+current_state | Item | [Life Cycle State](#life-cycle-state) 
 generation | Item | xsd:integer 
 id | Item | xsd:string 
 is_current | Item | xsd:boolean 
 is_released | Item | xsd:boolean 
 keyed_name | Item | xsd:string 
-locked_by_id | Item | [User]() 
+locked_by_id | Item | [User](#user)
 major_rev | Item | xsd:string 
-managed_by_id | Item | [User]() 
+managed_by_id | Item | [User](#user)
 minor_rev | Item | xsd:string 
-modified_by_id | Item | [User]() 
+modified_by_id | Item | [User](#user)
 modified_on | Item | xsd:dateTime 
 new_version | Item | xsd:boolean 
 not_lockable | Item | xsd:boolean 
-owned_by_id | Item | [User]() 
-permission_id | Item | [Permission]() 
+owned_by_id | Item | [User](#user)
+permission_id | Item | [Permission](#permission) 
 state | Item | xsd:string 
-team_id | Item | [Team]() 
+team_id | Item | [Team](#team) 
 
 ### Identity
 
@@ -60,17 +60,17 @@ pwd_history_length | Identity | xsd:integer
 Label | Domain | Range
 ------|--------|------
 behavior | Life Cycle State | xsd:string 
-history_template | Life Cycle State | [History Template]()
+history_template | Life Cycle State | [History Template](#history-template)
 image | Life Cycle State | xsd:string 
 item_behavior | Life Cycle State | xsd:string
 label | Life Cycle State | xsd:string
 name | Life Cycle State | xsd:string
-related_id | Life Cycle State | [Item]()
+related_id | Life Cycle State | [Item](#item)
 set_is_released | Life Cycle State | xsd:boolean
 set_not_lockable | Life Cycle State | xsd:boolean
-source_id | Life Cycle State | [Life Cycle Map]()
-state_permission_id | Life Cycle State | [Permission]()
-workflow | Life Cycle State | [Workflow Map]()
+source_id | Life Cycle State | [Life Cycle Map](#life-cycle-map)
+state_permission_id | Life Cycle State | [Permission](#permission)
+workflow | Life Cycle State | [Workflow Map](#workflow-map)
 x | Life Cycle State | xsd:integer
 y | Life Cycle State | xsd: integer
 
@@ -115,7 +115,7 @@ Label | Domain | Range
 ------|--------|------
 cell | User | xsd:string 
 company_name | User | xsd:string 
-default_vault | User | [Vault]() 
+default_vault | User | [Vault](#vault) 
 email | User | xsd:string 
 esignature | User | xsd:string 
 fax | User | xsd:string 
@@ -127,7 +127,7 @@ last_name | User | xsd:string
 login_name | User | xsd:string 
 logon_enabled | User | xsd:boolean 
 mail_stop | User | xsd:string 
-manager | User | [User]() 
+manager | User | [User](#user)
 pager | User | xsd:string 
 password | User | xsd:string 
 picture | User | xsd:string 
