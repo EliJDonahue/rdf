@@ -23,7 +23,7 @@ Label | Domain | Range
 ------|--------|------
 classification | Item | xsd:string 
 config_id | Item | xsd:string 
-created_by | Item | [User]() 
+created_by | Item | [User](#user) 
 created_on | Item | xsd:dateTime 
 current_state | Item | [Life Cycle State]() 
 generation | Item | xsd:integer 
