@@ -2,6 +2,8 @@
 
 This ontology is solely intended as a proof of concept and is not for production use. Work in progress.
 
+Ontology can be referenced via [http://purl.org/base#](http://purl.org/base#).
+
 # Classes
 
 * [File](#file)
