@@ -2,7 +2,7 @@
 
 This ontology is solely intended as a proof of concept and is not for production use. Work in progress.
 
-Ontology can be referenced via [http://purl.org/base#](http://purl.org/base#).
+Ontology can be referenced via [http://purl.org/aras-poc/base#](http://purl.org/aras-poc/base#).
 
 # Classes
 
