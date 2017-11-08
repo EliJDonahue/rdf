@@ -1,0 +1,4 @@
+<imports>
+  <package name="com.aras.innovator.QueryBuilder" path=".\" />
+  <package name="aras.labs.poc.RDF" path="RDF\Import" />
+</imports>
