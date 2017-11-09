@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Action" id="38EDFB3D45C74915955176DB289610C9" action="add">
+  <item_query>___is_new___</item_query>
+  <label xml:lang="en">Generate Markdown</label>
+  <location>client</location>
+  <method keyed_name="RDF Create MD Doc" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>RDF Create MD Doc</name>
+   </Item>
+  </method>
+  <target>none</target>
+  <type>generic</type>
+  <name>RDF Generate Markdown</name>
+ </Item>
+</AML>

@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Action" id="2E680986A03F497F8803380E31A398ED" action="add">
+  <item_query>___is_new___</item_query>
+  <label xml:lang="en">Output JSON-LD</label>
+  <location>client</location>
+  <method keyed_name="RDF QueryDef to JSON-LD" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>RDF QueryDef to JSON-LD</name>
+   </Item>
+  </method>
+  <target>one window</target>
+  <type>item</type>
+  <name>RDF Output JSON</name>
+ </Item>
+</AML>
