@@ -446,7 +446,7 @@
    </Item>
    <Item type="qry_QueryReference" id="3BF607A69B874F38A445C23BC5494185" action="add">
     <child_ref_id>D4D714596A484A4F9C8262AAB3F9BE6A</child_ref_id>
-    <filter_xml><![CDATA[<condition><eq><property ref-id="7F7437C0B9B13DF026DF60157B238C5A"/><property ref-id="3F9693C8E4E87319165743F85F30E8FA"/></eq></condition>]]></filter_xml>
+    <filter_xml>&lt;condition&gt;&lt;eq&gt;&lt;property ref-id="7F7437C0B9B13DF026DF60157B238C5A"/&gt;&lt;property ref-id="3F9693C8E4E87319165743F85F30E8FA"/&gt;&lt;/eq&gt;&lt;/condition&gt;</filter_xml>
     <parent_ref_id>C366AC4B64CE4D509FEEA44051B313A4</parent_ref_id>
     <ref_id>B5B51FE8C0884D2AA669636C2E19B5ED</ref_id>
     <sort_order>256</sort_order>
@@ -454,7 +454,7 @@
    </Item>
    <Item type="qry_QueryReference" id="9D9E7A8E18054EFE8CC8738414ADCBB2" action="add">
     <child_ref_id>0C51A134C6BF4AAEBA97822FF2163164</child_ref_id>
-    <filter_xml><![CDATA[<condition><eq><property ref-id="3F9693C8E4E873198C359AB30E8988B5"/><property ref-id="A7CCA7957E25A68F26DF60157B238C5A"/></eq></condition>]]></filter_xml>
+    <filter_xml>&lt;condition&gt;&lt;eq&gt;&lt;property ref-id="3F9693C8E4E873198C359AB30E8988B5"/&gt;&lt;property ref-id="A7CCA7957E25A68F26DF60157B238C5A"/&gt;&lt;/eq&gt;&lt;/condition&gt;</filter_xml>
     <parent_ref_id>D4D714596A484A4F9C8262AAB3F9BE6A</parent_ref_id>
     <ref_id>1C5EE62A911F4AF7B91C2B0D4595C706</ref_id>
     <sort_order>384</sort_order>
@@ -462,7 +462,7 @@
    </Item>
    <Item type="qry_QueryReference" id="E7721E9A33624FBB9065A52EA4B428B8" action="add">
     <child_ref_id>3A539A30FC524A03845981DB29281C2A</child_ref_id>
-    <filter_xml><![CDATA[<condition><eq><property ref-id="7F7437C0B9B13DF026DF60157B238C5A"/><property ref-id="93BD2D308A166CC3165743F85F30E8FA"/></eq></condition>]]></filter_xml>
+    <filter_xml>&lt;condition&gt;&lt;eq&gt;&lt;property ref-id="7F7437C0B9B13DF026DF60157B238C5A"/&gt;&lt;property ref-id="93BD2D308A166CC3165743F85F30E8FA"/&gt;&lt;/eq&gt;&lt;/condition&gt;</filter_xml>
     <parent_ref_id>C366AC4B64CE4D509FEEA44051B313A4</parent_ref_id>
     <ref_id>6187E892414744C28D7140CFB3B68019</ref_id>
     <sort_order>512</sort_order>
@@ -470,7 +470,7 @@
    </Item>
    <Item type="qry_QueryReference" id="1110828523204280BE4DB59C61D24E0E" action="add">
     <child_ref_id>E2D8888DA7F747FF9CF68B0B4E51D497</child_ref_id>
-    <filter_xml><![CDATA[<condition><eq><property ref-id="93BD2D308A166CC38C359AB30E8988B5"/><property ref-id="AC3B5DF3DDC6CA8E26DF60157B238C5A"/></eq></condition>]]></filter_xml>
+    <filter_xml>&lt;condition&gt;&lt;eq&gt;&lt;property ref-id="93BD2D308A166CC38C359AB30E8988B5"/&gt;&lt;property ref-id="AC3B5DF3DDC6CA8E26DF60157B238C5A"/&gt;&lt;/eq&gt;&lt;/condition&gt;</filter_xml>
     <parent_ref_id>3A539A30FC524A03845981DB29281C2A</parent_ref_id>
     <ref_id>E626A97382BD41F3BC244A2909AF8024</ref_id>
     <sort_order>640</sort_order>
@@ -478,7 +478,7 @@
    </Item>
    <Item type="qry_QueryReference" id="479F844928B34902AB5212410F108763" action="add">
     <child_ref_id>182CF40720584C8783CF8A92CFA53CA3</child_ref_id>
-    <filter_xml><![CDATA[<condition><eq><property ref-id="7F7437C0B9B13DF026DF60157B238C5A"/><property ref-id="2969C2484CACF816165743F85F30E8FA"/></eq></condition>]]></filter_xml>
+    <filter_xml>&lt;condition&gt;&lt;eq&gt;&lt;property ref-id="7F7437C0B9B13DF026DF60157B238C5A"/&gt;&lt;property ref-id="2969C2484CACF816165743F85F30E8FA"/&gt;&lt;/eq&gt;&lt;/condition&gt;</filter_xml>
     <parent_ref_id>C366AC4B64CE4D509FEEA44051B313A4</parent_ref_id>
     <ref_id>DAC3D2C982954E47BF8E5A58E5EB94AE</ref_id>
     <sort_order>768</sort_order>
@@ -486,7 +486,7 @@
    </Item>
    <Item type="qry_QueryReference" id="1499AB2B68564481A209AA2750B62725" action="add">
     <child_ref_id>0EC11792F4404284AF1E07968276CDC5</child_ref_id>
-    <filter_xml><![CDATA[<condition><eq><property ref-id="2969C2484CACF8168C359AB30E8988B5"/><property ref-id="54DBFBA104104D4226DF60157B238C5A"/></eq></condition>]]></filter_xml>
+    <filter_xml>&lt;condition&gt;&lt;eq&gt;&lt;property ref-id="2969C2484CACF8168C359AB30E8988B5"/&gt;&lt;property ref-id="54DBFBA104104D4226DF60157B238C5A"/&gt;&lt;/eq&gt;&lt;/condition&gt;</filter_xml>
     <parent_ref_id>182CF40720584C8783CF8A92CFA53CA3</parent_ref_id>
     <ref_id>6DA42A16A4ED454EB8E5A8B08A324E12</ref_id>
     <sort_order>896</sort_order>
