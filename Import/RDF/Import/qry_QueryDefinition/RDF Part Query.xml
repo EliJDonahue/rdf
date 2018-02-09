@@ -98,7 +98,7 @@
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="AF0E375CA6404404AB6960C95072A2CF" action="add">
-    <alias>PartBOM</alias>
+    <alias>Part BOM</alias>
     <item_type keyed_name="Part BOM" type="ItemType" name="Part BOM">5E9C5A12CC58413A8670CF4003C57848</item_type>
     <ref_id>D4D714596A484A4F9C8262AAB3F9BE6A</ref_id>
     <sort_order>256</sort_order>
@@ -133,7 +133,7 @@
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="97C82D9EC8564B9E824EFBA46642D2C2" action="add">
-    <alias>RelatedPart</alias>
+    <alias>Part_2</alias>
     <item_type keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</item_type>
     <ref_id>0C51A134C6BF4AAEBA97822FF2163164</ref_id>
     <sort_order>384</sort_order>
@@ -217,7 +217,7 @@
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="C991592C9555468883F769448DCE174E" action="add">
-    <alias>PartCAD</alias>
+    <alias>Part CAD</alias>
     <item_type keyed_name="Part CAD" type="ItemType" name="Part CAD">935DF68BCFD849EBB5C3A528F04C5B5B</item_type>
     <ref_id>3A539A30FC524A03845981DB29281C2A</ref_id>
     <sort_order>512</sort_order>
@@ -331,7 +331,7 @@
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="26A3B401D0C542EA8379472E15CFBB5E" action="add">
-    <alias>PartDocument</alias>
+    <alias>Part Document</alias>
     <item_type keyed_name="Part Document" type="ItemType" name="Part Document">BFE7AD9711A547FBB05827B5169493CE</item_type>
     <ref_id>182CF40720584C8783CF8A92CFA53CA3</ref_id>
     <sort_order>768</sort_order>
