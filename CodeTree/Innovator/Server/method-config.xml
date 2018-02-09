@@ -18,6 +18,9 @@
 		<name>$(binpath)/saxon9he.dll</name>
 		<name>$(binpath)/saxon9he-api.dll</name>
     		<name>$(binpath)/Newtonsoft.Json.dll</name>
+		<name>$(binpath)/VDS.Common.dll</name>
+		<name>$(binpath)/dotNetRDF.dll</name>
+		<name>$(binpath)/HtmlAgilityPack.dll</name>
 	</ReferencedAssemblies>
 
 	<Support dialect="VB" template="VBScript" compiler="Microsoft.VisualBasic.VBCodeProvider"/>
@@ -342,7 +345,7 @@ End Namespace
 ]]>
 	</Template>
 
-	<Template name="CSharp" line_number_offset="39">
+	<Template name="CSharp" line_number_offset="41">
 		<![CDATA[using Aras.IOM;
 using System;
 using System.Collections;
@@ -360,6 +363,8 @@ using System.Xml;
 using System.Xml.Xsl;
 using Saxon.Api;
 using Newtonsoft.Json;
+using VDS.RDF;
+using VDS.RDF.Writing;
 
 namespace $(pkgname)
 {
