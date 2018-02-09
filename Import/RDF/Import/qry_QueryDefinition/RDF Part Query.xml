@@ -79,6 +79,16 @@
       <sort_order>2176</sort_order>
       <source_id keyed_name="EC4CB9D17EB74C86A92409DBBABDE8E5" type="qry_QueryItem">EC4CB9D17EB74C86A92409DBBABDE8E5</source_id>
      </Item>
+     <Item type="qry_QueryItemSelectProperty" id="F7D976C814694F95BCACF05E6AD960BB" action="add">
+      <property_ref_id>7F7437C0B9B13DF0AA33C2F3E282541B</property_ref_id>
+      <sort_order>2304</sort_order>
+      <source_id keyed_name="EC4CB9D17EB74C86A92409DBBABDE8E5" type="qry_QueryItem">EC4CB9D17EB74C86A92409DBBABDE8E5</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="1A1C6BF139A047BCA4F8C488460FC473" action="add">
+      <property_ref_id>7F7437C0B9B13DF07D75D8B365B52DC4</property_ref_id>
+      <sort_order>2432</sort_order>
+      <source_id keyed_name="EC4CB9D17EB74C86A92409DBBABDE8E5" type="qry_QueryItem">EC4CB9D17EB74C86A92409DBBABDE8E5</source_id>
+     </Item>
      <Item type="qry_QueryItemSortProperty" id="B2CAE196C18540D58CF9748D83B3E706" action="add">
       <property_ref_id>7F7437C0B9B13DF06AD14C6832ECF69A</property_ref_id>
       <sort_order>128</sort_order>
