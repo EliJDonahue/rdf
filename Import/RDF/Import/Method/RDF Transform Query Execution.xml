@@ -40,7 +40,7 @@ XslCompiledTransform xslt = new XslCompiledTransform();
 xslt.Load(XSLT_PATH);
 
 // Create the writer.
-StringWriter writer = new StringWriter();
+System.IO.StringWriter writer = new System.IO.StringWriter();
 
 // Execute the transformation.
 xslt.Transform(resDoc.CreateNavigator(),null, writer);

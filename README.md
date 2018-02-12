@@ -1,4 +1,19 @@
-# RDF Ontology POC
+# RDF Proof of Concept for Aras Innovator
+
+# Sample Code
+
+There are several types of sample code for the RDF POC project.
+
+## Query Definition to RDF/XML
+The QD2RDFXML method executes a query definition and converts the output to RDF/XML. [See more info here.](./Misc/RDFXML.md)
+
+## AML to RDF/XML
+The Item2RDF method converts a single Item to RDF/XML. This method could be updated to convert AML structures to RDF/XML, but currently only handles basic use cases.
+
+## RDF to JSON-LD
+The RDF Transform Query Execution method executes a query definition and returns the result in JSON format similar to JSON-LD. Can be run via the **Output JSON-LD** action on the Query Definition item.
+
+# Ontology
 
 This ontology is solely intended as a proof of concept and is not for production use. Work in progress.
 
