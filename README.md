@@ -5,7 +5,7 @@
 There are several types of sample code for the RDF POC project.
 
 ## Query Definition to RDF/XML
-The QD2RDFXML method executes a query definition and converts the output to RDF/XML. [See more info here.](./Misc/RDFXML.md)
+The QD2RDFXML method executes a query definition and converts the output to RDF/XML. [See more info here.](./Samples/RDFXML/RDFXML.md)
 
 ## AML to RDF/XML
 The Item2RDF method converts a single Item to RDF/XML. This method could be updated to convert AML structures to RDF/XML, but currently only handles basic use cases.
