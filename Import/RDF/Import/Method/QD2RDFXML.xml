@@ -37,7 +37,7 @@
     XmlDocument resDoc = new XmlDocument();
     resDoc.LoadXml(xml);
     
-    XmlNodeList items = resDoc.SelectNodes("//AML/Item");
+    XmlNodeList items = resDoc.SelectNodes("//Item");
     
     // start building RDF
     IGraph g = new Graph();
