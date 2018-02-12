@@ -1,23 +1,57 @@
 ﻿<AML>
  <Item type="Method" id="84602649F8B3435AB2C9C1AFD4E8E6FD" action="add">
   <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
-  <method_code><![CDATA[var inn = this.getInnovator();
+  <method_code><![CDATA[//"467143F3250D42CF9D2F6F880ABD3999"; // for testing
+
+var inn = this.getInnovator();
 var qd_id = this.getID();
-//"467143F3250D42CF9D2F6F880ABD3999"; // for testing
 
-var convert = inn.applyMethod("QD2RDFXML","<qd_id>" + qd_id + "</qd_id>");
+var topWnd = aras.getMostTopWindowWithAras(window);
+topWnd = topWnd.main || topWnd;
 
-if (convert.isError())
-    return alert(convert.getErrorString());
+// get form
+var formName = "RDF to XML Options";
+var fetchForm = inn.newItem("Form", "get");
+fetchForm.setProperty("name", formName);
+fetchForm = fetchForm.apply("get");
+
+// check form for error
+if (fetchForm.isError())
+    return alert("Can't find a form called " + formName);
     
-var nodeResult = convert.toString();
+// get form params
+var params = {
+    title: 'RDF/XML Export Options',
+    formId: fetchForm.getID(), // put your form's id here
+    aras: aras,
+    dialogWidth: 300, // set width int
+    dialogHeight: 300, // set height int
+    content: 'ShowFormAsADialog.html'
+};
 
-nodeResult = nodeResult.replace('xmlns:SOAP-ENV=', "");
-nodeResult = nodeResult.replace('"http://schemas.xmlsoap.org/soap/envelope/" ', "");
-nodeResult = nodeResult.replace('<SOAP-ENV:Envelope xmlns:i18n="http://www.aras.com/I18N"><SOAP-ENV:Body><Result>', "");
-nodeResult = nodeResult.replace('</Result></SOAP-ENV:Body></SOAP-ENV:Envelope>', "");
+var callback = function(res) {
+    var offset = res["offset"] === undefined ? "0" : res["offset"];
+    var fetch = res["fetch"] === undefined ? "0" : res["fetch"];
+    
+    var convert = inn.applyMethod("QD2RDFXML", "<qd_id>" + qd_id + "</qd_id><offset>" + offset + "</offset><fetch>" + fetch + "</fetch>");
 
-return nodeResult;]]></method_code>
+    if (convert.isError())
+        return alert(convert.getErrorString());
+    
+    var nodeResult = convert.toString();
+    
+    nodeResult = nodeResult.replace('xmlns:SOAP-ENV=', "");
+    nodeResult = nodeResult.replace('"http://schemas.xmlsoap.org/soap/envelope/" ', "");
+    nodeResult = nodeResult.replace('<SOAP-ENV:Envelope xmlns:i18n="http://www.aras.com/I18N"><SOAP-ENV:Body><Result>', "");
+    nodeResult = nodeResult.replace('</Result></SOAP-ENV:Body></SOAP-ENV:Envelope>', "");
+    
+    //return nodeResult;
+    return alert("Success!");
+};
+    
+// call form in dialog
+topWnd.ArasModules.Dialog.show("iframe", params).promise.then(callback);
+]]></method_code>
   <method_type>JavaScript</method_type>
   <name>Export QD to RDF XML</name>
  </Item>
