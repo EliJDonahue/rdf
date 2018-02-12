@@ -39,6 +39,10 @@
     
     XmlNodeList items = resDoc.SelectNodes("//Item");
     
+    // populate a dictionary of relevant itemtypes and their item properties
+    // we do this all at once up front to eliminate repeat queries in foreach loops
+    Dictionary<string,Dictionary<string,string>> propMap = BuildPropertyMap(inn, resDoc.SelectSingleNode("//AML"));
+    
     // start building RDF
     IGraph g = new Graph();
     
@@ -53,10 +57,6 @@
         string IT = itemXML.Attributes.GetNamedItem("alias").Value;
         string ID = GetIdFromNode(itemXML);
         string resource = StringToResource(IT);
-      
-        // populate a dictionary of relevant itemtypes and their item properties
-        // we do this all at once up front to eliminate repeat queries in foreach loops
-        Dictionary<string,Dictionary<string,string>> propMap = BuildPropertyMap(inn, itemXML);
         
         // subject node
         IUriNode itemNode = g.CreateUriNode(UriFactory.Create(BASE + "/" + resource + "/" + ID));
