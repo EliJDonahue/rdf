@@ -149,6 +149,18 @@
                         type += "(" + resource + ")(" + childNode.Name + ")";
                     }
                 }
+                else if (propMap.ContainsKey(IT))
+                {
+                    if (propMap[IT].ContainsKey(childNode.Name))
+                    {
+                        type = propMap[IT][childNode.Name];
+                    }
+                    else
+                    {
+                        type += "(" + IT + ")(" + childNode.Name + ")";
+                    }
+                }
+                
                 type = StringToResource(type);
                 
                 IUriNode objNode = g.CreateUriNode(UriFactory.Create(BASE + "/" + type + "/" + childNode.InnerText));
@@ -168,8 +180,7 @@
 
 private static string StringToResource(string s)
 {
-    // all aliases should be in the format 'ItemType' or 'ItemType_#'
-    // remove _# if exists
+    // all aliases should be in the format 'ItemType' or 'ItemType_#'  
     
     // remove spaces, capitalize first letters
     string[] words = s.Split(' ');
@@ -177,6 +188,10 @@ private static string StringToResource(string s)
 
     foreach (string word in words)
         res += char.ToUpper(word[0]) + word.Substring(1);
+
+    // remove _# if exists
+    Regex rgx = new Regex(@"_\d{0,}$");
+    res = rgx.Replace(res, "");
 
     return res;
 }
