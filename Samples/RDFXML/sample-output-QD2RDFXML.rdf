@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+	<!ENTITY aras 'http://purl.org/aras-poc/base#'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:aras="http://purl.org/aras-poc/base#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/CAD/1562ED62738347EE8C5830708ADAEC3E">
+    <aras:classification>Mechanical/Drawing</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/CAD/1562ED62738347EE8C5830708ADAEC3E" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP0101-D</aras:item_number>
+    <aras:keyed_name>MP0101-D</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>MakerBot Replicator Drawing</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/CAD/8DAC78F79B3149678DDBBC7925CA766D">
+    <aras:classification>Mechanical/Assembly</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/CAD/8DAC78F79B3149678DDBBC7925CA766D" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP0101</aras:item_number>
+    <aras:keyed_name>MP0101</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>MakerBot Replicator</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Document/04A3B4C1D7C24E9AB86E91287CCE47E1">
+    <aras:classification>Product</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/5268BBF1F02A49C29AF5368A575F0F85" />
+    <aras:created_on>2016-12-19T18:00:00</aras:created_on>
+    <aras:description>MakerBot Replicator Cost Analysis</aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Document/04A3B4C1D7C24E9AB86E91287CCE47E1" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:is_template>0</aras:is_template>
+    <aras:item_number>MP0101-DOC-3</aras:item_number>
+    <aras:keyed_name>MP0101-DOC-3</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>MakerBot Replicator Cost Analysis</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Document/23A5973B6DC14E8DBA9B83ED676F86BA">
+    <aras:classification>General</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/18DF23B3851D4C9FA1B96E9CF1F585A8" />
+    <aras:created_on>2016-12-16T15:15:00</aras:created_on>
+    <aras:description>Replicator Photorealistic Image</aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Document/23A5973B6DC14E8DBA9B83ED676F86BA" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:is_template>0</aras:is_template>
+    <aras:item_number>MD4233</aras:item_number>
+    <aras:keyed_name>MD4233</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Replicator Photorealistic Image</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Document/36EE67EFE538465CAF3B7A5072888828">
+    <aras:classification>Product</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/5268BBF1F02A49C29AF5368A575F0F85" />
+    <aras:created_on>2016-12-19T18:00:00</aras:created_on>
+    <aras:description>MakerBot Replicator Requirements Review</aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Document/36EE67EFE538465CAF3B7A5072888828" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:is_template>0</aras:is_template>
+    <aras:item_number>MP0101-DOC-1</aras:item_number>
+    <aras:keyed_name>MP0101-DOC-1</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>MakerBot Replicator Requirements Review</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Document/97EC1FA31C0A4AF6ABD9D4863BB8301B">
+    <aras:classification>General</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/18DF23B3851D4C9FA1B96E9CF1F585A8" />
+    <aras:created_on>2016-12-16T15:15:00</aras:created_on>
+    <aras:description>Replicator System Schematic</aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Document/97EC1FA31C0A4AF6ABD9D4863BB8301B" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:is_template>0</aras:is_template>
+    <aras:item_number>MD4201</aras:item_number>
+    <aras:keyed_name>MD4201</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Replicator System Schematic</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Document/9E893175E9644170831E9EEF8FE4F934">
+    <aras:classification>Product</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/5268BBF1F02A49C29AF5368A575F0F85" />
+    <aras:created_on>2016-12-19T18:00:00</aras:created_on>
+    <aras:description>MakerBot Replicator Product Specification</aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Document/9E893175E9644170831E9EEF8FE4F934" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:is_template>0</aras:is_template>
+    <aras:item_number>MP0101-DOC-2</aras:item_number>
+    <aras:keyed_name>MP0101-DOC-2</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>MakerBot Replicator Product Specification</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Part/052B70BA995D47CF834EF103CCE0D85E">
+    <aras:classification>Assembly</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Part/052B70BA995D47CF834EF103CCE0D85E" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP2967</aras:item_number>
+    <aras:keyed_name>MP2967</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Wiring</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Part/39CB2792B428432490200368B87DE9CA">
+    <aras:classification>Assembly</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>3</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Part/39CB2792B428432490200368B87DE9CA" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP2954</aras:item_number>
+    <aras:keyed_name>MP2954</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Extruder</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Part/3AEFB5C97E964E0C8915370092022410">
+    <aras:classification>Assembly</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Part/3AEFB5C97E964E0C8915370092022410" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP2938</aras:item_number>
+    <aras:keyed_name>MP2938</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Additional Parts</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Part/4C40CCBC9E864E9CA7BE8A93423BD362">
+    <aras:classification>Assembly</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Part/4C40CCBC9E864E9CA7BE8A93423BD362" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP2968</aras:item_number>
+    <aras:keyed_name>MP2968</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>XY Stage</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Part/526C66B626B64BCB869ACBB083A900A3">
+    <aras:classification>Assembly</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>2</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Part/526C66B626B64BCB869ACBB083A900A3" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP2956</aras:item_number>
+    <aras:keyed_name>MP2956</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Gantry</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Part/5620EAB3E6F34A4C9B02F753C484AEBB">
+    <aras:classification>Assembly</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Part/5620EAB3E6F34A4C9B02F753C484AEBB" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP2952</aras:item_number>
+    <aras:keyed_name>MP2952</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Electronics</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Part/6020DB29814C4D838E60D315A1C95E8C">
+    <aras:classification>Assembly</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Part/6020DB29814C4D838E60D315A1C95E8C" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP2943</aras:item_number>
+    <aras:keyed_name>MP2943</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Build Platform</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Part/A8D5E839DF11472A86619F0E519134FE">
+    <aras:classification>Assembly</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>2</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Part/A8D5E839DF11472A86619F0E519134FE" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP2961</aras:item_number>
+    <aras:keyed_name>MP2961</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Shipping</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Part/B9F8E908144948E48A1747AD88716D02">
+    <aras:classification>Assembly</aras:classification>
+    <aras:created_on>2016-12-23T17:30:00</aras:created_on>
+    <aras:current_state rdf:resource="http://purl.org/aras-poc/base#/LifeCycleState/72A2322564FE4193933CFB5339487A06" />
+    <aras:description>The MakerBot Replicator by MakerBot. Published on March 12, 2012. www.thingiverse.com/thing:18813</aras:description>
+    <aras:generation>1</aras:generation>
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartBOM/09C6FB78C41F4DDBA84232D187EC2D62" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartBOM/21A0BC447CA64429B0DB6863A225BA41" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartBOM/43F838FB4F2B437FB88A3FFB3E3B6F77" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartBOM/79DBF88EEDF344F0912636BC7EDED937" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartBOM/84C69DA428914D2FB9A162C38B749363" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartBOM/A49E77A6728C4C27A576E40FC7E4E4B8" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartBOM/A4A0F48B94AD4E5FBD7D3714FADA4181" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartBOM/F5D0678AFCF14958985CA87CAF575E4F" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartBOM/FC7ECC926E354A17BD479FEFC9D77F98" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartCAD/BDD197A022584D9F90EA86010A511AD7" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartCAD/E2CD531B69564C5DA86121E576E9C2B0" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartDocument/0D662802B5C1449BBF2DFD44405A4292" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartDocument/6BC5598B7C9846828982C9782F6555C2" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartDocument/B360CBE79E0B4BBEA97CC39E1439946F" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartDocument/D03C4214BE904E2CBD05A733F30F1221" />
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/PartDocument/E4A034A0CF8A4F2F971BA22DC1279662" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Part/B9F8E908144948E48A1747AD88716D02" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP0101</aras:item_number>
+    <aras:keyed_name>MP0101</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Makerbot Replicator</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:permission_id rdf:resource="http://purl.org/aras-poc/base#/Permission/5C07EB829D4241F6BB884952960FAF58" />
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/Part/BC5AF2203F90411999247B1C99379588">
+    <aras:classification>Assembly</aras:classification>
+    <aras:created_by_id rdf:resource="http://purl.org/aras-poc/base#/User/E8DA8A7D08BF43B99B55465B5C4AC3BE" />
+    <aras:created_on>2016-12-26T10:08:00</aras:created_on>
+    <aras:description></aras:description>
+    <aras:generation>5</aras:generation>
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/Part/BC5AF2203F90411999247B1C99379588" />
+    <aras:is_current>1</aras:is_current>
+    <aras:is_released>0</aras:is_released>
+    <aras:item_number>MP2942</aras:item_number>
+    <aras:keyed_name>MP2942</aras:keyed_name>
+    <aras:major_rev>A</aras:major_rev>
+    <aras:managed_by_id></aras:managed_by_id>
+    <aras:name>Body</aras:name>
+    <aras:owned_by_id></aras:owned_by_id>
+    <aras:state>Preliminary</aras:state>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartBOM/09C6FB78C41F4DDBA84232D187EC2D62">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Part/6020DB29814C4D838E60D315A1C95E8C" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartBOM/09C6FB78C41F4DDBA84232D187EC2D62" />
+    <aras:keyed_name>09C6FB78C41F4DDBA84232D187EC2D62</aras:keyed_name>
+    <aras:quantity>1</aras:quantity>
+    <aras:sort_order>30</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartBOM/21A0BC447CA64429B0DB6863A225BA41">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Part/052B70BA995D47CF834EF103CCE0D85E" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartBOM/21A0BC447CA64429B0DB6863A225BA41" />
+    <aras:keyed_name>21A0BC447CA64429B0DB6863A225BA41</aras:keyed_name>
+    <aras:quantity>1</aras:quantity>
+    <aras:sort_order>40</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartBOM/43F838FB4F2B437FB88A3FFB3E3B6F77">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Part/39CB2792B428432490200368B87DE9CA" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartBOM/43F838FB4F2B437FB88A3FFB3E3B6F77" />
+    <aras:keyed_name>43F838FB4F2B437FB88A3FFB3E3B6F77</aras:keyed_name>
+    <aras:quantity>1</aras:quantity>
+    <aras:sort_order>10</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartBOM/79DBF88EEDF344F0912636BC7EDED937">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Part/5620EAB3E6F34A4C9B02F753C484AEBB" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartBOM/79DBF88EEDF344F0912636BC7EDED937" />
+    <aras:keyed_name>79DBF88EEDF344F0912636BC7EDED937</aras:keyed_name>
+    <aras:quantity>1</aras:quantity>
+    <aras:sort_order>35</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartBOM/84C69DA428914D2FB9A162C38B749363">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Part/3AEFB5C97E964E0C8915370092022410" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartBOM/84C69DA428914D2FB9A162C38B749363" />
+    <aras:keyed_name>84C69DA428914D2FB9A162C38B749363</aras:keyed_name>
+    <aras:quantity>1</aras:quantity>
+    <aras:sort_order>45</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartBOM/A49E77A6728C4C27A576E40FC7E4E4B8">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Part/BC5AF2203F90411999247B1C99379588" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartBOM/A49E77A6728C4C27A576E40FC7E4E4B8" />
+    <aras:keyed_name>A49E77A6728C4C27A576E40FC7E4E4B8</aras:keyed_name>
+    <aras:quantity>1</aras:quantity>
+    <aras:sort_order>5</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartBOM/A4A0F48B94AD4E5FBD7D3714FADA4181">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Part/4C40CCBC9E864E9CA7BE8A93423BD362" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartBOM/A4A0F48B94AD4E5FBD7D3714FADA4181" />
+    <aras:keyed_name>A4A0F48B94AD4E5FBD7D3714FADA4181</aras:keyed_name>
+    <aras:quantity>1</aras:quantity>
+    <aras:sort_order>25</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartBOM/F5D0678AFCF14958985CA87CAF575E4F">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Part/A8D5E839DF11472A86619F0E519134FE" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartBOM/F5D0678AFCF14958985CA87CAF575E4F" />
+    <aras:keyed_name>F5D0678AFCF14958985CA87CAF575E4F</aras:keyed_name>
+    <aras:quantity>1</aras:quantity>
+    <aras:sort_order>15</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartBOM/FC7ECC926E354A17BD479FEFC9D77F98">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Part/526C66B626B64BCB869ACBB083A900A3" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartBOM/FC7ECC926E354A17BD479FEFC9D77F98" />
+    <aras:keyed_name>FC7ECC926E354A17BD479FEFC9D77F98</aras:keyed_name>
+    <aras:quantity>1</aras:quantity>
+    <aras:sort_order>20</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartCAD/BDD197A022584D9F90EA86010A511AD7">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/CAD/8DAC78F79B3149678DDBBC7925CA766D" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartCAD/BDD197A022584D9F90EA86010A511AD7" />
+    <aras:keyed_name>BDD197A022584D9F90EA86010A511AD7</aras:keyed_name>
+    <aras:sort_order>20</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartCAD/E2CD531B69564C5DA86121E576E9C2B0">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/CAD/1562ED62738347EE8C5830708ADAEC3E" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartCAD/E2CD531B69564C5DA86121E576E9C2B0" />
+    <aras:keyed_name>E2CD531B69564C5DA86121E576E9C2B0</aras:keyed_name>
+    <aras:sort_order>10</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartDocument/0D662802B5C1449BBF2DFD44405A4292">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Document/9E893175E9644170831E9EEF8FE4F934" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartDocument/0D662802B5C1449BBF2DFD44405A4292" />
+    <aras:keyed_name>0D662802B5C1449BBF2DFD44405A4292</aras:keyed_name>
+    <aras:sort_order>10</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartDocument/6BC5598B7C9846828982C9782F6555C2">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Document/23A5973B6DC14E8DBA9B83ED676F86BA" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartDocument/6BC5598B7C9846828982C9782F6555C2" />
+    <aras:keyed_name>6BC5598B7C9846828982C9782F6555C2</aras:keyed_name>
+    <aras:sort_order>25</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartDocument/B360CBE79E0B4BBEA97CC39E1439946F">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Document/04A3B4C1D7C24E9AB86E91287CCE47E1" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartDocument/B360CBE79E0B4BBEA97CC39E1439946F" />
+    <aras:keyed_name>B360CBE79E0B4BBEA97CC39E1439946F</aras:keyed_name>
+    <aras:sort_order>15</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartDocument/D03C4214BE904E2CBD05A733F30F1221">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Document/36EE67EFE538465CAF3B7A5072888828" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartDocument/D03C4214BE904E2CBD05A733F30F1221" />
+    <aras:keyed_name>D03C4214BE904E2CBD05A733F30F1221</aras:keyed_name>
+    <aras:sort_order>5</aras:sort_order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/aras-poc/base#/PartDocument/E4A034A0CF8A4F2F971BA22DC1279662">
+    <aras:has_relationship rdf:resource="http://purl.org/aras-poc/base#/Document/97EC1FA31C0A4AF6ABD9D4863BB8301B" />
+    <aras:id rdf:resource="http://purl.org/aras-poc/base#/PartDocument/E4A034A0CF8A4F2F971BA22DC1279662" />
+    <aras:keyed_name>E4A034A0CF8A4F2F971BA22DC1279662</aras:keyed_name>
+    <aras:sort_order>20</aras:sort_order>
+  </rdf:Description>
+</rdf:RDF>

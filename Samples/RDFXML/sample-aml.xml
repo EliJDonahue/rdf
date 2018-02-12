@@ -1,0 +1,7 @@
+<AML>
+    <Item type="qry_QueryDefinition" action="QD2RDFXML">
+        <qd_id>467143F3250D42CF9D2F6F880ABD3999</qd_id>
+        <offset>0</offset>
+        <fetch>1</fetch>
+    </Item>
+</AML>
