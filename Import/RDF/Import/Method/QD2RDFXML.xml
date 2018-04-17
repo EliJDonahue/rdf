@@ -196,6 +196,10 @@ private static string StringToResource(string s)
     Regex rgx = new Regex(@"_\d{0,}$");
     res = rgx.Replace(res, "");
 
+    // exception for the Value itemtype - must be renamed "ListValue" to avoid conflict with properties named "value"
+    if (res == "Value")
+        res = "ListValue";
+
     return res;
 }
 
