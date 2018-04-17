@@ -127,6 +127,16 @@
                     }
                     else
                     {
+                        // if it's a boolean property, we need to return true/false instead of 1/0
+                        if (propMap.ContainsKey(IT))
+                        {
+                            if (propMap[IT].ContainsKey(childNode.Name))
+                            {
+                                string type = propMap[IT][childNode.Name];
+                                if (type == "boolean")
+                                    value = value == "1" ? "true" : "false";
+                            }
+                        }
                         // this is a property with a string/date/etc value
                         ILiteralNode literalNode = g.CreateLiteralNode(value);
                         g.Assert(new Triple(itemNode, propNode, literalNode));
