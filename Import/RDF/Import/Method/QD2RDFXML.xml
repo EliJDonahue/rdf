@@ -178,24 +178,24 @@
     return res;
 }
 
-private static string StringToResource(string s)
+private static Dictionary<string,string> BuildNsMap(Innovator inn, List<string> itemtypes)
 {
-    // all aliases should be in the format 'ItemType' or 'ItemType_#'  
+    Dictionary<string,string> res = new Dictionary<string,string>();
     
-    // replace spaces with underscores, capitalize first letters
-    string[] words = s.Split(' ');
-    string res = "";
-
-    foreach (string word in words)
-        res += char.ToUpper(word[0]) + word.Substring(1) + "_";
-        
-    // remove trailing underscore
-    res = res.Substring(0,res.Length-1);
-
-    // remove _# if exists
-    Regex rgx = new Regex(@"_\d{0,}$");
-    res = rgx.Replace(res, "");
-
+    Item namespaces = inn.newItem("Namespace","get");
+    namespaces.setAttribute("select","abbr,url");
+    namespaces = namespaces.apply();
+    
+    for (int i = 0; i < namespaces.getItemCount(); i++)
+    {
+        Item ns = namespaces.getItemByIndex(i);
+        res[ns.getProperty("abbr","")] = ns.getProperty("url","");
+    }
+    
+    // exception for the Value itemtype - must be renamed "ListValue" to avoid conflict with properties named "value"
+    if (res == "Value")
+        res = "ListValue";
+    
     return res;
 }
 
