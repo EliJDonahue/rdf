@@ -182,12 +182,15 @@ private static string StringToResource(string s)
 {
     // all aliases should be in the format 'ItemType' or 'ItemType_#'  
     
-    // remove spaces, capitalize first letters
+    // replace spaces with underscores, capitalize first letters
     string[] words = s.Split(' ');
     string res = "";
 
     foreach (string word in words)
-        res += char.ToUpper(word[0]) + word.Substring(1);
+        res += char.ToUpper(word[0]) + word.Substring(1) + "_";
+        
+    // remove trailing underscore
+    res = res.Substring(0,res.Length-1);
 
     // remove _# if exists
     Regex rgx = new Regex(@"_\d{0,}$");
