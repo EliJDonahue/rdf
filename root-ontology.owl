@@ -25,7 +25,7 @@
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#List"/>
     </rdf:Description>
     
@@ -148,7 +148,7 @@
     <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#itemtype">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Poly_Item"/>
-        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdfs:range rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <rdfs:label>itemtype</rdfs:label>
     </owl:ObjectProperty>
     
@@ -701,7 +701,8 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#filter">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>filter</rdfs:label>
     </owl:DatatypeProperty>
@@ -929,11 +930,12 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#label">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Identity"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Life_Cycle_Map"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#List"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
-        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Vault"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>label</rdfs:label>
@@ -1495,7 +1497,8 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#value">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>value</rdfs:label>
     </owl:DatatypeProperty>
@@ -1931,11 +1934,11 @@
     
 
 
-    <!-- http://purl.org/aras-poc/base#Value -->
+    <!-- http://purl.org/aras-poc/base#ListValue -->
 
-    <owl:Class rdf:about="http://purl.org/aras-poc/base#Value">
-        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Item"/>
-        <rdfs:label>Value</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#ListValue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ListValue</rdfs:label>
     </owl:Class>
     
 
@@ -1972,7 +1975,7 @@
     <!-- http://purl.org/aras-poc/base#Altium_Designer -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Altium_Designer">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altium Designer</base:value>
         <rdfs:label>Altium Designer</rdfs:label>
     </owl:NamedIndividual>
@@ -1982,7 +1985,7 @@
     <!-- http://purl.org/aras-poc/base#Altium_P-CAD -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Altium_P-CAD">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altium P-CAD</base:value>
         <rdfs:label>Altium P-CAD</rdfs:label>
     </owl:NamedIndividual>
@@ -2001,7 +2004,7 @@
     <!-- http://purl.org/aras-poc/base#AutoCAD -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#AutoCAD">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AutoCAD</base:value>
         <rdfs:label>AutoCAD</rdfs:label>
     </owl:NamedIndividual>
@@ -2011,7 +2014,7 @@
     <!-- http://purl.org/aras-poc/base#CATIA -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#CATIA">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CATIA</base:value>
         <rdfs:label>CATIA</rdfs:label>
     </owl:NamedIndividual>
@@ -2021,7 +2024,7 @@
     <!-- http://purl.org/aras-poc/base#Cadence_Allegro -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Cadence_Allegro">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence Allegro</base:value>
         <rdfs:label>Cadence Allegro</rdfs:label>
     </owl:NamedIndividual>
@@ -2031,7 +2034,7 @@
     <!-- http://purl.org/aras-poc/base#Cadence_OrCAD -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Cadence_OrCAD">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence OrCAD</base:value>
         <rdfs:label>Cadence OrCAD</rdfs:label>
     </owl:NamedIndividual>
@@ -2041,7 +2044,7 @@
     <!-- http://purl.org/aras-poc/base#Creo -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Creo">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creo</base:value>
         <rdfs:label>Creo</rdfs:label>
     </owl:NamedIndividual>
@@ -2051,7 +2054,7 @@
     <!-- http://purl.org/aras-poc/base#Inventor -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Inventor">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inventor</base:value>
         <rdfs:label>Inventor</rdfs:label>
     </owl:NamedIndividual>
@@ -2061,7 +2064,7 @@
     <!-- http://purl.org/aras-poc/base#Mentor_Board_Station -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Mentor_Board_Station">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor Board Station</base:value>
         <rdfs:label>Mentor Board Station</rdfs:label>
     </owl:NamedIndividual>
@@ -2071,7 +2074,7 @@
     <!-- http://purl.org/aras-poc/base#Mentor_PADS -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Mentor_PADS">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor PADS</base:value>
         <rdfs:label>Mentor PADS</rdfs:label>
     </owl:NamedIndividual>
@@ -2081,7 +2084,7 @@
     <!-- http://purl.org/aras-poc/base#Mentor_Xpedition -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Mentor_Xpedition">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor Xpedition</base:value>
         <rdfs:label>Mentor Xpedition</rdfs:label>
     </owl:NamedIndividual>
@@ -2091,7 +2094,7 @@
     <!-- http://purl.org/aras-poc/base#Microsoft_Access -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Microsoft_Access">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Access</base:value>
         <rdfs:label>Microsoft Access</rdfs:label>
     </owl:NamedIndividual>
@@ -2101,7 +2104,7 @@
     <!-- http://purl.org/aras-poc/base#Microsoft_Excel -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Microsoft_Excel">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Excel</base:value>
         <rdfs:label>Microsoft Excel</rdfs:label>
     </owl:NamedIndividual>
@@ -2111,7 +2114,7 @@
     <!-- http://purl.org/aras-poc/base#Microsoft_Outlook -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Microsoft_Outlook">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Outlook</base:value>
         <rdfs:label>Microsoft Outlook</rdfs:label>
     </owl:NamedIndividual>
@@ -2121,7 +2124,7 @@
     <!-- http://purl.org/aras-poc/base#Microsoft_Powerpoint -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Microsoft_Powerpoint">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Powerpoint</base:value>
         <rdfs:label>Microsoft Powerpoint</rdfs:label>
     </owl:NamedIndividual>
@@ -2131,7 +2134,7 @@
     <!-- http://purl.org/aras-poc/base#Microsoft_Word -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Microsoft_Word">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Word</base:value>
         <rdfs:label>Microsoft Word</rdfs:label>
     </owl:NamedIndividual>
@@ -2141,7 +2144,7 @@
     <!-- http://purl.org/aras-poc/base#NX -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#NX">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NX</base:value>
         <rdfs:label>NX</rdfs:label>
     </owl:NamedIndividual>
@@ -2151,7 +2154,7 @@
     <!-- http://purl.org/aras-poc/base#Other -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Other">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other</base:value>
         <rdfs:label>Other</rdfs:label>
     </owl:NamedIndividual>
@@ -2161,7 +2164,7 @@
     <!-- http://purl.org/aras-poc/base#Pro_ENGINEER -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Pro_ENGINEER">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro/ENGINEER</base:value>
         <rdfs:label>Pro/ENGINEER</rdfs:label>
     </owl:NamedIndividual>
@@ -2171,7 +2174,7 @@
     <!-- http://purl.org/aras-poc/base#SolidWorks -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#SolidWorks">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SolidWorks</base:value>
         <rdfs:label>SolidWorks</rdfs:label>
     </owl:NamedIndividual>
@@ -2181,7 +2184,7 @@
     <!-- http://purl.org/aras-poc/base#Solid_Edge -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Solid_Edge">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solid Edge</base:value>
         <rdfs:label>Solid Edge</rdfs:label>
     </owl:NamedIndividual>
@@ -2191,13 +2194,27 @@
     <!-- http://purl.org/aras-poc/base#Text_Editor -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Text_Editor">
-        <rdf:type rdf:resource="http://purl.org/aras-poc/base#Value"/>
+        <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text Editor</base:value>
         <rdfs:label>Text Editor</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.org/aras-poc/base#itemtype">
+        <rdfs:label>itemtype</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.3.2) https://github.com/owlcs/owlapi -->
 
