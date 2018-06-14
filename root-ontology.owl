@@ -1738,6 +1738,12 @@
 
     <owl:Class rdf:about="http://purl.org/aras-poc/base#CAD">
         <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Change_Controlled_Item"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/aras-poc/base#has_relationship"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/aras-poc/base#CADFiles"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>CAD</rdfs:label>
     </owl:Class>
     
@@ -1771,6 +1777,12 @@
 
     <owl:Class rdf:about="http://purl.org/aras-poc/base#Document">
         <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Change_Controlled_Item"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/aras-poc/base#has_relationship"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/aras-poc/base#Document_File"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Document</rdfs:label>
     </owl:Class>
     
@@ -1861,6 +1873,12 @@
 
     <owl:Class rdf:about="http://purl.org/aras-poc/base#List">
         <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Item"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/aras-poc/base#has_relationship"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>List</rdfs:label>
     </owl:Class>
     
