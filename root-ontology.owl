@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://webprotege.stanford.edu/project/KCYX74tJfQQEBU9K6GNGZ#"
-     xml:base="http://webprotege.stanford.edu/project/KCYX74tJfQQEBU9K6GNGZ"
+<rdf:RDF xmlns="http://purl.org/aras-poc/base#"
+     xml:base="http://purl.org/aras-poc/base"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:base="http://purl.org/aras-poc/base#">
-    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/KCYX74tJfQQEBU9K6GNGZ"/>
+    <owl:Ontology rdf:about="http://purl.org/aras-poc/base#"/>
     
 
 
@@ -1927,7 +1927,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Altium_Designer">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altium Designer</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altium Designer</value>
         <rdfs:label>Altium Designer</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1937,7 +1937,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Altium_P-CAD">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altium P-CAD</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altium P-CAD</value>
         <rdfs:label>Altium P-CAD</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1947,28 +1947,28 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Authoring_Tools">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#List"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Altium_Designer"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Altium_P-CAD"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#AutoCAD"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#CATIA"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Cadence_Allegro"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Cadence_OrCAD"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Creo"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Inventor"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Mentor_Board_Station"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Mentor_PADS"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Mentor_Xpedition"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Microsoft_Access"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Microsoft_Excel"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Microsoft_Outlook"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Microsoft_Powerpoint"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Microsoft_Word"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#NX"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Other"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Pro_ENGINEER"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#SolidWorks"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Solid_Edge"/>
-        <base:has_relationship rdf:resource="http://purl.org/aras-poc/base#Text_Editor"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Altium_Designer"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Altium_P-CAD"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#AutoCAD"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#CATIA"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Cadence_Allegro"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Cadence_OrCAD"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Creo"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Inventor"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Mentor_Board_Station"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Mentor_PADS"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Mentor_Xpedition"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Microsoft_Access"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Microsoft_Excel"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Microsoft_Outlook"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Microsoft_Powerpoint"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Microsoft_Word"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#NX"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Other"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Pro_ENGINEER"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#SolidWorks"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Solid_Edge"/>
+        <has_relationship rdf:resource="http://purl.org/aras-poc/base#Text_Editor"/>
         <rdfs:label>Authoring Tools</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1978,7 +1978,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#AutoCAD">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AutoCAD</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AutoCAD</value>
         <rdfs:label>AutoCAD</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1988,7 +1988,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#CATIA">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CATIA</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CATIA</value>
         <rdfs:label>CATIA</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1998,7 +1998,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Cadence_Allegro">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence Allegro</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence Allegro</value>
         <rdfs:label>Cadence Allegro</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2008,7 +2008,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Cadence_OrCAD">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence OrCAD</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence OrCAD</value>
         <rdfs:label>Cadence OrCAD</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2018,7 +2018,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Creo">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creo</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creo</value>
         <rdfs:label>Creo</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2028,7 +2028,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Inventor">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inventor</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inventor</value>
         <rdfs:label>Inventor</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2038,7 +2038,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Mentor_Board_Station">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor Board Station</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor Board Station</value>
         <rdfs:label>Mentor Board Station</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2048,7 +2048,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Mentor_PADS">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor PADS</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor PADS</value>
         <rdfs:label>Mentor PADS</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2058,7 +2058,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Mentor_Xpedition">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor Xpedition</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentor Xpedition</value>
         <rdfs:label>Mentor Xpedition</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2068,7 +2068,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Microsoft_Access">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Access</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Access</value>
         <rdfs:label>Microsoft Access</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2078,7 +2078,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Microsoft_Excel">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Excel</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Excel</value>
         <rdfs:label>Microsoft Excel</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2088,7 +2088,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Microsoft_Outlook">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Outlook</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Outlook</value>
         <rdfs:label>Microsoft Outlook</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2098,7 +2098,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Microsoft_Powerpoint">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Powerpoint</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Powerpoint</value>
         <rdfs:label>Microsoft Powerpoint</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2108,7 +2108,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Microsoft_Word">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Word</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Word</value>
         <rdfs:label>Microsoft Word</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2118,7 +2118,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#NX">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NX</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NX</value>
         <rdfs:label>NX</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2128,7 +2128,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Other">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other</value>
         <rdfs:label>Other</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2138,7 +2138,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Pro_ENGINEER">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro/ENGINEER</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro/ENGINEER</value>
         <rdfs:label>Pro/ENGINEER</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2148,7 +2148,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#SolidWorks">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SolidWorks</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SolidWorks</value>
         <rdfs:label>SolidWorks</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2158,7 +2158,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Solid_Edge">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solid Edge</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solid Edge</value>
         <rdfs:label>Solid Edge</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2168,7 +2168,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/aras-poc/base#Text_Editor">
         <rdf:type rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
-        <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text Editor</base:value>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text Editor</value>
         <rdfs:label>Text Editor</rdfs:label>
     </owl:NamedIndividual>
     
