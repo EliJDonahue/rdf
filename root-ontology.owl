@@ -118,6 +118,7 @@
     <!-- http://purl.org/aras-poc/base#has_related -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#has_related">
+        <owl:equivalentProperty rdf:resource="http://purl.org/aras-poc/base#related_id"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
         <rdfs:range rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:label>has_related</rdfs:label>
