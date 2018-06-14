@@ -133,6 +133,8 @@
     <!-- http://purl.org/aras-poc/base#has_relationship -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#has_relationship">
+        <owl:inverseOf rdf:resource="http://purl.org/aras-poc/base#has_source"/>
+        <owl:inverseOf rdf:resource="http://purl.org/aras-poc/base#source_id"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
         <rdfs:label>has_relationship</rdfs:label>
