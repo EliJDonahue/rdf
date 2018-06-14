@@ -369,7 +369,6 @@
     <!-- http://purl.org/aras-poc/base#authoring_tool -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#authoring_tool">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -381,7 +380,6 @@
     <!-- http://purl.org/aras-poc/base#authoring_tool_version -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#authoring_tool_version">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -393,7 +391,6 @@
     <!-- http://purl.org/aras-poc/base#behavior -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#behavior">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -405,7 +402,6 @@
     <!-- http://purl.org/aras-poc/base#cell -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#cell">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -417,7 +413,6 @@
     <!-- http://purl.org/aras-poc/base#checked_out_path -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#checked_out_path">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#File"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -429,7 +424,6 @@
     <!-- http://purl.org/aras-poc/base#checksum -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#checksum">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#File"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -441,7 +435,6 @@
     <!-- http://purl.org/aras-poc/base#classification -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#classification">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -453,7 +446,6 @@
     <!-- http://purl.org/aras-poc/base#comments -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#comments">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CADFiles"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#File"/>
@@ -467,7 +459,6 @@
     <!-- http://purl.org/aras-poc/base#company_name -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#company_name">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -479,7 +470,6 @@
     <!-- http://purl.org/aras-poc/base#config_id -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#config_id">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -491,7 +481,6 @@
     <!-- http://purl.org/aras-poc/base#core -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#core">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#List"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -503,7 +492,6 @@
     <!-- http://purl.org/aras-poc/base#cost -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#cost">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Part"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -515,7 +503,6 @@
     <!-- http://purl.org/aras-poc/base#cost_basis -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#cost_basis">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Part"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -527,7 +514,6 @@
     <!-- http://purl.org/aras-poc/base#created_on -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#created_on">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
@@ -539,7 +525,6 @@
     <!-- http://purl.org/aras-poc/base#description -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#description">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#FileType"/>
@@ -557,7 +542,6 @@
     <!-- http://purl.org/aras-poc/base#drawing_size -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#drawing_size">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -569,7 +553,6 @@
     <!-- http://purl.org/aras-poc/base#effective_date -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#effective_date">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Change_Controlled_Item"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
@@ -582,7 +565,6 @@
     <!-- http://purl.org/aras-poc/base#email -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#email">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -594,7 +576,6 @@
     <!-- http://purl.org/aras-poc/base#esignature -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#esignature">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -606,7 +587,6 @@
     <!-- http://purl.org/aras-poc/base#extension -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#extension">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#FileType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -618,7 +598,6 @@
     <!-- http://purl.org/aras-poc/base#external_id -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#external_id">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CADFiles"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Document_File"/>
@@ -635,7 +614,6 @@
     <!-- http://purl.org/aras-poc/base#external_owner -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#external_owner">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CADFiles"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Document_File"/>
@@ -652,7 +630,6 @@
     <!-- http://purl.org/aras-poc/base#external_type -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#external_type">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CADFiles"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Document_File"/>
@@ -669,7 +646,6 @@
     <!-- http://purl.org/aras-poc/base#fax -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#fax">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -681,7 +657,6 @@
     <!-- http://purl.org/aras-poc/base#file_size -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#file_size">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#File"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -693,7 +668,6 @@
     <!-- http://purl.org/aras-poc/base#filename -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#filename">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#File"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -705,7 +679,6 @@
     <!-- http://purl.org/aras-poc/base#filter -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#filter">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -717,7 +690,6 @@
     <!-- http://purl.org/aras-poc/base#first_name -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#first_name">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -729,7 +701,6 @@
     <!-- http://purl.org/aras-poc/base#generation -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#generation">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -741,7 +712,6 @@
     <!-- http://purl.org/aras-poc/base#has_change_pending -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#has_change_pending">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Part"/>
@@ -754,7 +724,6 @@
     <!-- http://purl.org/aras-poc/base#has_files -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#has_files">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -766,7 +735,6 @@
     <!-- http://purl.org/aras-poc/base#home_phone -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#home_phone">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -778,7 +746,6 @@
     <!-- http://purl.org/aras-poc/base#id -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#id">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -790,7 +757,6 @@
     <!-- http://purl.org/aras-poc/base#image -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#image">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Life_Cycle_State"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -802,7 +768,6 @@
     <!-- http://purl.org/aras-poc/base#indexed_on -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#indexed_on">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#File"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
@@ -814,7 +779,6 @@
     <!-- http://purl.org/aras-poc/base#is_alias -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#is_alias">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Identity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -826,7 +790,6 @@
     <!-- http://purl.org/aras-poc/base#is_current -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#is_current">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -838,7 +801,6 @@
     <!-- http://purl.org/aras-poc/base#is_private -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#is_private">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Permission"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -850,7 +812,6 @@
     <!-- http://purl.org/aras-poc/base#is_released -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#is_released">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -862,7 +823,6 @@
     <!-- http://purl.org/aras-poc/base#is_shared -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#is_shared">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Document_File"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -874,7 +834,6 @@
     <!-- http://purl.org/aras-poc/base#is_standard -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#is_standard">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -886,7 +845,6 @@
     <!-- http://purl.org/aras-poc/base#is_template -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#is_template">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -898,7 +856,6 @@
     <!-- http://purl.org/aras-poc/base#item_behavior -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#item_behavior">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Life_Cycle_State"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -910,7 +867,6 @@
     <!-- http://purl.org/aras-poc/base#item_number -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#item_number">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Change_Controlled_Item"/>
         <rdfs:label>item_number</rdfs:label>
@@ -921,7 +877,6 @@
     <!-- http://purl.org/aras-poc/base#keyed_name -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#keyed_name">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -933,7 +888,6 @@
     <!-- http://purl.org/aras-poc/base#label -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#label">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Identity"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Life_Cycle_Map"/>
@@ -950,7 +904,6 @@
     <!-- http://purl.org/aras-poc/base#last_login_date -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#last_login_date">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
@@ -962,7 +915,6 @@
     <!-- http://purl.org/aras-poc/base#last_name -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#last_name">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -974,7 +926,6 @@
     <!-- http://purl.org/aras-poc/base#login_name -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#login_name">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -986,7 +937,6 @@
     <!-- http://purl.org/aras-poc/base#logon_enabled -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#logon_enabled">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -998,7 +948,6 @@
     <!-- http://purl.org/aras-poc/base#mail_stop -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#mail_stop">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1010,7 +959,6 @@
     <!-- http://purl.org/aras-poc/base#major_rev -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#major_rev">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1022,7 +970,6 @@
     <!-- http://purl.org/aras-poc/base#make_buy -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#make_buy">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Part"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1034,7 +981,6 @@
     <!-- http://purl.org/aras-poc/base#maximum_pwd_age -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#maximum_pwd_age">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Identity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1046,7 +992,6 @@
     <!-- http://purl.org/aras-poc/base#mimetype -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#mimetype">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#File"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1058,7 +1003,6 @@
     <!-- http://purl.org/aras-poc/base#minor_rev -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#minor_rev">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1070,7 +1014,6 @@
     <!-- http://purl.org/aras-poc/base#modified_on -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#modified_on">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
@@ -1082,7 +1025,6 @@
     <!-- http://purl.org/aras-poc/base#name -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#name">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Change_Controlled_Item"/>
@@ -1102,7 +1044,6 @@
     <!-- http://purl.org/aras-poc/base#new_version -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#new_version">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -1114,7 +1055,6 @@
     <!-- http://purl.org/aras-poc/base#node_bg_color -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#node_bg_color">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1126,7 +1066,6 @@
     <!-- http://purl.org/aras-poc/base#node_label1_color -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#node_label1_color">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1138,7 +1077,6 @@
     <!-- http://purl.org/aras-poc/base#node_label1_font -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#node_label1_font">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1161,7 +1099,6 @@
     <!-- http://purl.org/aras-poc/base#node_label2_font -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#node_label2_font">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1173,7 +1110,6 @@
     <!-- http://purl.org/aras-poc/base#node_name_color -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#node_name_color">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1185,7 +1121,6 @@
     <!-- http://purl.org/aras-poc/base#node_name_font -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#node_name_font">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1197,7 +1132,6 @@
     <!-- http://purl.org/aras-poc/base#node_size -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#node_size">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1209,7 +1143,6 @@
     <!-- http://purl.org/aras-poc/base#not_lockable -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#not_lockable">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -1221,7 +1154,6 @@
     <!-- http://purl.org/aras-poc/base#pager -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#pager">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1233,7 +1165,6 @@
     <!-- http://purl.org/aras-poc/base#password -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#password">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1245,7 +1176,6 @@
     <!-- http://purl.org/aras-poc/base#pattern -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#pattern">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#FileType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1257,7 +1187,6 @@
     <!-- http://purl.org/aras-poc/base#picture -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#picture">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1269,7 +1198,6 @@
     <!-- http://purl.org/aras-poc/base#priority -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#priority">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#FileType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1281,7 +1209,6 @@
     <!-- http://purl.org/aras-poc/base#property_history -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#property_history">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#History_Template"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -1293,7 +1220,6 @@
     <!-- http://purl.org/aras-poc/base#pwd_history_length -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#pwd_history_length">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Identity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1305,7 +1231,6 @@
     <!-- http://purl.org/aras-poc/base#pwd_is_set_on -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#pwd_is_set_on">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
@@ -1317,7 +1242,6 @@
     <!-- http://purl.org/aras-poc/base#quantity -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#quantity">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Part_BOM"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Part_CAD"/>
@@ -1331,7 +1255,6 @@
     <!-- http://purl.org/aras-poc/base#reference_designator -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#reference_designator">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Part_BOM"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1343,7 +1266,6 @@
     <!-- http://purl.org/aras-poc/base#release_date -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#release_date">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Change_Controlled_Item"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
@@ -1356,7 +1278,6 @@
     <!-- http://purl.org/aras-poc/base#rule_type -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#rule_type">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#FileType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1368,7 +1289,6 @@
     <!-- http://purl.org/aras-poc/base#scale -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#scale">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1380,7 +1300,6 @@
     <!-- http://purl.org/aras-poc/base#set_is_released -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#set_is_released">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Life_Cycle_State"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -1392,7 +1311,6 @@
     <!-- http://purl.org/aras-poc/base#set_not_lockable -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#set_not_lockable">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Life_Cycle_State"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -1404,7 +1322,6 @@
     <!-- http://purl.org/aras-poc/base#sort_order -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#sort_order">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1416,7 +1333,6 @@
     <!-- http://purl.org/aras-poc/base#specification_type -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#specification_type">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1428,7 +1344,6 @@
     <!-- http://purl.org/aras-poc/base#starting_page -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#starting_page">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1440,7 +1355,6 @@
     <!-- http://purl.org/aras-poc/base#state -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#state">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1452,7 +1366,6 @@
     <!-- http://purl.org/aras-poc/base#superseded_date -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#superseded_date">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Change_Controlled_Item"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
@@ -1465,7 +1378,6 @@
     <!-- http://purl.org/aras-poc/base#telephone -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#telephone">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1477,7 +1389,6 @@
     <!-- http://purl.org/aras-poc/base#transition_line_color -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#transition_line_color">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1489,7 +1400,6 @@
     <!-- http://purl.org/aras-poc/base#transition_name_color -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#transition_name_color">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1501,7 +1411,6 @@
     <!-- http://purl.org/aras-poc/base#transition_name_font -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#transition_name_font">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Workflow_Map"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1513,7 +1422,6 @@
     <!-- http://purl.org/aras-poc/base#unit -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#unit">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Part"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1525,7 +1433,6 @@
     <!-- http://purl.org/aras-poc/base#user_no -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#user_no">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1537,7 +1444,6 @@
     <!-- http://purl.org/aras-poc/base#value -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#value">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1549,7 +1455,6 @@
     <!-- http://purl.org/aras-poc/base#vault_url -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#vault_url">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Vault"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1561,7 +1466,6 @@
     <!-- http://purl.org/aras-poc/base#vault_url_pattern -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#vault_url_pattern">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Vault"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1573,7 +1477,6 @@
     <!-- http://purl.org/aras-poc/base#version_comment -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#version_comment">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1585,7 +1488,6 @@
     <!-- http://purl.org/aras-poc/base#weight -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#weight">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Part"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -1597,7 +1499,6 @@
     <!-- http://purl.org/aras-poc/base#weight_basis -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#weight_basis">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Part"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1609,7 +1510,6 @@
     <!-- http://purl.org/aras-poc/base#working_directory -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#working_directory">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1621,7 +1521,6 @@
     <!-- http://purl.org/aras-poc/base#x -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#x">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Life_Cycle_State"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1633,7 +1532,6 @@
     <!-- http://purl.org/aras-poc/base#x_max -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#x_max">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1645,7 +1543,6 @@
     <!-- http://purl.org/aras-poc/base#x_min -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#x_min">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1657,7 +1554,6 @@
     <!-- http://purl.org/aras-poc/base#y -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#y">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Life_Cycle_State"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1669,7 +1565,6 @@
     <!-- http://purl.org/aras-poc/base#y_max -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#y_max">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1681,7 +1576,6 @@
     <!-- http://purl.org/aras-poc/base#y_min -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#y_min">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1693,7 +1587,6 @@
     <!-- http://purl.org/aras-poc/base#z_max -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#z_max">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -1705,7 +1598,6 @@
     <!-- http://purl.org/aras-poc/base#z_min -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/aras-poc/base#z_min">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#CAD"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
