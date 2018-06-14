@@ -107,6 +107,7 @@
     <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#has_related">
         <owl:equivalentProperty rdf:resource="http://purl.org/aras-poc/base#related_id"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
         <rdfs:range rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:label>has_related</rdfs:label>
@@ -119,6 +120,7 @@
     <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#has_relationship">
         <owl:inverseOf rdf:resource="http://purl.org/aras-poc/base#has_source"/>
         <owl:inverseOf rdf:resource="http://purl.org/aras-poc/base#source_id"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:range rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
         <rdfs:label>has_relationship</rdfs:label>
@@ -131,6 +133,7 @@
     <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#has_source">
         <owl:equivalentProperty rdf:resource="http://purl.org/aras-poc/base#source_id"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
         <rdfs:range rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:label>has_source</rdfs:label>
@@ -263,6 +266,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#related_id">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
         <rdfs:range rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:label>related_id</rdfs:label>
@@ -285,6 +289,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/aras-poc/base#source_id">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
         <rdfs:range rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:label>source_id</rdfs:label>
