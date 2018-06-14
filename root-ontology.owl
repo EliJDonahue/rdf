@@ -2191,6 +2191,56 @@
         <base:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text Editor</base:value>
         <rdfs:label>Text Editor</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#CAD"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Document"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Part"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#CADFiles"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Document_File"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#ListValue"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Part_BOM"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Part_CAD"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Part_Document"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Change_Controlled_Item"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#File"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#FileType"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#History_Template"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Identity"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Life_Cycle_Map"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Life_Cycle_State"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#List"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Permission"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Poly_Item"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Relationship"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Team"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#User"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Vault"/>
+            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Workflow_Map"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
