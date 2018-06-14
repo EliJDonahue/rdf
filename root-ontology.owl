@@ -947,8 +947,8 @@
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Identity"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Life_Cycle_Map"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#List"/>
-        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#ListValue"/>
+        <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#User"/>
         <rdfs:domain rdf:resource="http://purl.org/aras-poc/base#Vault"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>label</rdfs:label>
@@ -1866,6 +1866,15 @@
     
 
 
+    <!-- http://purl.org/aras-poc/base#ListValue -->
+
+    <owl:Class rdf:about="http://purl.org/aras-poc/base#ListValue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ListValue</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/aras-poc/base#Part -->
 
     <owl:Class rdf:about="http://purl.org/aras-poc/base#Part">
@@ -1983,15 +1992,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Item"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The User item in the Aras data model.</rdfs:comment>
         <rdfs:label>User</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/aras-poc/base#ListValue -->
-
-    <owl:Class rdf:about="http://purl.org/aras-poc/base#ListValue">
-        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Relationship"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ListValue</rdfs:label>
     </owl:Class>
     
 
