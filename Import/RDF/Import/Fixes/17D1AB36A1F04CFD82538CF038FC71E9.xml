@@ -1,10 +1,12 @@
-<Item type="Item Action" id="17D1AB36A1F04CFD82538CF038FC71E9" action="add">
-  <related_id keyed_name="RDF Output JSON" type="Action">2E680986A03F497F8803380E31A398ED</related_id>
-  <sort_order>256</sort_order>
-  <source_id keyed_name="qry_QueryDefinition" type="ItemType" name="qry_QueryDefinition">0421B558114B4B22886C0F4206C923EE</source_id>
-</Item>
-<Item type="Item Action" id="3457A89C12E74D6EB9D735B7CE25B268" action="add">
+<AML>
+  <Item type="Item Action" id="17D1AB36A1F04CFD82538CF038FC71E9" action="add">
+    <related_id keyed_name="RDF Output JSON" type="Action">2E680986A03F497F8803380E31A398ED</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="qry_QueryDefinition" type="ItemType" name="qry_QueryDefinition">0421B558114B4B22886C0F4206C923EE</source_id>
+  </Item>
+  <Item type="Item Action" id="3457A89C12E74D6EB9D735B7CE25B268" action="add">
   <related_id keyed_name="Convert to RDF XML" type="Action">1FD393D92482423D836257252F0D90C9"</related_id>
-  <sort_order>384</sort_order>
-  <source_id keyed_name="qry_QueryDefinition" type="ItemType" name="qry_QueryDefinition">0421B558114B4B22886C0F4206C923EE</source_id>                                   
-</Item>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="qry_QueryDefinition" type="ItemType" name="qry_QueryDefinition">0421B558114B4B22886C0F4206C923EE</source_id>                                   
+  </Item>
+</AML>
