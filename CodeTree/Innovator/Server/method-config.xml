@@ -752,4 +752,98 @@ namespace $(pkgname)
 }
 ]]>
 	</Template>
+	<Template name="CSharp:Aras.Server.Core.Configurator" line_number_offset="21">
+			<![CDATA[
+	using System;
+	using System.IO;
+	using System.Xml;
+	using System.Text;
+	using System.Collections;
+	using System.Collections.Generic;
+	using System.Data;
+	using System.Linq;
+	using System.Net;
+	using System.Globalization;
+	using Aras.IOM;
+	using Aras.Server.Core;
+	using Aras.Server.Core.Configurator;
+	using Aras.I18NUtils;
+
+	namespace $(pkgname)
+	{
+		public class $(clsname): ScopeBuilderBase
+		{
+			$(MethodCode)
+		}
+	}
+	]]>
+	</Template>
+	<Template name="CSharp:Aras.Server.Core.Configurator.ScopeStructureOutput" line_number_offset="21">
+		<![CDATA[
+	using System;
+	using System.IO;
+	using System.Xml;
+	using System.Text;
+	using System.Collections;
+	using System.Collections.Generic;
+	using System.Data;
+	using System.Linq;
+	using System.Net;
+	using System.Globalization;
+	using Aras.IOM;
+	using Aras.Server.Core;
+	using Aras.Server.Core.Configurator;
+	using Aras.I18NUtils;
+
+	namespace $(pkgname)
+	{
+		public class $(clsname): GetScopeStructureOutputBase
+		{
+			$(MethodCode)
+			public $(clsname)(CallContext callContext) : base(callContext)
+			{
+			}
+		}
+	}
+	]]>
+	</Template>
+	<Template name="CSharp:Aras.Server.Core.AccessControl.EnvironmentAttributeMethod" line_number_offset="31">
+		<![CDATA[
+using System;
+using System.IO;
+using System.Xml;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Collections;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Net;
+using System.Web;
+using System.Web.SessionState;
+using System.Globalization;
+using Aras.IOM;
+using Aras.Server.Core.AccessControl;
+
+namespace $(pkgname)
+{
+	public class $(clsname) : IEnvironmentAttributeMethod
+	{
+		private readonly Aras.Server.Core.CallContext CCO;
+		private readonly Innovator Innovator;
+
+		public $(clsname)(IServerConnection connection, Aras.Server.Core.CallContext callContext)
+		{
+			this.Innovator = new Innovator(connection);
+			this.CCO = callContext;
+		}
+
+		public void Execute(EnvironmentAttribute attribute, EnvironmentAttributeExecutionContext context)
+		{
+			$(MethodCode)
+		}
+	}
+}
+]]>
+	</Template>
 </MethodConfig>
