@@ -15,7 +15,7 @@ The RDF Transform Query Execution method executes a query definition and returns
 
 # 2 - Ontology
 
-This ontology is solely intended as a proof of concept and is not for production use. Work in progress.
+[This ontology](./root-ontology.owl) is solely intended as a proof of concept and is not for production use. Work in progress.
 
 Ontology can be referenced via [http://purl.org/aras-poc/base#](http://purl.org/aras-poc/base#).
 
