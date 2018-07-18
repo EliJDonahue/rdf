@@ -4,8 +4,9 @@
 
 There are several types of sample code for the RDF POC project.
 
-The QD2RDFXML method executes a query definition and converts the output to RDF/XML. [See more info here.](./Samples/RDFXML/RDFXML.md)
 ## 1.1 - Query Definition to RDF/XML
+### Using an External Web Service
+For this approach, we use an external web service and the QD2RDFXML server method to execute a query definition and convert the output to RDF/XML. [See more info here.](./Samples/RDFXML/RDFXML.md) This works for any version of Aras Innovator that supports Query Builder (11 SP10+).
 
 ## 1.2 - AML to RDF/XML
 The Item2RDF method converts a single Item to RDF/XML. This method could be updated to convert AML structures to RDF/XML, but currently only handles basic use cases.
