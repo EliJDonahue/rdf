@@ -15,12 +15,6 @@
 		<name>$(binpath)/Conversion.Base.dll</name>
 		<name>$(binpath)/Aras.TDF.Base.dll</name>
 		<name>$(binpath)/Aras.ES.dll</name>
-		<name>$(binpath)/saxon9he.dll</name>
-		<name>$(binpath)/saxon9he-api.dll</name>
-    		<name>$(binpath)/Newtonsoft.Json.dll</name>
-		<name>$(binpath)/VDS.Common.dll</name>
-		<name>$(binpath)/dotNetRDF.dll</name>
-		<name>$(binpath)/HtmlAgilityPack.dll</name>
 	</ReferencedAssemblies>
 
 	<Support dialect="VB" template="VBScript" compiler="Microsoft.VisualBasic.VBCodeProvider"/>
@@ -345,7 +339,7 @@ End Namespace
 ]]>
 	</Template>
 
-	<Template name="CSharp" line_number_offset="41">
+	<Template name="CSharp" line_number_offset="35">
 		<![CDATA[using Aras.IOM;
 using System;
 using System.Collections;
@@ -356,15 +350,9 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.SessionState;
 using System.Xml;
-using System.Xml.Xsl;
-using Saxon.Api;
-using Newtonsoft.Json;
-using VDS.RDF;
-using VDS.RDF.Writing;
 
 namespace $(pkgname)
 {
