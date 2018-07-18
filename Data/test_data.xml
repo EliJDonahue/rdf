@@ -1,0 +1,4028 @@
+<AML>
+    <Item type="Part" action="add" id="B9F8E908144948E48A1747AD88716D02">
+        <classification>Assembly</classification>
+        <description>The MakerBot Replicator by MakerBot. Published on March 12, 2012. www.thingiverse.com/thing:18813</description>
+        <id keyed_name="MP0101" type="Part">B9F8E908144948E48A1747AD88716D02</id>
+        <make_buy>Make</make_buy>
+        <name>Makerbot Replicator</name>
+        <unit>EA</unit>
+        <item_number>MP0101</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="0AA62AED57B44C638A83F30D6F4AD77F">
+        <classification>Assembly</classification>
+        <description>The MakerBot Replicator by MakerBot. Published on March 12, 2012. www.thingiverse.com/thing:18813</description>
+        <id keyed_name="MP0102" type="Part">0AA62AED57B44C638A83F30D6F4AD77F</id>
+        <make_buy>Make</make_buy>
+        <name>Cover Option for MakerBot Replicator</name>
+        <unit>EA</unit>
+        <item_number>MP0102</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="C505C3BB83EC46F383C1E5CFA67AACD2">
+        <classification>Assembly</classification>
+        <description>The MakerBot Replicator by MakerBot. Published on March 12, 2012. www.thingiverse.com/thing:18813</description>
+        <id keyed_name="MP0103" type="Part">C505C3BB83EC46F383C1E5CFA67AACD2</id>
+        <make_buy>Make</make_buy>
+        <name>MakerBot Replicator with Cover</name>
+        <unit>EA</unit>
+        <item_number>MP0103</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="29700480275442B2A9F94C18F8ABEEEA">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0138" type="Part">29700480275442B2A9F94C18F8ABEEEA</id>
+        <make_buy>Make</make_buy>
+        <name>Type K Thermocouple</name>
+        <unit>EA</unit>
+        <item_number>MP0138</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="754B4C062A7241A2B512BB0B96276F8E">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0190" type="Part">754B4C062A7241A2B512BB0B96276F8E</id>
+        <make_buy>Make</make_buy>
+        <name>M3 Washer</name>
+        <unit>EA</unit>
+        <item_number>MP0190</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="E81E0C71B08C46969C9BB63D61260297">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0370-001" type="Part">E81E0C71B08C46969C9BB63D61260297</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x5 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP0370-001</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="D76AEE4A292E470392583F4A3E2A5A69">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0370-002" type="Part">D76AEE4A292E470392583F4A3E2A5A69</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x6 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP0370-002</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="4AB823CEF08042D5B322AF062895F98C">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0370-003" type="Part">4AB823CEF08042D5B322AF062895F98C</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x10 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP0370-003</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="244A8D77406E413A8D2BDC21558327CB">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0370-004" type="Part">244A8D77406E413A8D2BDC21558327CB</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x16 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP0370-004</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="197ED5180918430CB338B48C97A118CB">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0370-005" type="Part">197ED5180918430CB338B48C97A118CB</id>
+        <make_buy>Buy</make_buy>
+        <name>M3X20 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP0370-005</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="FCC580D88DC54FB4B9F091254AA8699C">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0370-006" type="Part">FCC580D88DC54FB4B9F091254AA8699C</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x25 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP0370-006</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="F7AB76D5EB174CF1A5A5FF3C73401B59">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0370-007" type="Part">F7AB76D5EB174CF1A5A5FF3C73401B59</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x31 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP0370-007</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="FF5D75695CC648EDB8FB43FF8BCD0103">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0370-008" type="Part">FF5D75695CC648EDB8FB43FF8BCD0103</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x35 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP0370-008</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="88496F679E334C7AA26685B07F0D4BBF">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0370-009" type="Part">88496F679E334C7AA26685B07F0D4BBF</id>
+        <make_buy>Buy</make_buy>
+        <name>M3X35 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP0370-009</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="0C49B8A7882F4590BBDABCBD92B92381">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0370-010" type="Part">0C49B8A7882F4590BBDABCBD92B92381</id>
+        <make_buy>Buy</make_buy>
+        <name>M3X12 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP0370-010</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="6494C1D1DCCA426A961368F53DDCA553">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0429" type="Part">6494C1D1DCCA426A961368F53DDCA553</id>
+        <make_buy>Make</make_buy>
+        <name>Ceramic Tape</name>
+        <unit>EA</unit>
+        <item_number>MP0429</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="5932FA4E8E0F4471B5C8497E2D29DD05">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0546" type="Part">5932FA4E8E0F4471B5C8497E2D29DD05</id>
+        <make_buy>Buy</make_buy>
+        <name>M6 Nut Thin</name>
+        <unit>EA</unit>
+        <item_number>MP0546</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="6CF3D3080E994B5F925D2D612575E056">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0977" type="Part">6CF3D3080E994B5F925D2D612575E056</id>
+        <make_buy>Make</make_buy>
+        <name>Thingomatic Idler Pulley</name>
+        <unit>EA</unit>
+        <item_number>MP0977</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1A8DD513009C47789DCB8BDF9937DA4A">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP0979" type="Part">1A8DD513009C47789DCB8BDF9937DA4A</id>
+        <make_buy>Make</make_buy>
+        <name>Mechanical Endstop</name>
+        <unit>EA</unit>
+        <item_number>MP0979</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="EE5EDA69A81A4839B1CE47116F3287DB">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1531" type="Part">EE5EDA69A81A4839B1CE47116F3287DB</id>
+        <make_buy>Make</make_buy>
+        <name>ABS Black 1kg Spool 1.75mm</name>
+        <unit>EA</unit>
+        <item_number>MP1531</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="CFB85B57DE9A43CC9D9371B85C87E672">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1532" type="Part">CFB85B57DE9A43CC9D9371B85C87E672</id>
+        <make_buy>Make</make_buy>
+        <name>ABS Natural 1kg Spool 1.75mm</name>
+        <unit>EA</unit>
+        <item_number>MP1532</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="272D01E1DB72482DBDDE21293D13474F">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1606" type="Part">272D01E1DB72482DBDDE21293D13474F</id>
+        <make_buy>Make</make_buy>
+        <name>Motor Wiring Harness 42inch</name>
+        <unit>EA</unit>
+        <item_number>MP1606</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="CF708C83692C4113908F9EEC64BEAE59">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1701" type="Part">CF708C83692C4113908F9EEC64BEAE59</id>
+        <make_buy>Make</make_buy>
+        <name>MK7 Thermal Barrier</name>
+        <unit>EA</unit>
+        <item_number>MP1701</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="6E214A35594C42E2B23A0436022DE3D9">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1703" type="Part">6E214A35594C42E2B23A0436022DE3D9</id>
+        <make_buy>Make</make_buy>
+        <name>MK7 Filament Drive Block Back</name>
+        <unit>EA</unit>
+        <item_number>MP1703</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="ACC1D756F6744B10AFEF4779C62159D0">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1705" type="Part">ACC1D756F6744B10AFEF4779C62159D0</id>
+        <make_buy>Make</make_buy>
+        <name>MK7 Thermal Core</name>
+        <unit>EA</unit>
+        <item_number>MP1705</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="10A19507C6B14AE7A74812358C7B6130">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1707" type="Part">10A19507C6B14AE7A74812358C7B6130</id>
+        <make_buy>Make</make_buy>
+        <name>MK7 Plunger</name>
+        <unit>EA</unit>
+        <item_number>MP1707</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="D00163AB045542CD8F0360E72918000E">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1708" type="Part">D00163AB045542CD8F0360E72918000E</id>
+        <make_buy>Make</make_buy>
+        <name>MK7 Heatsink</name>
+        <unit>EA</unit>
+        <item_number>MP1708</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1398E942DAB948BAA7E0FAEAE04BA921">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1709" type="Part">1398E942DAB948BAA7E0FAEAE04BA921</id>
+        <make_buy>Make</make_buy>
+        <name>M3x3mm Set Screw</name>
+        <unit>EA</unit>
+        <item_number>MP1709</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="AF735633B73945F2B865A54B24C8DD0D">
+        <classification>Component</classification>
+        <description>MP1703 in Detroit Location </description>
+        <id keyed_name="MP1713" type="Part">AF735633B73945F2B865A54B24C8DD0D</id>
+        <make_buy>Make</make_buy>
+        <name>MK7 Filament Drive Block Back</name>
+        <unit>EA</unit>
+        <item_number>MP1713</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="C2D5BC4B7C7A4E609E3357AB11222601">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1782" type="Part">C2D5BC4B7C7A4E609E3357AB11222601</id>
+        <make_buy>Make</make_buy>
+        <name>Kapton Tape 120mm</name>
+        <unit>EA</unit>
+        <item_number>MP1782</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="00580D67C81147258BD3B89EE1318E58">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1794" type="Part">00580D67C81147258BD3B89EE1318E58</id>
+        <make_buy>Make</make_buy>
+        <name>MK7 Filament Drive Block Front</name>
+        <unit>EA</unit>
+        <item_number>MP1794</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="FBF11A2028BB4C9EA7E3CDCAD0DF5031">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1868" type="Part">FBF11A2028BB4C9EA7E3CDCAD0DF5031</id>
+        <make_buy>Make</make_buy>
+        <name>Pulley 5mm shaft</name>
+        <unit>EA</unit>
+        <item_number>MP1868</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="DA6A5821D7D043C48309566653A9C432">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1872" type="Part">DA6A5821D7D043C48309566653A9C432</id>
+        <make_buy>Make</make_buy>
+        <name>Stepper Motor NEMA17</name>
+        <unit>EA</unit>
+        <item_number>MP1872</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="868620A39D094D578B23918F84C67F9E">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1873" type="Part">868620A39D094D578B23918F84C67F9E</id>
+        <make_buy>Buy</make_buy>
+        <name>Pulley 5mm shaft composite material</name>
+        <unit>EA</unit>
+        <item_number>MP1873</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="7E82C4D8C31A40F7B87092F8779E9BF1">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1913-001" type="Part">7E82C4D8C31A40F7B87092F8779E9BF1</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x12 Flat Head Socket Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP1913-001</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="E8B1817E1F2B48A4AA41C4ADA989B70E">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1913-002" type="Part">E8B1817E1F2B48A4AA41C4ADA989B70E</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x18 Flat Head Socket Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP1913-002</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="03E6B50FF17441168C73A1FF5ABCF891">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1913-003" type="Part">03E6B50FF17441168C73A1FF5ABCF891</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x30 Flat Head Socket Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP1913-003</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="4331B846DAD84C098B0B6842F91DD531">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1913-004" type="Part">4331B846DAD84C098B0B6842F91DD531</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x35 Flat Head Socket Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP1913-004</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1E46FC1E194E4124873FF9B30101D762">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1913-005" type="Part">1E46FC1E194E4124873FF9B30101D762</id>
+        <make_buy>Buy</make_buy>
+        <name>M3x20 Flat Head Socket Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP1913-005</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="3620D4920F0E4293B571FA64E256C558">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1914" type="Part">3620D4920F0E4293B571FA64E256C558</id>
+        <make_buy>Buy</make_buy>
+        <name>Washer .16in ID .25in OD .015in Thk</name>
+        <unit>EA</unit>
+        <item_number>MP1914</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1E15DD3CFE944908830A07E6174648F2">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1915" type="Part">1E15DD3CFE944908830A07E6174648F2</id>
+        <make_buy>Make</make_buy>
+        <name>O ring .14in ID .246in OD</name>
+        <unit>EA</unit>
+        <item_number>MP1915</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="4B0C529700354D2780CB6BCB53BB916B">
+        <classification></classification>
+        <description></description>
+        <id keyed_name="MP1920" type="Part">4B0C529700354D2780CB6BCB53BB916B</id>
+        <make_buy is_null="1"/>
+        <name></name>
+        <unit is_null="1"/>
+        <item_number>MP1920</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="9984D6FD199046A59C5B1D62D0569B55">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1947" type="Part">9984D6FD199046A59C5B1D62D0569B55</id>
+        <make_buy>Make</make_buy>
+        <name>M3x45 Socket Cap Bolt</name>
+        <unit>EA</unit>
+        <item_number>MP1947</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="AE2B508EBB3A4077A63A3A10140157FF">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP1994" type="Part">AE2B508EBB3A4077A63A3A10140157FF</id>
+        <make_buy>Make</make_buy>
+        <name>MK7 Drive Gear</name>
+        <unit>EA</unit>
+        <item_number>MP1994</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="6BF132C3031B452C9CB8D16AACEEB6FF">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2193" type="Part">6BF132C3031B452C9CB8D16AACEEB6FF</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Top Panel</name>
+        <unit>EA</unit>
+        <item_number>MP2193</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="7F2ABFB447CC449A81CC5327643F0F44">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2194" type="Part">7F2ABFB447CC449A81CC5327643F0F44</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Front Panel</name>
+        <unit>EA</unit>
+        <item_number>MP2194</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="D37883BCB6FD4DC6AE55F9D9F1CC2931">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2195" type="Part">D37883BCB6FD4DC6AE55F9D9F1CC2931</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Bottom Panel</name>
+        <unit>EA</unit>
+        <item_number>MP2195</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="7D40EEE469E44DECAA126C2DB65D0912">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2196" type="Part">7D40EEE469E44DECAA126C2DB65D0912</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Back Panel</name>
+        <unit>EA</unit>
+        <item_number>MP2196</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="B7EA821806164558BDC66334C835C51F">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2198" type="Part">B7EA821806164558BDC66334C835C51F</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Left Panel</name>
+        <unit>EA</unit>
+        <item_number>MP2198</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="029A82307CA5499B8E7BFAA0B1E16982">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2199" type="Part">029A82307CA5499B8E7BFAA0B1E16982</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Right Panel</name>
+        <unit>EA</unit>
+        <item_number>MP2199</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="E19A6AADAC184E7EAFE52D563C561E0B">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2199-2" type="Part">E19A6AADAC184E7EAFE52D563C561E0B</id>
+        <make_buy>Make</make_buy>
+        <name>New Thing-O-Matic 2 Right Panel</name>
+        <unit>EA</unit>
+        <item_number>MP2199-2</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1D60FBC213AC49769AA953FA28EAFD43">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2256" type="Part">1D60FBC213AC49769AA953FA28EAFD43</id>
+        <make_buy>Make</make_buy>
+        <name>Silicone Keypad</name>
+        <unit>EA</unit>
+        <item_number>MP2256</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="D7AA1FEA74E24F45BE593416D955BD9F">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2295" type="Part">D7AA1FEA74E24F45BE593416D955BD9F</id>
+        <make_buy>Make</make_buy>
+        <name>M3 Square Nut</name>
+        <unit>EA</unit>
+        <item_number>MP2295</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="FEF7E0680A084E9C9A7D8C42F3F0E6DA">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2313" type="Part">FEF7E0680A084E9C9A7D8C42F3F0E6DA</id>
+        <make_buy>Make</make_buy>
+        <name>Stepper Motor Acme Threaded 285mm</name>
+        <unit>EA</unit>
+        <item_number>MP2313</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="615A864791234ACF85B26E8D5E81B08C">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2322" type="Part">615A864791234ACF85B26E8D5E81B08C</id>
+        <make_buy>Make</make_buy>
+        <name>RGB LED Strip Common Anode</name>
+        <unit>EA</unit>
+        <item_number>MP2322</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="DFA1AB798029407EA24BB494F6B2321C">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2336" type="Part">DFA1AB798029407EA24BB494F6B2321C</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Z Arm Lasercut Plate</name>
+        <unit>EA</unit>
+        <item_number>MP2336</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="11BB52561B524B27A3970BC7188C6854">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2337" type="Part">11BB52561B524B27A3970BC7188C6854</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Bottom Wooden Build Platform</name>
+        <unit>EA</unit>
+        <item_number>MP2337</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="7ED875D438FA400495A5968647376A2D">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2338" type="Part">7ED875D438FA400495A5968647376A2D</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic Heater Board</name>
+        <unit>EA</unit>
+        <item_number>MP2338</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="93439C790F254876A0C28828F4D7647B">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2339" type="Part">93439C790F254876A0C28828F4D7647B</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Aluminum Heat Spreader</name>
+        <unit>EA</unit>
+        <item_number>MP2339</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="18600EFF66564595B3545D5638E6E446">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2340" type="Part">18600EFF66564595B3545D5638E6E446</id>
+        <make_buy>Make</make_buy>
+        <name>Dowel Pin 5 32 inch OD, 1 inch length</name>
+        <unit>EA</unit>
+        <item_number>MP2340</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="01B2F67D451D491D84FD5209F44A8F35">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2343" type="Part">01B2F67D451D491D84FD5209F44A8F35</id>
+        <make_buy>Make</make_buy>
+        <name>Botstep 17</name>
+        <unit>EA</unit>
+        <item_number>MP2343</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="2DDC79EA26CB49DE974088C3D64369B5">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2344" type="Part">2DDC79EA26CB49DE974088C3D64369B5</id>
+        <make_buy>Make</make_buy>
+        <name>MK7 Filament Drive Block</name>
+        <unit>EA</unit>
+        <item_number>MP2344</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="B226F068029F47AA81CEC1EE6503B571">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2345" type="Part">B226F068029F47AA81CEC1EE6503B571</id>
+        <make_buy>Buy</make_buy>
+        <name>Dowel Pin 5 32 inch OD, 1 inch length metal</name>
+        <unit>EA</unit>
+        <item_number>MP2345</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="FCC31BED382D4C82B67CAD3CD1050936">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2347" type="Part">FCC31BED382D4C82B67CAD3CD1050936</id>
+        <make_buy>Make</make_buy>
+        <name>Fan 24V 40x40x10 1m leads</name>
+        <unit>EA</unit>
+        <item_number>MP2347</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="C80FFD3CE7F24CB2B3A806EE5EA870EE">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2350" type="Part">C80FFD3CE7F24CB2B3A806EE5EA870EE</id>
+        <make_buy>Make</make_buy>
+        <name>Fan 24V 40x40x10 Hi Performance</name>
+        <unit>EA</unit>
+        <item_number>MP2350</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="BF77C9D47C334C31AB4358BEE5E1D5EE">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2367" type="Part">BF77C9D47C334C31AB4358BEE5E1D5EE</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Extended Rod Cover</name>
+        <unit>EA</unit>
+        <item_number>MP2367</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="49BCE3D0ED7B494DBDD5F8B49246FD75">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2375" type="Part">49BCE3D0ED7B494DBDD5F8B49246FD75</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Cut Rod Guide Ring</name>
+        <unit>EA</unit>
+        <item_number>MP2375</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="CEA5CD3AA9134705A99AD1E3EAD607E8">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2378" type="Part">CEA5CD3AA9134705A99AD1E3EAD607E8</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Inner Back Panel</name>
+        <unit>EA</unit>
+        <item_number>MP2378</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="09D925EEE1614683BEDF9F2FEF996B23">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2381" type="Part">09D925EEE1614683BEDF9F2FEF996B23</id>
+        <make_buy>Make</make_buy>
+        <name>Shaft 8mm x 300mm</name>
+        <unit>EA</unit>
+        <item_number>MP2381</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="E84C3527841D489B9E288DAE57C97CFA">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2383" type="Part">E84C3527841D489B9E288DAE57C97CFA</id>
+        <make_buy>Make</make_buy>
+        <name>Z Axis Acme Nut Tr8x8(P2)</name>
+        <unit>EA</unit>
+        <item_number>MP2383</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="63FDE786A9DD40A5B090511DEB0F6419">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2384" type="Part">63FDE786A9DD40A5B090511DEB0F6419</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Build Platform Outer Back Panel</name>
+        <unit>EA</unit>
+        <item_number>MP2384</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="EAE86DDE8FF4475CAB9AF229558B7EF4">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2403" type="Part">EAE86DDE8FF4475CAB9AF229558B7EF4</id>
+        <make_buy>Make</make_buy>
+        <name>293 Tooth GT2 Timing Belt</name>
+        <unit>EA</unit>
+        <item_number>MP2403</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="FF582F00C8D140D28E19A92C1790BF68">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2405" type="Part">FF582F00C8D140D28E19A92C1790BF68</id>
+        <make_buy>Make</make_buy>
+        <name>83 Tooth GT2 Timing Belt</name>
+        <unit>EA</unit>
+        <item_number>MP2405</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="02963C4DABE44E12A243C5CB3FA322DF">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2407" type="Part">02963C4DABE44E12A243C5CB3FA322DF</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Extended Rod Guide Ring</name>
+        <unit>EA</unit>
+        <item_number>MP2407</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="79D68567065045F59E19125898CFF019">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2414" type="Part">79D68567065045F59E19125898CFF019</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Extruder Carriage no belt clip 2</name>
+        <unit>EA</unit>
+        <item_number>MP2414</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="EE1F23A7DD2A429EAC6ED5E231FC433A">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2415" type="Part">EE1F23A7DD2A429EAC6ED5E231FC433A</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Y Carriage Secondary</name>
+        <unit>EA</unit>
+        <item_number>MP2415</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="9ECC245B665D40CCAB34646ADAA2D137">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2416" type="Part">9ECC245B665D40CCAB34646ADAA2D137</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Y Carriage Primary</name>
+        <unit>EA</unit>
+        <item_number>MP2416</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A142500C32E3426C88EF9ECF3CCDE1F4">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2417" type="Part">A142500C32E3426C88EF9ECF3CCDE1F4</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Z Arm</name>
+        <unit>EA</unit>
+        <item_number>MP2417</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="BAD8BAD29FED4C1A83FC83A1253871CD">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2441" type="Part">BAD8BAD29FED4C1A83FC83A1253871CD</id>
+        <make_buy>Make</make_buy>
+        <name>Linear Bearing 8mm ID 15mm OD 17mm length</name>
+        <unit>EA</unit>
+        <item_number>MP2441</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="BD1327F5BFB34F43ADBCAD996E4494B1">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2445" type="Part">BD1327F5BFB34F43ADBCAD996E4494B1</id>
+        <make_buy>Buy</make_buy>
+        <name>Linear Bearing 8mm ID 15mm OD 17mm length ceramic</name>
+        <unit>EA</unit>
+        <item_number>MP2445</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1213E2030EBD4FE58316993FD42D74A7">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2453" type="Part">1213E2030EBD4FE58316993FD42D74A7</id>
+        <make_buy>Buy</make_buy>
+        <name>Thing-O-Matic 2 Radial Ball Bearings</name>
+        <unit>EA</unit>
+        <item_number>MP2453</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="5B13D8E6502A43D0A19C237100A400A5">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2458" type="Part">5B13D8E6502A43D0A19C237100A400A5</id>
+        <make_buy>Buy</make_buy>
+        <name>Belt Tensioning Torsion Spring</name>
+        <unit>EA</unit>
+        <item_number>MP2458</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A456BC07346E4A789C459B6BBF26714A">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2459" type="Part">A456BC07346E4A789C459B6BBF26714A</id>
+        <make_buy>Make</make_buy>
+        <name>M3 Thumb Nuts</name>
+        <unit>EA</unit>
+        <item_number>MP2459</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="0DA543DA8B5947DE99F54B39E6AC2357">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2467" type="Part">0DA543DA8B5947DE99F54B39E6AC2357</id>
+        <make_buy>Make</make_buy>
+        <name>1-2 inch Wire Wrap</name>
+        <unit>EA</unit>
+        <item_number>MP2467</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="C0F8E890509342469358F11DA2BAD8DC">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2468" type="Part">C0F8E890509342469358F11DA2BAD8DC</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Build Platform Front Cover replicator</name>
+        <unit>EA</unit>
+        <item_number>MP2468</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="8DD5C62F7ECF42A7BD9447A09210F7A8">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2488" type="Part">8DD5C62F7ECF42A7BD9447A09210F7A8</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic 2 Build Platform Leveling Springs Stainless Steel</name>
+        <unit>EA</unit>
+        <item_number>MP2488</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="67279A7BB9884423AC4E41C4C1DA5B24">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2506" type="Part">67279A7BB9884423AC4E41C4C1DA5B24</id>
+        <make_buy>Make</make_buy>
+        <name>MK8 Nozzle 0.4mm</name>
+        <unit>EA</unit>
+        <item_number>MP2506</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="E21B5B09658C4FB28F184539F906BE7E">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2580" type="Part">E21B5B09658C4FB28F184539F906BE7E</id>
+        <make_buy>Make</make_buy>
+        <name>Cable Holder Adhesive Backed Self Closing</name>
+        <unit>EA</unit>
+        <item_number>MP2580</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1C8EEDC07A6345EC8B07F9031AEDDA46">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2583" type="Part">1C8EEDC07A6345EC8B07F9031AEDDA46</id>
+        <make_buy>Make</make_buy>
+        <name>Foot Edge Neoprene</name>
+        <unit>EA</unit>
+        <item_number>MP2583</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1BE702134FE64333B4DD1F33DF464BB2">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2584" type="Part">1BE702134FE64333B4DD1F33DF464BB2</id>
+        <make_buy>Make</make_buy>
+        <name>PTFE Tubing 14in OD 18in ID</name>
+        <unit>EA</unit>
+        <item_number>MP2584</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="D2A76DA5A5EA43BF95F3B83355B5BD04">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2590" type="Part">D2A76DA5A5EA43BF95F3B83355B5BD04</id>
+        <make_buy>Make</make_buy>
+        <name>MK8 Bar Mount</name>
+        <unit>EA</unit>
+        <item_number>MP2590</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="B967B5AAEF344577BE9A65A52E5C3CE9">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2603" type="Part">B967B5AAEF344577BE9A65A52E5C3CE9</id>
+        <make_buy>Make</make_buy>
+        <name>Endstop Cable 1m</name>
+        <unit>EA</unit>
+        <item_number>MP2603</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="7D10C7CAB2AF4F349A92FBD846EE3B28">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2604" type="Part">7D10C7CAB2AF4F349A92FBD846EE3B28</id>
+        <make_buy>Make</make_buy>
+        <name>Motor Wiring Harness 12in Moons</name>
+        <unit>EA</unit>
+        <item_number>MP2604</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="BE3E46EFDCC9401582B728D477930A33">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2607" type="Part">BE3E46EFDCC9401582B728D477930A33</id>
+        <make_buy>Make</make_buy>
+        <name>Cartridge Heater 40W 24V Right Angle Exit</name>
+        <unit>EA</unit>
+        <item_number>MP2607</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="98DED6CDC1924D738BDBE9EA3B7D56F6">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2660" type="Part">98DED6CDC1924D738BDBE9EA3B7D56F6</id>
+        <make_buy>Make</make_buy>
+        <name>Spacer Black 1-2 in length .14in ID .25in OD</name>
+        <unit>EA</unit>
+        <item_number>MP2660</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="B037E694D6F54471873E854DB94C278D">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2662" type="Part">B037E694D6F54471873E854DB94C278D</id>
+        <make_buy>Make</make_buy>
+        <name>Spacer Black 3-4 in length .14in ID .25in OD</name>
+        <unit>EA</unit>
+        <item_number>MP2662</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="7A934DA66BC04562A1A729602654AF32">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2664" type="Part">7A934DA66BC04562A1A729602654AF32</id>
+        <make_buy>Make</make_buy>
+        <name>Spacer Black 22 mm length .14in ID 516in OD</name>
+        <unit>EA</unit>
+        <item_number>MP2664</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A322282BD2B34FCAB8B33564096C53C7">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2665" type="Part">A322282BD2B34FCAB8B33564096C53C7</id>
+        <make_buy>Make</make_buy>
+        <name>Spacer Black 1-16 in length 5mm ID 7mm OD</name>
+        <unit>EA</unit>
+        <item_number>MP2665</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="76888E2639AD4B998AD492DBB1107753">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2666" type="Part">76888E2639AD4B998AD492DBB1107753</id>
+        <make_buy>Make</make_buy>
+        <name>Spacer Black 11-16 in length 5mm ID 7mm OD</name>
+        <unit>EA</unit>
+        <item_number>MP2666</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="D1C5E05722444C3CBF5A698947DD27C5">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2667" type="Part">D1C5E05722444C3CBF5A698947DD27C5</id>
+        <make_buy>Make</make_buy>
+        <name>Spacer Black 5-16 in length .14in ID .25in OD</name>
+        <unit>EA</unit>
+        <item_number>MP2667</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="2DB5633B721C41489959D08A0BE326FA">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2669" type="Part">2DB5633B721C41489959D08A0BE326FA</id>
+        <make_buy>Make</make_buy>
+        <name>26 Pin Ribbon Cable</name>
+        <unit>EA</unit>
+        <item_number>MP2669</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="406792ADF7924AF78A7070A4DD2FA274">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2670" type="Part">406792ADF7924AF78A7070A4DD2FA274</id>
+        <make_buy>Make</make_buy>
+        <name>26 Pin Female Header</name>
+        <unit>EA</unit>
+        <item_number>MP2670</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="9B9C1A8A78BE478DBF0E2F8AE6C949FC">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2671" type="Part">9B9C1A8A78BE478DBF0E2F8AE6C949FC</id>
+        <make_buy>Make</make_buy>
+        <name>O Ring Spacer 1.5mm thickness 3.5mm ID 6.5mm OD</name>
+        <unit>EA</unit>
+        <item_number>MP2671</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="FC126A4AB14441F49F921E85D87FCE4A">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2675" type="Part">FC126A4AB14441F49F921E85D87FCE4A</id>
+        <make_buy>Make</make_buy>
+        <name>Tube Fitting .45in Tube</name>
+        <unit>EA</unit>
+        <item_number>MP2675</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="99BC12E7341C440DBE5F5F038ACF9007">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2680" type="Part">99BC12E7341C440DBE5F5F038ACF9007</id>
+        <make_buy>Buy</make_buy>
+        <name>#4 Washer Black Oxide Finish</name>
+        <unit>EA</unit>
+        <item_number>MP2680</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="2C997FC81EBA4B2CB9C32E06812A7AC7">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2683" type="Part">2C997FC81EBA4B2CB9C32E06812A7AC7</id>
+        <make_buy>Make</make_buy>
+        <name>Clamp Hinged Blind Hole Mount Black</name>
+        <unit>EA</unit>
+        <item_number>MP2683</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="ECADE8078F1746EB8F6143561F7D4385">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2684" type="Part">ECADE8078F1746EB8F6143561F7D4385</id>
+        <make_buy>Make</make_buy>
+        <name>Cable Clamp Blind Hole Mount</name>
+        <unit>EA</unit>
+        <item_number>MP2684</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="2C6561CD9F21402EBBDB14822EE3A346">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2685" type="Part">2C6561CD9F21402EBBDB14822EE3A346</id>
+        <make_buy>Make</make_buy>
+        <name>Spacer Black 16.5mm length 3.2mm ID 7mm OD</name>
+        <unit>EA</unit>
+        <item_number>MP2685</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A48FFEC7AA934538BA6AE4099C0CEDFF">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2690" type="Part">A48FFEC7AA934538BA6AE4099C0CEDFF</id>
+        <make_buy>Buy</make_buy>
+        <name>Washer 0.355 46mm Thk 3.175mm ID 7.95mm OD</name>
+        <unit>EA</unit>
+        <item_number>MP2690</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="5CB59A4D2330437B80B982518B2B9901">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2691" type="Part">5CB59A4D2330437B80B982518B2B9901</id>
+        <make_buy>Make</make_buy>
+        <name>0.355 46thick 3.175mm ID 7.95mm OD Washer</name>
+        <unit>EA</unit>
+        <item_number>MP2691</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="81D589ED39064BE0BD53EC96F3FF5F5F">
+        <classification></classification>
+        <description></description>
+        <id keyed_name="MP2718" type="Part">81D589ED39064BE0BD53EC96F3FF5F5F</id>
+        <make_buy is_null="1"/>
+        <name></name>
+        <unit is_null="1"/>
+        <item_number>MP2718</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="CFA387C8052C4864B4728BB5C35BA140">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2720" type="Part">CFA387C8052C4864B4728BB5C35BA140</id>
+        <make_buy>Make</make_buy>
+        <name>Mean Well GS220A24 R7B Power Supply</name>
+        <unit>EA</unit>
+        <item_number>MP2720</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="DAFB0854CF234025AF380D23CB603E42">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2728" type="Part">DAFB0854CF234025AF380D23CB603E42</id>
+        <make_buy>Make</make_buy>
+        <name>Support Blind Hole Mount</name>
+        <unit>EA</unit>
+        <item_number>MP2728</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="83890B1872744031BBB8EC2DBC37D5C6">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2729" type="Part">83890B1872744031BBB8EC2DBC37D5C6</id>
+        <make_buy>Make</make_buy>
+        <name>Makerbot MightyBoard</name>
+        <unit>EA</unit>
+        <item_number>MP2729</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="DFB575A241DC456F8D4FEE188DF5BE3E">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2738" type="Part">DFB575A241DC456F8D4FEE188DF5BE3E</id>
+        <make_buy>Make</make_buy>
+        <name>Replicator Interfaceboard</name>
+        <unit>EA</unit>
+        <item_number>MP2738</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="6FDC98DD18994CE48BA6941298BE24FE">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2751" type="Part">6FDC98DD18994CE48BA6941298BE24FE</id>
+        <make_buy>Make</make_buy>
+        <name>M3 Nylon Inserted Hex Nut</name>
+        <unit>EA</unit>
+        <item_number>MP2751</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="C642BFF9C8E646B9ADDC52AEDEA3C9E6">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2752" type="Part">C642BFF9C8E646B9ADDC52AEDEA3C9E6</id>
+        <make_buy>Make</make_buy>
+        <name>424 Tooth GT2 Timing Belt</name>
+        <unit>EA</unit>
+        <item_number>MP2752</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1906C46491C0445889D8A828248EF1F8">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2753" type="Part">1906C46491C0445889D8A828248EF1F8</id>
+        <make_buy>Make</make_buy>
+        <name>Shaft 8mm x 424mm</name>
+        <unit>EA</unit>
+        <item_number>MP2753</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="FB0CB50C7C364AD8A692F6B2FF0EA76B">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2754" type="Part">FB0CB50C7C364AD8A692F6B2FF0EA76B</id>
+        <make_buy>Make</make_buy>
+        <name>Shaft 4.99mm x 464mm Carbon Steel</name>
+        <unit>EA</unit>
+        <item_number>MP2754</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="B5FBA733945B4C2796DCC59A253897A5">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2755" type="Part">B5FBA733945B4C2796DCC59A253897A5</id>
+        <make_buy>Make</make_buy>
+        <name>424 Tooth GT3 Timing Belt</name>
+        <unit>EA</unit>
+        <item_number>MP2755</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="89B9E2213D3B400BAEB45C31C8C84543">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2759" type="Part">89B9E2213D3B400BAEB45C31C8C84543</id>
+        <make_buy>Make</make_buy>
+        <name>Nylon Spacer with Flange</name>
+        <unit>EA</unit>
+        <item_number>MP2759</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="88E395B9E4DE40D5B531DD3551AFA76E">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2780" type="Part">88E395B9E4DE40D5B531DD3551AFA76E</id>
+        <make_buy>Buy</make_buy>
+        <name>#4 Washer non-oxide Finish</name>
+        <unit>EA</unit>
+        <item_number>MP2780</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="09D0A3F880C34176992D9DDAE11C56F4">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2799" type="Part">09D0A3F880C34176992D9DDAE11C56F4</id>
+        <make_buy>Buy</make_buy>
+        <name>Shaft 8mm x 424mm composite material</name>
+        <unit>EA</unit>
+        <item_number>MP2799</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="20D920CAC7854A5EB3BC6FA8B5B5B4EE">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2827" type="Part">20D920CAC7854A5EB3BC6FA8B5B5B4EE</id>
+        <make_buy>Buy</make_buy>
+        <name>Nylon 440 screw</name>
+        <unit>EA</unit>
+        <item_number>MP2827</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="BB375BA8D1F047B5BD7822FE08679A31">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2828" type="Part">BB375BA8D1F047B5BD7822FE08679A31</id>
+        <make_buy>Buy</make_buy>
+        <name>Nylon Hex Nut</name>
+        <unit>EA</unit>
+        <item_number>MP2828</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="B6DC50A1D493430591C39ECEFDB8D7FA">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2935" type="Part">B6DC50A1D493430591C39ECEFDB8D7FA</id>
+        <make_buy>Make</make_buy>
+        <name>Filament Spool Holder</name>
+        <unit>EA</unit>
+        <item_number>MP2935</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="8280D575FED242A89F2B763E5C3496C1">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2936" type="Part">8280D575FED242A89F2B763E5C3496C1</id>
+        <make_buy>Make</make_buy>
+        <name>Acrylic Cover</name>
+        <unit>EA</unit>
+        <item_number>MP2936</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="FA546E6127744313BD124C84763972A2">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2937" type="Part">FA546E6127744313BD124C84763972A2</id>
+        <make_buy>Make</make_buy>
+        <name>Acrylic Side Cover</name>
+        <unit>EA</unit>
+        <item_number>MP2937</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="3AEFB5C97E964E0C8915370092022410">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2938" type="Part">3AEFB5C97E964E0C8915370092022410</id>
+        <make_buy>Make</make_buy>
+        <name>Additional Parts</name>
+        <unit>EA</unit>
+        <item_number>MP2938</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="9EF3CD4874C6451E8166FFF2605BFB71">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2939" type="Part">9EF3CD4874C6451E8166FFF2605BFB71</id>
+        <make_buy>Make</make_buy>
+        <name>Body Fan Assembly</name>
+        <unit>EA</unit>
+        <item_number>MP2939</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="731FC75EC97642ED9DEB270AB0F0B505">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2940" type="Part">731FC75EC97642ED9DEB270AB0F0B505</id>
+        <make_buy>Make</make_buy>
+        <name>Body Hardware</name>
+        <unit>EA</unit>
+        <item_number>MP2940</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="5CC0ED4630B044ACBF578AC35E4B640B">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2941" type="Part">5CC0ED4630B044ACBF578AC35E4B640B</id>
+        <make_buy>Make</make_buy>
+        <name>Body Panels</name>
+        <unit>EA</unit>
+        <item_number>MP2941</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="BC5AF2203F90411999247B1C99379588">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2942" type="Part">BC5AF2203F90411999247B1C99379588</id>
+        <make_buy>Make</make_buy>
+        <name>Body</name>
+        <unit>EA</unit>
+        <item_number>MP2942</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="6020DB29814C4D838E60D315A1C95E8C">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2943" type="Part">6020DB29814C4D838E60D315A1C95E8C</id>
+        <make_buy>Make</make_buy>
+        <name>Build Platform</name>
+        <unit>EA</unit>
+        <item_number>MP2943</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="E763CACCEF1C4C45B206DEE84DAB80B8">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2944" type="Part">E763CACCEF1C4C45B206DEE84DAB80B8</id>
+        <make_buy>Make</make_buy>
+        <name>Cable Hardware</name>
+        <unit>EA</unit>
+        <item_number>MP2944</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="2D75C43A439E425AAFBC6BA75E9922B6">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2945" type="Part">2D75C43A439E425AAFBC6BA75E9922B6</id>
+        <make_buy>Make</make_buy>
+        <name>Cover Angled Front</name>
+        <unit>EA</unit>
+        <item_number>MP2945</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="951B2EBD9D544AD79BDD1A0603FAA4A3">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2946" type="Part">951B2EBD9D544AD79BDD1A0603FAA4A3</id>
+        <make_buy>Make</make_buy>
+        <name>Cover Back</name>
+        <unit>EA</unit>
+        <item_number>MP2946</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="DF0DA7125834435E9EA4D4FB72CD3BC4">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2947" type="Part">DF0DA7125834435E9EA4D4FB72CD3BC4</id>
+        <make_buy>Make</make_buy>
+        <name>Cover Front</name>
+        <unit>EA</unit>
+        <item_number>MP2947</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="6CF4ADC43C0F47ECAF87A292349AE17B">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2948" type="Part">6CF4ADC43C0F47ECAF87A292349AE17B</id>
+        <make_buy>Make</make_buy>
+        <name>Cover Hardware</name>
+        <unit>EA</unit>
+        <item_number>MP2948</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="2F13F8E06AB141DC99F9312B31E307BE">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2949" type="Part">2F13F8E06AB141DC99F9312B31E307BE</id>
+        <make_buy>Make</make_buy>
+        <name>Cover Side</name>
+        <unit>EA</unit>
+        <item_number>MP2949</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1AD8E9CD891D417685168555202E051B">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2950" type="Part">1AD8E9CD891D417685168555202E051B</id>
+        <make_buy>Make</make_buy>
+        <name>Cover Top</name>
+        <unit>EA</unit>
+        <item_number>MP2950</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="4AE1B244824F42C49811A6FC33431D5E">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2951" type="Part">4AE1B244824F42C49811A6FC33431D5E</id>
+        <make_buy>Make</make_buy>
+        <name>Cover</name>
+        <unit>EA</unit>
+        <item_number>MP2951</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="5620EAB3E6F34A4C9B02F753C484AEBB">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2952" type="Part">5620EAB3E6F34A4C9B02F753C484AEBB</id>
+        <make_buy>Make</make_buy>
+        <name>Electronics</name>
+        <unit>EA</unit>
+        <item_number>MP2952</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="6D511886B1E946CC9C5E78C29D2D8383">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2953" type="Part">6D511886B1E946CC9C5E78C29D2D8383</id>
+        <make_buy>Make</make_buy>
+        <name>Extruder Hardware</name>
+        <unit>EA</unit>
+        <item_number>MP2953</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="39CB2792B428432490200368B87DE9CA">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2954" type="Part">39CB2792B428432490200368B87DE9CA</id>
+        <make_buy>Make</make_buy>
+        <name>Extruder</name>
+        <unit>EA</unit>
+        <item_number>MP2954</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="048B35C3F4354EF48034AB11BA603308">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2955" type="Part">048B35C3F4354EF48034AB11BA603308</id>
+        <make_buy>Make</make_buy>
+        <name>Front Window Panel</name>
+        <unit>EA</unit>
+        <item_number>MP2955</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="526C66B626B64BCB869ACBB083A900A3">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2956" type="Part">526C66B626B64BCB869ACBB083A900A3</id>
+        <make_buy>Make</make_buy>
+        <name>Gantry</name>
+        <unit>EA</unit>
+        <item_number>MP2956</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="53FC97F610FF4C28934334957D2F69AE">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2959" type="Part">53FC97F610FF4C28934334957D2F69AE</id>
+        <make_buy>Make</make_buy>
+        <name>Nylon Spacer with Flange</name>
+        <unit>EA</unit>
+        <item_number>MP2959</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="0EDAA4188E4C4BA981FD4518B5C5DDAD">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2960" type="Part">0EDAA4188E4C4BA981FD4518B5C5DDAD</id>
+        <make_buy>Make</make_buy>
+        <name>Storage Assembly</name>
+        <unit>EA</unit>
+        <item_number>MP2960</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A8D5E839DF11472A86619F0E519134FE">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2961" type="Part">A8D5E839DF11472A86619F0E519134FE</id>
+        <make_buy>Make</make_buy>
+        <name>Shipping</name>
+        <unit>EA</unit>
+        <item_number>MP2961</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="60B80ED3B4664550B85D21D590EE88C6">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2962" type="Part">60B80ED3B4664550B85D21D590EE88C6</id>
+        <make_buy>Make</make_buy>
+        <name>Side Clip Short</name>
+        <unit>EA</unit>
+        <item_number>MP2962</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="7B2E1053EAF4424289FE4E6BA612A525">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2963" type="Part">7B2E1053EAF4424289FE4E6BA612A525</id>
+        <make_buy>Make</make_buy>
+        <name>Stepper Motor Assembly</name>
+        <unit>EA</unit>
+        <item_number>MP2963</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="2D967C7D1DC94B879770A5331D45E256">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2964" type="Part">2D967C7D1DC94B879770A5331D45E256</id>
+        <make_buy>Make</make_buy>
+        <name>Test Electronics Cover</name>
+        <unit>EA</unit>
+        <item_number>MP2964</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="F1E4DC882E0D4848B69D4B9F55EC4DBA">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2965" type="Part">F1E4DC882E0D4848B69D4B9F55EC4DBA</id>
+        <make_buy>Make</make_buy>
+        <name>Test Electronics Side</name>
+        <unit>EA</unit>
+        <item_number>MP2965</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="32CAB391549C40BD90461997B0E75FA2">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2966" type="Part">32CAB391549C40BD90461997B0E75FA2</id>
+        <make_buy>Make</make_buy>
+        <name>Wire-Filament Extruder Guide</name>
+        <unit>EA</unit>
+        <item_number>MP2966</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="052B70BA995D47CF834EF103CCE0D85E">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2967" type="Part">052B70BA995D47CF834EF103CCE0D85E</id>
+        <make_buy>Make</make_buy>
+        <name>Wiring</name>
+        <unit>EA</unit>
+        <item_number>MP2967</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="4C40CCBC9E864E9CA7BE8A93423BD362">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2968" type="Part">4C40CCBC9E864E9CA7BE8A93423BD362</id>
+        <make_buy>Make</make_buy>
+        <name>XY Stage</name>
+        <unit>EA</unit>
+        <item_number>MP2968</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="F43182EEABD24A73A25BBB0CDDF91AE2">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP2977" type="Part">F43182EEABD24A73A25BBB0CDDF91AE2</id>
+        <make_buy>Buy</make_buy>
+        <name>SD Card</name>
+        <unit>EA</unit>
+        <item_number>MP2977</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="14F871DA13A340F2866D2AD639D5B79A">
+        <classification>Software</classification>
+        <description></description>
+        <id keyed_name="MP2988" type="Part">14F871DA13A340F2866D2AD639D5B79A</id>
+        <make_buy>Make</make_buy>
+        <name>Makerbot MightyBoard Software</name>
+        <unit>EA</unit>
+        <item_number>MP2988</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="7F4A5A08195A44B597212A1B68451D30">
+        <classification>Assembly</classification>
+        <description></description>
+        <id keyed_name="MP2999" type="Part">7F4A5A08195A44B597212A1B68451D30</id>
+        <make_buy>Make</make_buy>
+        <name>Cover Shipping</name>
+        <unit>EA</unit>
+        <item_number>MP2999</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="BE6FF3B5CA204384A1FDA14F4A6AD07E">
+        <classification>Component</classification>
+        <description>7-Bit Single I2C™ Digital POT with Volatile Memory in SC70</description>
+        <id keyed_name="MP3002" type="Part">BE6FF3B5CA204384A1FDA14F4A6AD07E</id>
+        <make_buy>Buy</make_buy>
+        <name>Potentiometer</name>
+        <unit>EA</unit>
+        <item_number>MP3002</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A131DD7D3ED744648DB7E11DFED891EC">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP3017" type="Part">A131DD7D3ED744648DB7E11DFED891EC</id>
+        <make_buy>Make</make_buy>
+        <name>Thing-O-Matic Heater Board - bare board</name>
+        <unit>EA</unit>
+        <item_number>MP3017</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="5A4CCC84AB594E05AD12D5C9D584A220">
+        <classification>Component</classification>
+        <description>Printed-circuit board connector - MSTBVA 2,5/ 2-G-5.08 YE - 1938090</description>
+        <id keyed_name="MP3027" type="Part">5A4CCC84AB594E05AD12D5C9D584A220</id>
+        <make_buy>Buy</make_buy>
+        <name>Terminal block x2</name>
+        <unit>EA</unit>
+        <item_number>MP3027</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="D430D15658914B9895E315610010D08C">
+        <classification>Component</classification>
+        <description>1/4W Thick film chip resistor</description>
+        <id keyed_name="MP3034" type="Part">D430D15658914B9895E315610010D08C</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 2.21K</name>
+        <unit>EA</unit>
+        <item_number>MP3034</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="8E0DDE8AEBAD46E7BBF0BAFECFF12C0B">
+        <classification>Component</classification>
+        <description>Blue LED illuminated rocker switch 10A at 125VAC</description>
+        <id keyed_name="MP3065" type="Part">8E0DDE8AEBAD46E7BBF0BAFECFF12C0B</id>
+        <make_buy>Buy</make_buy>
+        <name>Powerswitch</name>
+        <unit>EA</unit>
+        <item_number>MP3065</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="EF0E57C082B3497B9CF25EDD9DA24B7E">
+        <classification>Component</classification>
+        <description>Thick film chip resistor</description>
+        <id keyed_name="MP3085" type="Part">EF0E57C082B3497B9CF25EDD9DA24B7E</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 7.5K</name>
+        <unit>EA</unit>
+        <item_number>MP3085</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="8C4BC52979C4441DB58B7268AB4FF79D">
+        <classification>Component</classification>
+        <description>KPJX Series Snap and Lock PCB</description>
+        <id keyed_name="MP3109" type="Part">8C4BC52979C4441DB58B7268AB4FF79D</id>
+        <make_buy>Buy</make_buy>
+        <name>Connector 24V </name>
+        <unit>EA</unit>
+        <item_number>MP3109</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="C7F7F43D7CC148B6B8A2C3E204A6A631">
+        <classification>Component</classification>
+        <description>Resistor SMT 1K</description>
+        <id keyed_name="MP3121" type="Part">C7F7F43D7CC148B6B8A2C3E204A6A631</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 1K</name>
+        <unit>EA</unit>
+        <item_number>MP3121</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="8CA5994A5DF84E8C8847433AE34DBA91">
+        <classification>Component</classification>
+        <description>Thick Film Chip Resistors MCR Series &lt; Automotive &gt; </description>
+        <id keyed_name="MP3129" type="Part">8CA5994A5DF84E8C8847433AE34DBA91</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor .499K</name>
+        <unit>EA</unit>
+        <item_number>MP3129</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="37280634371E42F291A6B1D906A430D6">
+        <classification>Component</classification>
+        <description>Thick film rectangular MCR03 (1608 size)</description>
+        <id keyed_name="MP3150" type="Part">37280634371E42F291A6B1D906A430D6</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 100K</name>
+        <unit>EA</unit>
+        <item_number>MP3150</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="26ABA42FB5614F5D85FE71CC4049E754">
+        <classification>Component</classification>
+        <description>Resistor SMT 100 ohms</description>
+        <id keyed_name="MP3154" type="Part">26ABA42FB5614F5D85FE71CC4049E754</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor .1K</name>
+        <unit>EA</unit>
+        <item_number>MP3154</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="61CFB47EE1DF4FBFBB9A38FC53CBEA04">
+        <classification>Component</classification>
+        <description>PSMN7R0-30YL N-channel 30 V 7 m Ω logic level MOSFET in LFPAK</description>
+        <id keyed_name="MP3159" type="Part">61CFB47EE1DF4FBFBB9A38FC53CBEA04</id>
+        <make_buy>Buy</make_buy>
+        <name>FET</name>
+        <unit>EA</unit>
+        <item_number>MP3159</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="B7FDD251BCAD40F29325E48C7F99D385">
+        <classification>Component</classification>
+        <description>SD Card Slot, Push In / Push Out, Reverse</description>
+        <id keyed_name="MP3173" type="Part">B7FDD251BCAD40F29325E48C7F99D385</id>
+        <make_buy>Buy</make_buy>
+        <name>SD Card adapter</name>
+        <unit>EA</unit>
+        <item_number>MP3173</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="24FEE125CF0443808A9F2D5FF92F784F">
+        <classification>Component</classification>
+        <description>MHz Band Ceramic Chip Resonators (SMD) PBRC-H / PBRC-M Series</description>
+        <id keyed_name="MP3187" type="Part">24FEE125CF0443808A9F2D5FF92F784F</id>
+        <make_buy>Buy</make_buy>
+        <name>Crystal 16Mhz</name>
+        <unit>EA</unit>
+        <item_number>MP3187</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="3DEB292D0C9F4AFD993B948F8DE603E8">
+        <classification>Component</classification>
+        <description>100nF / 0.1uF ceramic capacitor 1206 SMT ceramic</description>
+        <id keyed_name="MP3221" type="Part">3DEB292D0C9F4AFD993B948F8DE603E8</id>
+        <make_buy>Buy</make_buy>
+        <name>Capacitor 100uF</name>
+        <unit>EA</unit>
+        <item_number>MP3221</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="45A9523A26994917830B9F97A0962155">
+        <classification>Component</classification>
+        <description>Thick film rectangular</description>
+        <id keyed_name="MP3222" type="Part">45A9523A26994917830B9F97A0962155</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 10K</name>
+        <unit>EA</unit>
+        <item_number>MP3222</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="3015E92BDB3C48AE92514C50C24F9471">
+        <classification>Component</classification>
+        <description>PCA95334-bit I2C-bus LED dimmer</description>
+        <id keyed_name="MP3232" type="Part">3015E92BDB3C48AE92514C50C24F9471</id>
+        <make_buy>Buy</make_buy>
+        <name>LED display driver</name>
+        <unit>EA</unit>
+        <item_number>MP3232</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="53769B210B184955AD40DF6D04BCA7CF">
+        <classification>Component</classification>
+        <description>2.0mm shrouded header PCB mount vertical</description>
+        <id keyed_name="MP3274" type="Part">53769B210B184955AD40DF6D04BCA7CF</id>
+        <make_buy>Buy</make_buy>
+        <name>Connector 26 pin</name>
+        <unit>EA</unit>
+        <item_number>MP3274</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="C217BBFEEF414B0C9AD19164A872DEB6">
+        <classification>Component</classification>
+        <description>Cold-Junction-Compensated K-Thermocouple-to-Digital Converter (0°C to +1024°C)</description>
+        <id keyed_name="MP3291" type="Part">C217BBFEEF414B0C9AD19164A872DEB6</id>
+        <make_buy>Buy</make_buy>
+        <name>Thermocouple-to-Digital</name>
+        <unit>EA</unit>
+        <item_number>MP3291</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="5782171FADC14CA5B8DC988ACA435617">
+        <classification>Component</classification>
+        <description>Resistor SMT 6.8K 5% 1/16W</description>
+        <id keyed_name="MP3299" type="Part">5782171FADC14CA5B8DC988ACA435617</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 6.8K</name>
+        <unit>EA</unit>
+        <item_number>MP3299</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="CECBF91D4B8641C5ABB40A85C9706C5A">
+        <classification>Component</classification>
+        <description>8-Stage Shift and Store Register</description>
+        <id keyed_name="MP3309" type="Part">CECBF91D4B8641C5ABB40A85C9706C5A</id>
+        <make_buy>Buy</make_buy>
+        <name>8-Stage Register</name>
+        <unit>EA</unit>
+        <item_number>MP3309</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="05C374CDA229443D8AE292B96431DEBC">
+        <classification>Component</classification>
+        <description>Vertical header with latch &amp; no peg 2.54/.100 centers</description>
+        <id keyed_name="MP3311" type="Part">05C374CDA229443D8AE292B96431DEBC</id>
+        <make_buy>Buy</make_buy>
+        <name>Connector 1x4</name>
+        <unit>EA</unit>
+        <item_number>MP3311</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1527A8A174214EF9984E886630C89CDA">
+        <classification>Component</classification>
+        <description>Chip tantalum capacitors (Bottom surface electrode type : Large capacitance) TCT Series PL Case </description>
+        <id keyed_name="MP3392" type="Part">1527A8A174214EF9984E886630C89CDA</id>
+        <make_buy>Buy</make_buy>
+        <name>Capacitor 47uF</name>
+        <unit>EA</unit>
+        <item_number>MP3392</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="B31044B68D444D1BB42DB5EF01B83350">
+        <classification>Component</classification>
+        <description>4-pin w/polarity</description>
+        <id keyed_name="MP3400" type="Part">B31044B68D444D1BB42DB5EF01B83350</id>
+        <make_buy>Buy</make_buy>
+        <name>Connector 4 pin</name>
+        <unit>EA</unit>
+        <item_number>MP3400</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="F93F5E37E7684A8EB9A9655CFE576CEA">
+        <classification>Component</classification>
+        <description>.22  uF, Y5V, -19.2%, 50V SMT</description>
+        <id keyed_name="MP3422" type="Part">F93F5E37E7684A8EB9A9655CFE576CEA</id>
+        <make_buy>Buy</make_buy>
+        <name>Capacitor .22 uF</name>
+        <unit>EA</unit>
+        <item_number>MP3422</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="03DCBD82677B410491495758318D96DB">
+        <classification>Component</classification>
+        <description>Thick film rectangular MCR03 (1608 size)</description>
+        <id keyed_name="MP3428" type="Part">03DCBD82677B410491495758318D96DB</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 1M</name>
+        <unit>EA</unit>
+        <item_number>MP3428</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="716E5777B3EB47368F424B9381975A92">
+        <classification>Component</classification>
+        <description>1 FUNCTIONS, 0.2 A, FERRITE CHIP</description>
+        <id keyed_name="MP3429" type="Part">716E5777B3EB47368F424B9381975A92</id>
+        <make_buy>Buy</make_buy>
+        <name>Ferrite Bead</name>
+        <unit>EA</unit>
+        <item_number>MP3429</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="F3B40B54AB764C70A8DAF0CBD8749356">
+        <classification>Component</classification>
+        <description>.1  uF, X7R, 10%, 50V</description>
+        <id keyed_name="MP3455" type="Part">F3B40B54AB764C70A8DAF0CBD8749356</id>
+        <make_buy>Buy</make_buy>
+        <name>Capacitor .1uF</name>
+        <unit>EA</unit>
+        <item_number>MP3455</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A0F354B0E35D441C8A14D648FC697567">
+        <classification>Component</classification>
+        <description>Resistor SMT 6.8K 5% 1/4W</description>
+        <id keyed_name="MP3456" type="Part">A0F354B0E35D441C8A14D648FC697567</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 6.8K</name>
+        <unit>EA</unit>
+        <item_number>MP3456</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="298EBF22A0A04AFBBF3B807E0FAEEF96">
+        <classification>Component</classification>
+        <description>Epoxy sealed terminals</description>
+        <id keyed_name="MP3458" type="Part">298EBF22A0A04AFBBF3B807E0FAEEF96</id>
+        <make_buy>Buy</make_buy>
+        <name>Reset Switch</name>
+        <unit>EA</unit>
+        <item_number>MP3458</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="6D19D192783242B485C3DE5DFDDE5619">
+        <classification>Component</classification>
+        <description>Single membrane short switch</description>
+        <id keyed_name="MP3478" type="Part">6D19D192783242B485C3DE5DFDDE5619</id>
+        <make_buy>Buy</make_buy>
+        <name>Switch</name>
+        <unit>EA</unit>
+        <item_number>MP3478</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="07E827B747AE43648AF8C47EAAA9DC16">
+        <classification>Component</classification>
+        <description>Controller Stepper Motor</description>
+        <id keyed_name="MP3494" type="Part">07E827B747AE43648AF8C47EAAA9DC16</id>
+        <make_buy>Buy</make_buy>
+        <name>Controller Stepper Motor</name>
+        <unit>EA</unit>
+        <item_number>MP3494</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="F02A4E56CC1C4A9989FEAE8DFDE3968A">
+        <classification>Component</classification>
+        <description>Quadruple Bus Buffer Gate with 3-State Outputs</description>
+        <id keyed_name="MP3506" type="Part">F02A4E56CC1C4A9989FEAE8DFDE3968A</id>
+        <make_buy>Buy</make_buy>
+        <name>LCD Controller</name>
+        <unit>EA</unit>
+        <item_number>MP3506</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="EE7B37C50A5F48A584E185F9F07E6968">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP3508" type="Part">EE7B37C50A5F48A584E185F9F07E6968</id>
+        <make_buy>Make</make_buy>
+        <name>Replicator Interfaceboard - bare board</name>
+        <unit>EA</unit>
+        <item_number>MP3508</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="25E3941DBCF5460EB8044C0E4A6B55CF">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP3508-2" type="Part">25E3941DBCF5460EB8044C0E4A6B55CF</id>
+        <make_buy>Make</make_buy>
+        <name>New Replicator Interfaceboard - bare board</name>
+        <unit>EA</unit>
+        <item_number>MP3508-2</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="94231BB5B5B244CD91485F7F3F1DC667">
+        <classification>Component</classification>
+        <description>Resistor SMT 33K 1% 1/16W</description>
+        <id keyed_name="MP3509" type="Part">94231BB5B5B244CD91485F7F3F1DC667</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 33K</name>
+        <unit>EA</unit>
+        <item_number>MP3509</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1F343F6E90B342109E01B3DBD26A1A98">
+        <classification>Component</classification>
+        <description>MICRO BUZZER 5V DC / 20mA PCB TYPE - SEALED</description>
+        <id keyed_name="MP3529" type="Part">1F343F6E90B342109E01B3DBD26A1A98</id>
+        <make_buy>Buy</make_buy>
+        <name>Piezo Buzzer</name>
+        <unit>EA</unit>
+        <item_number>MP3529</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="CEBFC57F9458406D985F44D544AA404F">
+        <classification>Component</classification>
+        <description>Resistor SMT 4.7K 5% .06W</description>
+        <id keyed_name="MP3541" type="Part">CEBFC57F9458406D985F44D544AA404F</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 4.7K</name>
+        <unit>EA</unit>
+        <item_number>MP3541</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="0E41EABB155B4380A95A661780B839D8">
+        <classification>Component</classification>
+        <description>Resistor SMT 270ohm 1% 1W</description>
+        <id keyed_name="MP3544" type="Part">0E41EABB155B4380A95A661780B839D8</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor .27K</name>
+        <unit>EA</unit>
+        <item_number>MP3544</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="35572CBF727C4ECB8B40D0D872024E8C">
+        <classification>Component</classification>
+        <description>100K thermistor SMD 1206 1%</description>
+        <id keyed_name="MP3546" type="Part">35572CBF727C4ECB8B40D0D872024E8C</id>
+        <make_buy>Buy</make_buy>
+        <name>Thermistor 100K</name>
+        <unit>EA</unit>
+        <item_number>MP3546</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="336B9D1C58284077A6D56CCB404C57EC">
+        <classification>Component</classification>
+        <description>XC7WH14 Triple inverting Schmitt trigger</description>
+        <id keyed_name="MP3564" type="Part">336B9D1C58284077A6D56CCB404C57EC</id>
+        <make_buy>Buy</make_buy>
+        <name>Tri logic inverter</name>
+        <unit>EA</unit>
+        <item_number>MP3564</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="4AF45C91779E4D0B92B5EF17A366B5DC">
+        <classification>Component</classification>
+        <description>Cap,Ceramic,22pF,50VDC,NP0 TC Code,0805 Case</description>
+        <id keyed_name="MP3597" type="Part">4AF45C91779E4D0B92B5EF17A366B5DC</id>
+        <make_buy>Buy</make_buy>
+        <name>Capacitor 22pF</name>
+        <unit>EA</unit>
+        <item_number>MP3597</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="799A51B95676484691318B717A02B680">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP3598" type="Part">799A51B95676484691318B717A02B680</id>
+        <make_buy>Make</make_buy>
+        <name>Makerbot MightyBoard - bare board</name>
+        <unit>EA</unit>
+        <item_number>MP3598</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="E52079EBB4CA402AAF242F8662E63D5A">
+        <classification>Component</classification>
+        <description>400mA Low-Dropout Voltage Regulator</description>
+        <id keyed_name="MP3609" type="Part">E52079EBB4CA402AAF242F8662E63D5A</id>
+        <make_buy>Buy</make_buy>
+        <name>Voltage regulator 3.3V</name>
+        <unit>EA</unit>
+        <item_number>MP3609</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="5C2D1B651E4442819BAD4C4818EDA25A">
+        <classification>Component</classification>
+        <description>.156” (3.96mm) Through Hole Bottom Entry Connector</description>
+        <id keyed_name="MP3611" type="Part">5C2D1B651E4442819BAD4C4818EDA25A</id>
+        <make_buy>Buy</make_buy>
+        <name>Connector 1x8</name>
+        <unit>EA</unit>
+        <item_number>MP3611</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="3A972DCC9F8643829B3E8FDF4A2C17A9">
+        <classification>Component</classification>
+        <description>Header, 13-Pin, Dual row</description>
+        <id keyed_name="MP3640" type="Part">3A972DCC9F8643829B3E8FDF4A2C17A9</id>
+        <make_buy>Buy</make_buy>
+        <name>26 pin header 13x2</name>
+        <unit>EA</unit>
+        <item_number>MP3640</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="7CEA7517E81B4E2295C4CE963E53A27B">
+        <classification>Component</classification>
+        <description>4.7k ohm resistor 1206 0.1% SMT</description>
+        <id keyed_name="MP3676" type="Part">7CEA7517E81B4E2295C4CE963E53A27B</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 4.7K</name>
+        <unit>EA</unit>
+        <item_number>MP3676</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="125E900B5D6149DA9BA02BA7783C68BD">
+        <classification>Component</classification>
+        <description>CAP805 Multi-layer ceramic chip capacitor</description>
+        <id keyed_name="MP3701" type="Part">125E900B5D6149DA9BA02BA7783C68BD</id>
+        <make_buy>Buy</make_buy>
+        <name>Capacitor 100nF</name>
+        <unit>EA</unit>
+        <item_number>MP3701</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="66945587B51C43A5B2E9434F58A3265F">
+        <classification>Component</classification>
+        <description>5A Low Dropout Positive Regulator</description>
+        <id keyed_name="MP3716" type="Part">66945587B51C43A5B2E9434F58A3265F</id>
+        <make_buy>Buy</make_buy>
+        <name>Voltage regulator 5V</name>
+        <unit>EA</unit>
+        <item_number>MP3716</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="11008876C178491981B93101A1D5FD22">
+        <classification>Component</classification>
+        <description>LCD Backlight white</description>
+        <id keyed_name="MP3729" type="Part">11008876C178491981B93101A1D5FD22</id>
+        <make_buy>Buy</make_buy>
+        <name>LCD Backlight white</name>
+        <unit>EA</unit>
+        <item_number>MP3729</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="871F66D5D20444F283015F23F97AF229">
+        <classification>Component</classification>
+        <description>1.27 mm pin female header</description>
+        <id keyed_name="MP3733" type="Part">871F66D5D20444F283015F23F97AF229</id>
+        <make_buy>Buy</make_buy>
+        <name>Connector 2x6</name>
+        <unit>EA</unit>
+        <item_number>MP3733</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="5EEC4BE9C8E142CB935538F8E091970C">
+        <classification>Component</classification>
+        <description>FDV301N Digital FET, N-Channel</description>
+        <id keyed_name="MP3744" type="Part">5EEC4BE9C8E142CB935538F8E091970C</id>
+        <make_buy>Buy</make_buy>
+        <name>Digital FET</name>
+        <unit>EA</unit>
+        <item_number>MP3744</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="FDCE5037EA0848FFB80989F9BBD7D987">
+        <classification>Component</classification>
+        <description>2 pin jumper</description>
+        <id keyed_name="MP3745" type="Part">FDCE5037EA0848FFB80989F9BBD7D987</id>
+        <make_buy>Buy</make_buy>
+        <name>Jumper</name>
+        <unit>EA</unit>
+        <item_number>MP3745</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="BE86A830E127448D9475F0B97B727284">
+        <classification>Component</classification>
+        <description>NC7WZ02 TinyLogic® UHS Dual 2-Input NOR Gate</description>
+        <id keyed_name="MP3746" type="Part">BE86A830E127448D9475F0B97B727284</id>
+        <make_buy>Buy</make_buy>
+        <name>NOR gate</name>
+        <unit>EA</unit>
+        <item_number>MP3746</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A440E01B301743FFA157D78C9B4BA680">
+        <classification>Component</classification>
+        <description>Chip tantalum capacitors (Bottom surface electrode type : Large capacitance) TCT Series P Case </description>
+        <id keyed_name="MP3763" type="Part">A440E01B301743FFA157D78C9B4BA680</id>
+        <make_buy>Buy</make_buy>
+        <name>Capacitor 100uF</name>
+        <unit>EA</unit>
+        <item_number>MP3763</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="CD7EF2CB70DC4581B0065648B93D7A75">
+        <classification>Component</classification>
+        <description>1k ohm resistor 1206 SMT</description>
+        <id keyed_name="MP3778" type="Part">CD7EF2CB70DC4581B0065648B93D7A75</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 1K</name>
+        <unit>EA</unit>
+        <item_number>MP3778</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="E36D6A2C94564D1CA7E036DE3BF9C87F">
+        <classification>Component</classification>
+        <description>PGB1 Series Halogen-Free / Lead-Free</description>
+        <id keyed_name="MP3810" type="Part">E36D6A2C94564D1CA7E036DE3BF9C87F</id>
+        <make_buy>Buy</make_buy>
+        <name>Diode</name>
+        <unit>EA</unit>
+        <item_number>MP3810</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A52C0F9ECB3A4CC49E4EEED2024FD08F">
+        <classification>Component</classification>
+        <description>Resistor 0ohms 5% 1/1W</description>
+        <id keyed_name="MP3817" type="Part">A52C0F9ECB3A4CC49E4EEED2024FD08F</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 0K</name>
+        <unit>EA</unit>
+        <item_number>MP3817</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="BA879C760A024B2D82E9BC0F5C5C6DA7">
+        <classification>Component</classification>
+        <description>Single, vertical, upright, through holes</description>
+        <id keyed_name="MP3830" type="Part">BA879C760A024B2D82E9BC0F5C5C6DA7</id>
+        <make_buy>Buy</make_buy>
+        <name>USB A port</name>
+        <unit>EA</unit>
+        <item_number>MP3830</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="BD7B0236D257449EA231F1E09E763D93">
+        <classification>Component</classification>
+        <description>8-bit Microcontroller with 8/16/32K Bytes of ISP Flash and USB Controller</description>
+        <id keyed_name="MP3840" type="Part">BD7B0236D257449EA231F1E09E763D93</id>
+        <make_buy>Buy</make_buy>
+        <name>Microcontroller</name>
+        <unit>EA</unit>
+        <item_number>MP3840</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="9AB89501B68743078B4BEDA5968D264B">
+        <classification>Component</classification>
+        <description>High Power Chip Resistors &lt; Wide Terminal type LTR Series </description>
+        <id keyed_name="MP3852" type="Part">9AB89501B68743078B4BEDA5968D264B</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor .022K</name>
+        <unit>EA</unit>
+        <item_number>MP3852</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="506E4C80DB7C4C22ADDCC4F0FD28E699">
+        <classification>Component</classification>
+        <description>LCD Controller Register</description>
+        <id keyed_name="MP3854" type="Part">506E4C80DB7C4C22ADDCC4F0FD28E699</id>
+        <make_buy>Buy</make_buy>
+        <name>LCD Controller Register </name>
+        <unit>EA</unit>
+        <item_number>MP3854</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="F31D3F16D03C4674A12BF5E34F74FE19">
+        <classification>Component</classification>
+        <description>.100  breakaway  header</description>
+        <id keyed_name="MP3856" type="Part">F31D3F16D03C4674A12BF5E34F74FE19</id>
+        <make_buy>Buy</make_buy>
+        <name>Header 8x1</name>
+        <unit>EA</unit>
+        <item_number>MP3856</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="1995FDAE00EE4D88AC762AA1BF404075">
+        <classification>Component</classification>
+        <description>Base strip - MSTBV 2,5/ 4-GF-5,08 BEIGE - 1911350</description>
+        <id keyed_name="MP3868" type="Part">1995FDAE00EE4D88AC762AA1BF404075</id>
+        <make_buy>Buy</make_buy>
+        <name>Terminal block x4</name>
+        <unit>EA</unit>
+        <item_number>MP3868</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="92F838B911A249809DAC9633CFCABA0C">
+        <classification>Component</classification>
+        <description></description>
+        <id keyed_name="MP3876" type="Part">92F838B911A249809DAC9633CFCABA0C</id>
+        <make_buy>Make</make_buy>
+        <name>Botstep 17 - bare board</name>
+        <unit>EA</unit>
+        <item_number>MP3876</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="155C8C64CADE4900B47488484A45B032">
+        <classification>Component</classification>
+        <description>Resistor 12K 1% 1/16W</description>
+        <id keyed_name="MP3887" type="Part">155C8C64CADE4900B47488484A45B032</id>
+        <make_buy>Buy</make_buy>
+        <name>Resistor 12K</name>
+        <unit>EA</unit>
+        <item_number>MP3887</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="7382E984BE2345DF8CBF650169C34F7B">
+        <classification>Component</classification>
+        <description>Green  LED  0805</description>
+        <id keyed_name="MP3908" type="Part">7382E984BE2345DF8CBF650169C34F7B</id>
+        <make_buy>Buy</make_buy>
+        <name>LED Green</name>
+        <unit>EA</unit>
+        <item_number>MP3908</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="87F30D74CE024841A602B654DB87730A">
+        <classification>Component</classification>
+        <description>Solid State</description>
+        <id keyed_name="MP3949" type="Part">87F30D74CE024841A602B654DB87730A</id>
+        <make_buy>Buy</make_buy>
+        <name>Relay</name>
+        <unit>EA</unit>
+        <item_number>MP3949</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A80E5813B46441C894DBB5D55C0EA39F">
+        <classification>Component</classification>
+        <description>SMT - RED, GREEN, YELLOW, AMBER GaAs LED</description>
+        <id keyed_name="MP3967" type="Part">A80E5813B46441C894DBB5D55C0EA39F</id>
+        <make_buy>Buy</make_buy>
+        <name>LED Red</name>
+        <unit>EA</unit>
+        <item_number>MP3967</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="3566D143207046E2BBF63708012F4C97">
+        <classification>Component</classification>
+        <description>LIQUID CRYSTAL DISPLAY DRIVER, PQFP80</description>
+        <id keyed_name="MP3977" type="Part">3566D143207046E2BBF63708012F4C97</id>
+        <make_buy>Buy</make_buy>
+        <name>LCD Controller</name>
+        <unit>EA</unit>
+        <item_number>MP3977</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="2B0A9C4FB28642738B6D756AE6CA0DB8">
+        <classification>Component</classification>
+        <description>8-bit Microcontroller with 8/16/32K Bytes of ISP Flash and USB Controller</description>
+        <id keyed_name="MP3980" type="Part">2B0A9C4FB28642738B6D756AE6CA0DB8</id>
+        <make_buy>Buy</make_buy>
+        <name>Microcontroller</name>
+        <unit>EA</unit>
+        <item_number>MP3980</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="A251369967D4449689A8BF6871FF4A88">
+        <classification>Component</classification>
+        <description>a high power header connector</description>
+        <id keyed_name="MP3986" type="Part">A251369967D4449689A8BF6871FF4A88</id>
+        <make_buy>Buy</make_buy>
+        <name>Header .156" </name>
+        <unit>EA</unit>
+        <item_number>MP3986</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part" action="add" id="F0BFAAD14FFB4DB48631D2499ED6A55C">
+        <classification>Component</classification>
+        <description>Display 2004A-GDS065W</description>
+        <id keyed_name="MP3989" type="Part">F0BFAAD14FFB4DB48631D2499ED6A55C</id>
+        <make_buy>Buy</make_buy>
+        <name>LCD Panel</name>
+        <unit>EA</unit>
+        <item_number>MP3989</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <managed_by_id>DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <itemtype>4F1AC04A2B484F3ABA4E20DB63808A88</itemtype>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>5</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>01B2F67D451D491D84FD5209F44A8F35</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>02963C4DABE44E12A243C5CB3FA322DF</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5CC0ED4630B044ACBF578AC35E4B640B</source_id>
+        <related_id>029A82307CA5499B8E7BFAA0B1E16982</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>3</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>03DCBD82677B410491495758318D96DB</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>03E6B50FF17441168C73A1FF5ABCF891</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>8280D575FED242A89F2B763E5C3496C1</source_id>
+        <related_id>048B35C3F4354EF48034AB11BA603308</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>B9F8E908144948E48A1747AD88716D02</source_id>
+        <related_id>052B70BA995D47CF834EF103CCE0D85E</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>C505C3BB83EC46F383C1E5CFA67AACD2</source_id>
+        <related_id>052B70BA995D47CF834EF103CCE0D85E</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>8</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>05C374CDA229443D8AE292B96431DEBC</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>07E827B747AE43648AF8C47EAAA9DC16</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>09D925EEE1614683BEDF9F2FEF996B23</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>052B70BA995D47CF834EF103CCE0D85E</source_id>
+        <related_id>0DA543DA8B5947DE99F54B39E6AC2357</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>0E41EABB155B4380A95A661780B839D8</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5620EAB3E6F34A4C9B02F753C484AEBB</source_id>
+        <related_id>0EDAA4188E4C4BA981FD4518B5C5DDAD</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>10A19507C6B14AE7A74812358C7B6130</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>11008876C178491981B93101A1D5FD22</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>11BB52561B524B27A3970BC7188C6854</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>BC5AF2203F90411999247B1C99379588</source_id>
+        <related_id>1213E2030EBD4FE58316993FD42D74A7</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>20</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>125E900B5D6149DA9BA02BA7783C68BD</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>6D511886B1E946CC9C5E78C29D2D8383</source_id>
+        <related_id>1398E942DAB948BAA7E0FAEAE04BA921</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>0EDAA4188E4C4BA981FD4518B5C5DDAD</source_id>
+        <related_id>14F871DA13A340F2866D2AD639D5B79A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>5</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>1527A8A174214EF9984E886630C89CDA</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>155C8C64CADE4900B47488484A45B032</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>18600EFF66564595B3545D5638E6E446</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>1906C46491C0445889D8A828248EF1F8</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>3</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>1995FDAE00EE4D88AC762AA1BF404075</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>1A8DD513009C47789DCB8BDF9937DA4A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>BC5AF2203F90411999247B1C99379588</source_id>
+        <related_id>1A8DD513009C47789DCB8BDF9937DA4A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>4AE1B244824F42C49811A6FC33431D5E</source_id>
+        <related_id>1AD8E9CD891D417685168555202E051B</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>052B70BA995D47CF834EF103CCE0D85E</source_id>
+        <related_id>1BE702134FE64333B4DD1F33DF464BB2</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>A8D5E839DF11472A86619F0E519134FE</source_id>
+        <related_id>1C8EEDC07A6345EC8B07F9031AEDDA46</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5620EAB3E6F34A4C9B02F753C484AEBB</source_id>
+        <related_id>1D60FBC213AC49769AA953FA28EAFD43</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>1E15DD3CFE944908830A07E6174648F2</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>1F343F6E90B342109E01B3DBD26A1A98</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>6</quantity>
+        <source_id>5620EAB3E6F34A4C9B02F753C484AEBB</source_id>
+        <related_id>20D920CAC7854A5EB3BC6FA8B5B5B4EE</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>38</quantity>
+        <source_id>731FC75EC97642ED9DEB270AB0F0B505</source_id>
+        <related_id>244A8D77406E413A8D2BDC21558327CB</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>24</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>244A8D77406E413A8D2BDC21558327CB</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>15</quantity>
+        <source_id>6CF4ADC43C0F47ECAF87A292349AE17B</source_id>
+        <related_id>244A8D77406E413A8D2BDC21558327CB</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>14</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>244A8D77406E413A8D2BDC21558327CB</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>24FEE125CF0443808A9F2D5FF92F784F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>10</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>26ABA42FB5614F5D85FE71CC4049E754</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>052B70BA995D47CF834EF103CCE0D85E</source_id>
+        <related_id>272D01E1DB72482DBDDE21293D13474F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>272D01E1DB72482DBDDE21293D13474F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>29700480275442B2A9F94C18F8ABEEEA</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>298EBF22A0A04AFBBF3B807E0FAEEF96</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>2B0A9C4FB28642738B6D756AE6CA0DB8</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>2C6561CD9F21402EBBDB14822EE3A346</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>9EF3CD4874C6451E8166FFF2605BFB71</source_id>
+        <related_id>2C6561CD9F21402EBBDB14822EE3A346</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>E763CACCEF1C4C45B206DEE84DAB80B8</source_id>
+        <related_id>2C997FC81EBA4B2CB9C32E06812A7AC7</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>4AE1B244824F42C49811A6FC33431D5E</source_id>
+        <related_id>2D75C43A439E425AAFBC6BA75E9922B6</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5CC0ED4630B044ACBF578AC35E4B640B</source_id>
+        <related_id>2D967C7D1DC94B879770A5331D45E256</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5620EAB3E6F34A4C9B02F753C484AEBB</source_id>
+        <related_id>2DB5633B721C41489959D08A0BE326FA</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>4AE1B244824F42C49811A6FC33431D5E</source_id>
+        <related_id>2F13F8E06AB141DC99F9312B31E307BE</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>3015E92BDB3C48AE92514C50C24F9471</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>32CAB391549C40BD90461997B0E75FA2</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>336B9D1C58284077A6D56CCB404C57EC</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>7ED875D438FA400495A5968647376A2D</source_id>
+        <related_id>35572CBF727C4ECB8B40D0D872024E8C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>3566D143207046E2BBF63708012F4C97</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>6</quantity>
+        <source_id>6D511886B1E946CC9C5E78C29D2D8383</source_id>
+        <related_id>3620D4920F0E4293B571FA64E256C558</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>37280634371E42F291A6B1D906A430D6</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>B9F8E908144948E48A1747AD88716D02</source_id>
+        <related_id>39CB2792B428432490200368B87DE9CA</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>C505C3BB83EC46F383C1E5CFA67AACD2</source_id>
+        <related_id>39CB2792B428432490200368B87DE9CA</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>3A972DCC9F8643829B3E8FDF4A2C17A9</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>B9F8E908144948E48A1747AD88716D02</source_id>
+        <related_id>3AEFB5C97E964E0C8915370092022410</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>C505C3BB83EC46F383C1E5CFA67AACD2</source_id>
+        <related_id>3AEFB5C97E964E0C8915370092022410</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>7ED875D438FA400495A5968647376A2D</source_id>
+        <related_id>3DEB292D0C9F4AFD993B948F8DE603E8</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>5620EAB3E6F34A4C9B02F753C484AEBB</source_id>
+        <related_id>406792ADF7924AF78A7070A4DD2FA274</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>4331B846DAD84C098B0B6842F91DD531</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>15</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>45A9523A26994917830B9F97A0962155</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>49BCE3D0ED7B494DBDD5F8B49246FD75</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>4AB823CEF08042D5B322AF062895F98C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>4AB823CEF08042D5B322AF062895F98C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>6D511886B1E946CC9C5E78C29D2D8383</source_id>
+        <related_id>4AB823CEF08042D5B322AF062895F98C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>8280D575FED242A89F2B763E5C3496C1</source_id>
+        <related_id>4AE1B244824F42C49811A6FC33431D5E</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>5</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>4AF45C91779E4D0B92B5EF17A366B5DC</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>C505C3BB83EC46F383C1E5CFA67AACD2</source_id>
+        <related_id>4C40CCBC9E864E9CA7BE8A93423BD362</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>B9F8E908144948E48A1747AD88716D02</source_id>
+        <related_id>4C40CCBC9E864E9CA7BE8A93423BD362</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>506E4C80DB7C4C22ADDCC4F0FD28E699</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>C505C3BB83EC46F383C1E5CFA67AACD2</source_id>
+        <related_id>526C66B626B64BCB869ACBB083A900A3</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>B9F8E908144948E48A1747AD88716D02</source_id>
+        <related_id>526C66B626B64BCB869ACBB083A900A3</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>53769B210B184955AD40DF6D04BCA7CF</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>53FC97F610FF4C28934334957D2F69AE</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>B9F8E908144948E48A1747AD88716D02</source_id>
+        <related_id>5620EAB3E6F34A4C9B02F753C484AEBB</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>C505C3BB83EC46F383C1E5CFA67AACD2</source_id>
+        <related_id>5620EAB3E6F34A4C9B02F753C484AEBB</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>5782171FADC14CA5B8DC988ACA435617</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>6D511886B1E946CC9C5E78C29D2D8383</source_id>
+        <related_id>5932FA4E8E0F4471B5C8497E2D29DD05</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>5A4CCC84AB594E05AD12D5C9D584A220</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>5B13D8E6502A43D0A19C237100A400A5</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>10</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>5C2D1B651E4442819BAD4C4818EDA25A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>8</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>5CB59A4D2330437B80B982518B2B9901</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>BC5AF2203F90411999247B1C99379588</source_id>
+        <related_id>5CC0ED4630B044ACBF578AC35E4B640B</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>3</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>5EEC4BE9C8E142CB935538F8E091970C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>B9F8E908144948E48A1747AD88716D02</source_id>
+        <related_id>6020DB29814C4D838E60D315A1C95E8C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>C505C3BB83EC46F383C1E5CFA67AACD2</source_id>
+        <related_id>6020DB29814C4D838E60D315A1C95E8C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>8</quantity>
+        <source_id>3AEFB5C97E964E0C8915370092022410</source_id>
+        <related_id>60B80ED3B4664550B85D21D590EE88C6</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>BC5AF2203F90411999247B1C99379588</source_id>
+        <related_id>615A864791234ACF85B26E8D5E81B08C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>6</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>61CFB47EE1DF4FBFBB9A38FC53CBEA04</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>63FDE786A9DD40A5B090511DEB0F6419</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>6494C1D1DCCA426A961368F53DDCA553</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>66945587B51C43A5B2E9434F58A3265F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>67279A7BB9884423AC4E41C4C1DA5B24</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5CC0ED4630B044ACBF578AC35E4B640B</source_id>
+        <related_id>6BF132C3031B452C9CB8D16AACEEB6FF</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>6CF3D3080E994B5F925D2D612575E056</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>8280D575FED242A89F2B763E5C3496C1</source_id>
+        <related_id>6CF4ADC43C0F47ECAF87A292349AE17B</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>5</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>6D19D192783242B485C3DE5DFDDE5619</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>6D511886B1E946CC9C5E78C29D2D8383</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>6E214A35594C42E2B23A0436022DE3D9</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>10</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>6FDC98DD18994CE48BA6941298BE24FE</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>716E5777B3EB47368F424B9381975A92</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>BC5AF2203F90411999247B1C99379588</source_id>
+        <related_id>731FC75EC97642ED9DEB270AB0F0B505</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>7382E984BE2345DF8CBF650169C34F7B</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>15</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>7382E984BE2345DF8CBF650169C34F7B</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>6D511886B1E946CC9C5E78C29D2D8383</source_id>
+        <related_id>754B4C062A7241A2B512BB0B96276F8E</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>3</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>76888E2639AD4B998AD492DBB1107753</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>799A51B95676484691318B717A02B680</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>79D68567065045F59E19125898CFF019</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>7B2E1053EAF4424289FE4E6BA612A525</source_id>
+        <related_id>7A934DA66BC04562A1A729602654AF32</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>BC5AF2203F90411999247B1C99379588</source_id>
+        <related_id>7B2E1053EAF4424289FE4E6BA612A525</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>7ED875D438FA400495A5968647376A2D</source_id>
+        <related_id>7CEA7517E81B4E2295C4CE963E53A27B</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>052B70BA995D47CF834EF103CCE0D85E</source_id>
+        <related_id>7D10C7CAB2AF4F349A92FBD846EE3B28</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5CC0ED4630B044ACBF578AC35E4B640B</source_id>
+        <related_id>7D40EEE469E44DECAA126C2DB65D0912</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>6</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>7E82C4D8C31A40F7B87092F8779E9BF1</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>7ED875D438FA400495A5968647376A2D</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5CC0ED4630B044ACBF578AC35E4B640B</source_id>
+        <related_id>7F2ABFB447CC449A81CC5327643F0F44</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>0AA62AED57B44C638A83F30D6F4AD77F</source_id>
+        <related_id>7F4A5A08195A44B597212A1B68451D30</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>C505C3BB83EC46F383C1E5CFA67AACD2</source_id>
+        <related_id>8280D575FED242A89F2B763E5C3496C1</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>0AA62AED57B44C638A83F30D6F4AD77F</source_id>
+        <related_id>8280D575FED242A89F2B763E5C3496C1</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5620EAB3E6F34A4C9B02F753C484AEBB</source_id>
+        <related_id>83890B1872744031BBB8EC2DBC37D5C6</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>871F66D5D20444F283015F23F97AF229</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>87F30D74CE024841A602B654DB87730A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>8C4BC52979C4441DB58B7268AB4FF79D</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>8CA5994A5DF84E8C8847433AE34DBA91</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>8DD5C62F7ECF42A7BD9447A09210F7A8</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>8E0DDE8AEBAD46E7BBF0BAFECFF12C0B</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>92F838B911A249809DAC9633CFCABA0C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>93439C790F254876A0C28828F4D7647B</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>94231BB5B5B244CD91485F7F3F1DC667</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>4AE1B244824F42C49811A6FC33431D5E</source_id>
+        <related_id>951B2EBD9D544AD79BDD1A0603FAA4A3</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>BC5AF2203F90411999247B1C99379588</source_id>
+        <related_id>98DED6CDC1924D738BDBE9EA3B7D56F6</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>6</quantity>
+        <source_id>6D511886B1E946CC9C5E78C29D2D8383</source_id>
+        <related_id>9984D6FD199046A59C5B1D62D0569B55</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>99BC12E7341C440DBE5F5F038ACF9007</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>9AB89501B68743078B4BEDA5968D264B</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>5620EAB3E6F34A4C9B02F753C484AEBB</source_id>
+        <related_id>9B9C1A8A78BE478DBF0E2F8AE6C949FC</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>9ECC245B665D40CCAB34646ADAA2D137</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>BC5AF2203F90411999247B1C99379588</source_id>
+        <related_id>9EF3CD4874C6451E8166FFF2605BFB71</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>A0F354B0E35D441C8A14D648FC697567</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>7ED875D438FA400495A5968647376A2D</source_id>
+        <related_id>A131DD7D3ED744648DB7E11DFED891EC</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>A142500C32E3426C88EF9ECF3CCDE1F4</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>7ED875D438FA400495A5968647376A2D</source_id>
+        <related_id>A251369967D4449689A8BF6871FF4A88</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>A322282BD2B34FCAB8B33564096C53C7</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>A440E01B301743FFA157D78C9B4BA680</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>A456BC07346E4A789C459B6BBF26714A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>7B2E1053EAF4424289FE4E6BA612A525</source_id>
+        <related_id>A48FFEC7AA934538BA6AE4099C0CEDFF</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>A52C0F9ECB3A4CC49E4EEED2024FD08F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>20</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>A52C0F9ECB3A4CC49E4EEED2024FD08F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>A80E5813B46441C894DBB5D55C0EA39F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>A80E5813B46441C894DBB5D55C0EA39F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>7ED875D438FA400495A5968647376A2D</source_id>
+        <related_id>A80E5813B46441C894DBB5D55C0EA39F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>C505C3BB83EC46F383C1E5CFA67AACD2</source_id>
+        <related_id>A8D5E839DF11472A86619F0E519134FE</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>B9F8E908144948E48A1747AD88716D02</source_id>
+        <related_id>A8D5E839DF11472A86619F0E519134FE</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>ACC1D756F6744B10AFEF4779C62159D0</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>AE2B508EBB3A4077A63A3A10140157FF</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>B037E694D6F54471873E854DB94C278D</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>5</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>B31044B68D444D1BB42DB5EF01B83350</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>3AEFB5C97E964E0C8915370092022410</source_id>
+        <related_id>B6DC50A1D493430591C39ECEFDB8D7FA</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5CC0ED4630B044ACBF578AC35E4B640B</source_id>
+        <related_id>B7EA821806164558BDC66334C835C51F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>B7FDD251BCAD40F29325E48C7F99D385</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>3</quantity>
+        <source_id>052B70BA995D47CF834EF103CCE0D85E</source_id>
+        <related_id>B967B5AAEF344577BE9A65A52E5C3CE9</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>BA879C760A024B2D82E9BC0F5C5C6DA7</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>BAD8BAD29FED4C1A83FC83A1253871CD</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>BAD8BAD29FED4C1A83FC83A1253871CD</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>BAD8BAD29FED4C1A83FC83A1253871CD</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>6</quantity>
+        <source_id>5620EAB3E6F34A4C9B02F753C484AEBB</source_id>
+        <related_id>BB375BA8D1F047B5BD7822FE08679A31</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>B9F8E908144948E48A1747AD88716D02</source_id>
+        <related_id>BC5AF2203F90411999247B1C99379588</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>C505C3BB83EC46F383C1E5CFA67AACD2</source_id>
+        <related_id>BC5AF2203F90411999247B1C99379588</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>BD7B0236D257449EA231F1E09E763D93</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>BE3E46EFDCC9401582B728D477930A33</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>5</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>BE6FF3B5CA204384A1FDA14F4A6AD07E</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>BE86A830E127448D9475F0B97B727284</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>BF77C9D47C334C31AB4358BEE5E1D5EE</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>C0F8E890509342469358F11DA2BAD8DC</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>C217BBFEEF414B0C9AD19164A872DEB6</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>C2D5BC4B7C7A4E609E3357AB11222601</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>C642BFF9C8E646B9ADDC52AEDEA3C9E6</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>7</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>C7F7F43D7CC148B6B8A2C3E204A6A631</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>16</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>CD7EF2CB70DC4581B0065648B93D7A75</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>7ED875D438FA400495A5968647376A2D</source_id>
+        <related_id>CD7EF2CB70DC4581B0065648B93D7A75</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>CEA5CD3AA9134705A99AD1E3EAD607E8</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>CEBFC57F9458406D985F44D544AA404F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>17</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>CEBFC57F9458406D985F44D544AA404F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>CECBF91D4B8641C5ABB40A85C9706C5A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>CF708C83692C4113908F9EEC64BEAE59</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>A8D5E839DF11472A86619F0E519134FE</source_id>
+        <related_id>CFA387C8052C4864B4728BB5C35BA140</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>A8D5E839DF11472A86619F0E519134FE</source_id>
+        <related_id>CFB85B57DE9A43CC9D9371B85C87E672</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>D00163AB045542CD8F0360E72918000E</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>BC5AF2203F90411999247B1C99379588</source_id>
+        <related_id>D1C5E05722444C3CBF5A698947DD27C5</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>D2A76DA5A5EA43BF95F3B83355B5BD04</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5CC0ED4630B044ACBF578AC35E4B640B</source_id>
+        <related_id>D37883BCB6FD4DC6AE55F9D9F1CC2931</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>9</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>D430D15658914B9895E315610010D08C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>5</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>D76AEE4A292E470392583F4A3E2A5A69</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>16</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>D7AA1FEA74E24F45BE593416D955BD9F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>44</quantity>
+        <source_id>731FC75EC97642ED9DEB270AB0F0B505</source_id>
+        <related_id>D7AA1FEA74E24F45BE593416D955BD9F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>24</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>D7AA1FEA74E24F45BE593416D955BD9F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>15</quantity>
+        <source_id>6CF4ADC43C0F47ECAF87A292349AE17B</source_id>
+        <related_id>D7AA1FEA74E24F45BE593416D955BD9F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>DA6A5821D7D043C48309566653A9C432</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>7B2E1053EAF4424289FE4E6BA612A525</source_id>
+        <related_id>DA6A5821D7D043C48309566653A9C432</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>DA6A5821D7D043C48309566653A9C432</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>5</quantity>
+        <source_id>731FC75EC97642ED9DEB270AB0F0B505</source_id>
+        <related_id>DAFB0854CF234025AF380D23CB603E42</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>4AE1B244824F42C49811A6FC33431D5E</source_id>
+        <related_id>DF0DA7125834435E9EA4D4FB72CD3BC4</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>DFA1AB798029407EA24BB494F6B2321C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5620EAB3E6F34A4C9B02F753C484AEBB</source_id>
+        <related_id>DFB575A241DC456F8D4FEE188DF5BE3E</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>16</quantity>
+        <source_id>E763CACCEF1C4C45B206DEE84DAB80B8</source_id>
+        <related_id>E21B5B09658C4FB28F184539F906BE7E</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>E36D6A2C94564D1CA7E036DE3BF9C87F</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>E52079EBB4CA402AAF242F8662E63D5A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>BC5AF2203F90411999247B1C99379588</source_id>
+        <related_id>E763CACCEF1C4C45B206DEE84DAB80B8</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>6D511886B1E946CC9C5E78C29D2D8383</source_id>
+        <related_id>E81E0C71B08C46969C9BB63D61260297</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>6020DB29814C4D838E60D315A1C95E8C</source_id>
+        <related_id>E84C3527841D489B9E288DAE57C97CFA</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>6D511886B1E946CC9C5E78C29D2D8383</source_id>
+        <related_id>E8B1817E1F2B48A4AA41C4ADA989B70E</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>EAE86DDE8FF4475CAB9AF229558B7EF4</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>3</quantity>
+        <source_id>E763CACCEF1C4C45B206DEE84DAB80B8</source_id>
+        <related_id>ECADE8078F1746EB8F6143561F7D4385</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>EE1F23A7DD2A429EAC6ED5E231FC433A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>A8D5E839DF11472A86619F0E519134FE</source_id>
+        <related_id>EE5EDA69A81A4839B1CE47116F3287DB</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>EE7B37C50A5F48A584E185F9F07E6968</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>5</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>EF0E57C082B3497B9CF25EDD9DA24B7E</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>F02A4E56CC1C4A9989FEAE8DFDE3968A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>F0BFAAD14FFB4DB48631D2499ED6A55C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>5CC0ED4630B044ACBF578AC35E4B640B</source_id>
+        <related_id>F1E4DC882E0D4848B69D4B9F55EC4DBA</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>F31D3F16D03C4674A12BF5E34F74FE19</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>6</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>F3B40B54AB764C70A8DAF0CBD8749356</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>83890B1872744031BBB8EC2DBC37D5C6</source_id>
+        <related_id>F3B40B54AB764C70A8DAF0CBD8749356</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>0EDAA4188E4C4BA981FD4518B5C5DDAD</source_id>
+        <related_id>F43182EEABD24A73A25BBB0CDDF91AE2</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>7B2E1053EAF4424289FE4E6BA612A525</source_id>
+        <related_id>F7AB76D5EB174CF1A5A5FF3C73401B59</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>01B2F67D451D491D84FD5209F44A8F35</source_id>
+        <related_id>F93F5E37E7684A8EB9A9655CFE576CEA</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>3AEFB5C97E964E0C8915370092022410</source_id>
+        <related_id>FA546E6127744313BD124C84763972A2</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>FB0CB50C7C364AD8A692F6B2FF0EA76B</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>526C66B626B64BCB869ACBB083A900A3</source_id>
+        <related_id>FBF11A2028BB4C9EA7E3CDCAD0DF5031</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>7B2E1053EAF4424289FE4E6BA612A525</source_id>
+        <related_id>FBF11A2028BB4C9EA7E3CDCAD0DF5031</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>5</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>FBF11A2028BB4C9EA7E3CDCAD0DF5031</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>FC126A4AB14441F49F921E85D87FCE4A</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>39CB2792B428432490200368B87DE9CA</source_id>
+        <related_id>FCC31BED382D4C82B67CAD3CD1050936</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>9EF3CD4874C6451E8166FFF2605BFB71</source_id>
+        <related_id>FCC31BED382D4C82B67CAD3CD1050936</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>4</quantity>
+        <source_id>731FC75EC97642ED9DEB270AB0F0B505</source_id>
+        <related_id>FCC580D88DC54FB4B9F091254AA8699C</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>DFB575A241DC456F8D4FEE188DF5BE3E</source_id>
+        <related_id>FDCE5037EA0848FFB80989F9BBD7D987</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>4C40CCBC9E864E9CA7BE8A93423BD362</source_id>
+        <related_id>FEF7E0680A084E9C9A7D8C42F3F0E6DA</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>1</quantity>
+        <source_id>7B2E1053EAF4424289FE4E6BA612A525</source_id>
+        <related_id>FF582F00C8D140D28E19A92C1790BF68</related_id>
+    </Item>
+    <Item type="Part BOM" action="add">
+        <quantity>2</quantity>
+        <source_id>731FC75EC97642ED9DEB270AB0F0B505</source_id>
+        <related_id>FF5D75695CC648EDB8FB43FF8BCD0103</related_id>
+    </Item>
+</AML>
