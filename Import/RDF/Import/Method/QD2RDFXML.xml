@@ -1,4 +1,4 @@
-﻿<AML>
+<AML>
  <Item type="Method" id="6E7D1A19E4444A19A962BE314786A24C" action="add">
   <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
   <method_code><![CDATA[    const string BASE = "http://purl.org/aras-poc/base#";
@@ -6,9 +6,8 @@
     
     Innovator inn = this.getInnovator();
     XmlDocument doc = new XmlDocument();
-    string qd_id = this.getProperty("qd_id","");
-    //string qd_id = "467143F3250D42CF9D2F6F880ABD3999"; // for testing
     
+    string qd_id = this.getProperty("qd_id","5BE0A43C1D5E4184B1FB82F6D847A4B5");
     // get query definition with relationships
     Item queryDef = inn.newItem("qry_QueryDefinition","get");
     queryDef.setID(qd_id);
@@ -17,7 +16,7 @@
     
     // get top-level query item (context item)                  
     string offset = "0";
-    string fetch = "3";
+    string fetch = "1";
     string offset_fetch = @"<configuration><option><offset>" + offset + 
                         "</offset><fetch>" + fetch + 
                         "</fetch></option></configuration>";
