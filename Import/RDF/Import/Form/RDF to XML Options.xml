@@ -4,11 +4,11 @@
   <height>260</height>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>260</width>
-  <name>RDF to XML Options</name>
+  <name>RDF Export Options</name>
   <Relationships>
    <Item type="Body" id="B6FC3E8A414546D8B71229C8B175567F" action="add">
     <sort_order>128</sort_order>
-    <source_id keyed_name="RDF to XML Options" type="Form">4C237F87D1EA47CCA0835562F57F644B</source_id>
+    <source_id keyed_name="RDF Export Options" type="Form">4C237F87D1EA47CCA0835562F57F644B</source_id>
     <Relationships>
      <Item type="Field" id="B9602327046643DAAE7E4A3D941E7924" action="add">
       <border_width>0</border_width>
@@ -82,14 +82,14 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label xml:lang="en">RDF/XML Export Options</label>
+      <label xml:lang="en">RDF Export Options</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <sort_order>384</sort_order>
       <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
       <tab_stop>1</tab_stop>
       <text_align>left</text_align>
-      <x>20</x>
+      <x>40</x>
       <y>5</y>
       <name>label</name>
      </Item>
