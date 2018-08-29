@@ -1,15 +1,15 @@
 ﻿<AML>
  <Item type="Action" id="1FD393D92482423D836257252F0D90C9" action="add">
   <item_query>&lt;Item type="{@type}" id="{@id}" levels= "1" action="get" /&gt;</item_query>
-  <label xml:lang="en">Convert to RDF/XML</label>
+  <label xml:lang="en">Convert to RDF</label>
   <location>client</location>
-  <method keyed_name="Export QD to RDF XML" type="Method">
+  <method keyed_name="Export QD to RDF" type="Method">
    <Item type="Method" action="get" select="id">
-    <name>Export QD to RDF XML</name>
+    <name>Export QD to RDF</name>
    </Item>
   </method>
-  <target>one window</target>
+  <target>none</target>
   <type>item</type>
-  <name>Convert to RDF XML</name>
+  <name>Convert to RDF</name>
  </Item>
 </AML>

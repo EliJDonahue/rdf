@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Method" id="ED40BA83848E4E948512ADA568AE7007" action="add">
+  <comments>Button onClick event for the RDF Export Options dialog</comments>
   <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
   <method_code><![CDATA[// onClick field event for Submit button
 // Returns the form field values to the method that called the current dialog
@@ -12,6 +13,14 @@ var p1 = wrapper1.getElementsByTagName("input")[0];
 var wrapper2 = getFieldByName("offset");
 var p2 = wrapper2.getElementsByTagName("input")[0];
 
+// get output type field
+var wrapper3 = document.getElementById("output_type_list");
+var p3 = wrapper3[wrapper3.selectedIndex];
+
+// get compact field
+var wrapper4 = getFieldByName("compact");
+var p4 = wrapper4.getElementsByTagName("input")[0];
+
 if (!p1){
 	alert("Can't find field 'fetch'");
 	return;
@@ -20,11 +29,21 @@ if (!p2){
 	alert("Can't find field 'offset'");
 	return;
 }
+if (!p3){
+	alert("Can't find field 'output_type'");
+	return;
+}
+if (!p4){
+	alert("Can't find field 'compact'");
+	return;
+}
 
 // return entered values
 var retVal = {};
-retVal["fetch"] = p1.value;
-retVal["offset"] = p2.checked;
+retVal.fetch = p1.value;
+retVal.offset = p2.value;
+retVal.output = p3.value;
+retVal.compact = p4.checked;
 
 parent.returnValue = retVal; 
 parent.close();]]></method_code>
