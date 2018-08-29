@@ -1,9 +1,9 @@
-﻿<AML>
+<AML>
  <Item type="Form" id="4C237F87D1EA47CCA0835562F57F644B" action="add">
   <category_form>0</category_form>
-  <height>300</height>
+  <height>260</height>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
-  <width>300</width>
+  <width>260</width>
   <name>RDF to XML Options</name>
   <Relationships>
    <Item type="Body" id="B6FC3E8A414546D8B71229C8B175567F" action="add">
@@ -27,7 +27,7 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
       <tab_stop>1</tab_stop>
-      <x>10</x>
+      <x>20</x>
       <y>50</y>
       <name>fetch</name>
      </Item>
@@ -48,8 +48,8 @@
       <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
       <tab_stop>1</tab_stop>
       <text_align>left</text_align>
-      <x>10</x>
-      <y>10</y>
+      <x>20</x>
+      <y>5</y>
       <name>label</name>
      </Item>
      <Item type="Field" id="AEBE5243E3D54789A6147B0AD7419DD1" action="add">
@@ -69,7 +69,7 @@
       <sort_order>256</sort_order>
       <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
       <tab_stop>1</tab_stop>
-      <x>10</x>
+      <x>20</x>
       <y>90</y>
       <name>offset</name>
      </Item>
@@ -89,8 +89,8 @@
       <sort_order>512</sort_order>
       <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
       <tab_stop>1</tab_stop>
-      <x>56</x>
-      <y>138</y>
+      <x>66</x>
+      <y>198</y>
       <name>submit</name>
       <Relationships>
        <Item type="Field Event" id="CFA65E3B5C604611A6C336CA5E976AE9" action="add">
