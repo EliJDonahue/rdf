@@ -191,7 +191,7 @@
             output = RDF2String(g);
             RDF2File(g, file + ".rdf");
             break;
-    
+            
         case "CSV":
             output = Triples2String(g);
             Triples2File(g, file + ".csv");
@@ -202,6 +202,10 @@
             Turtle2File(g, file + ".ttl");
             break;
             
+        case "JSON-LD":
+            output = JSONLD2String(g);
+            JSONLD2File(g, file + ".json");
+            break;
     }
 
     Item res = inn.newResult(output);
@@ -350,6 +354,18 @@ private static string Turtle2String (IGraph g)
     return strWriter.ToString();
 }
 
+// build a JSON-LD string
+private static string JSONLD2String (IGraph g)
+{
+    System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    jsonldwriter.Save(store, strWriter);
+    
+    return strWriter.ToString();
+}
 
 // write RDF/XML to a file
 private static void RDF2File (IGraph g, string file)
@@ -370,7 +386,17 @@ private static void Triples2File (IGraph g, string file)
 {
     CsvWriter csvwriter = new CsvWriter();
     csvwriter.Save(g, file);
-]]></method_code>
+}
+
+// write JSON-LD to a file
+private static void JSONLD2File (IGraph g, string file)
+{
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    jsonldwriter.Save(store, file);
+    ]]></method_code>
   <method_type>C#</method_type>
   <name>QD2RDFXML</name>
  </Item>
