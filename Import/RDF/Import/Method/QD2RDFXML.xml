@@ -8,11 +8,14 @@
     Innovator inn = this.getInnovator();
     XmlDocument doc = new XmlDocument();
     
+    // parse parameters
     string qd_id = this.getProperty("qd_id","5BE0A43C1D5E4184B1FB82F6D847A4B5");
     string output_type = this.getProperty("output","RDF");
     string file_name = this.getProperty("file_name",DateTime.Now.ToString("MMdd-HHmmss"));
     string file_path = this.getProperty("file_path",@"C:\temp\RDF\");
     string compact = this.getProperty("compact_json","");
+    string offset = this.getProperty("offset","0");
+    string fetch = this.getProperty("fetch","1");
     
     // get query definition with relationships
     Item queryDef = inn.newItem("qry_QueryDefinition","get");
@@ -21,8 +24,6 @@
     queryDef = queryDef.apply();
     
     // get top-level query item (context item)                  
-    string offset = "0";
-    string fetch = "1";
     string offset_fetch = @"<configuration><option><offset>" + offset + 
                         "</offset><fetch>" + fetch + 
                         "</fetch></option></configuration>";
