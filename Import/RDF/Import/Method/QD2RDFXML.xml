@@ -301,7 +301,7 @@ private static string GetIdFromNode(XmlNode node)
 }
 
 // build a string of triples
-private static string OutPutTriples(IGraph g)
+private static string Triples2String (IGraph g)
 {
     System.IO.StringWriter strWriter = new System.IO.StringWriter();
     CsvWriter csvwriter = new CsvWriter();
@@ -312,7 +312,7 @@ private static string OutPutTriples(IGraph g)
 }
 
 // build a string of RDF/XML
-private static string OutPutXML(IGraph g)
+private static string RDF2String (IGraph g)
 {
     System.IO.StringWriter strWriter = new System.IO.StringWriter();
     RdfXmlWriter rdfxmlwriter = new RdfXmlWriter();
@@ -323,7 +323,7 @@ private static string OutPutXML(IGraph g)
 }
 
 // write RDF/XML to a file
-private static void OutPutRDF(IGraph g, string file)
+private static void RDF2File (IGraph g, string file)
 {
     RdfXmlWriter rdfxmlwriter = new RdfXmlWriter();
     rdfxmlwriter.Save(g, file);
