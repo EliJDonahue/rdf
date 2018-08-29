@@ -186,7 +186,19 @@
     string file = file_path + file_name;
     
     switch (output_type)
+    {
+        case "RDF":
+            output = RDF2String(g);
+            RDF2File(g, file + ".rdf");
+            break;
     
+        case "CSV":
+            output = Triples2String(g);
+            Triples2File(g, file + ".csv");
+            break;
+        
+    }
+
     Item res = inn.newResult(output);
     return res;
 }
