@@ -303,14 +303,12 @@ private static string GetIdFromNode(XmlNode node)
 // build a string of triples
 private static string OutPutTriples(IGraph g)
 {
-    string output = "";
+    System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    CsvWriter csvwriter = new CsvWriter();
     
-    foreach (Triple t in g.Triples)
-    {
-        output += t.ToString() + "\n";
-    }
+    csvwriter.Save(g, strWriter);
     
-    return output;
+    return strWriter.ToString();
 }
 
 // build a string of RDF/XML
