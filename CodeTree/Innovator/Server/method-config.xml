@@ -345,7 +345,7 @@ End Namespace
 ]]>
 	</Template>
 
-	<Template name="CSharp" line_number_offset="41">
+	<Template name="CSharp" line_number_offset="43">
 		<![CDATA[using Aras.IOM;
 using System;
 using System.Collections;
@@ -363,8 +363,10 @@ using System.Xml;
 using System.Xml.Xsl;
 using Saxon.Api;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using VDS.RDF;
 using VDS.RDF.Writing;
+using VDS.RDF.JsonLd;
 
 namespace $(pkgname)
 {
