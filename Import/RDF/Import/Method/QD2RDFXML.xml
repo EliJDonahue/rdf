@@ -347,7 +347,7 @@ private static string RDF2String (IGraph g)
 private static string Turtle2String (IGraph g)
 {
     System.IO.StringWriter strWriter = new System.IO.StringWriter();
-    TurtleWriter turtlewriter = new TurtleWriter();
+    CompressingTurtleWriter turtlewriter = new CompressingTurtleWriter();
     
     turtlewriter.Save(g, strWriter);
     
@@ -377,7 +377,7 @@ private static void RDF2File (IGraph g, string file)
 // write Turtle to a file
 private static void Turtle2File (IGraph g, string file)
 {
-    TurtleWriter turtlewriter = new TurtleWriter();
+    CompressingTurtleWriter turtlewriter = new CompressingTurtleWriter();
     turtlewriter.Save(g, file);
 }
 
