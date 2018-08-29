@@ -1,16 +1,15 @@
-﻿<AML>
+<AML>
  <Item type="Method" id="84602649F8B3435AB2C9C1AFD4E8E6FD" action="add">
+  <comments>Action method that uses QD2RDF method to export RDF</comments>
   <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
-  <method_code><![CDATA[//"467143F3250D42CF9D2F6F880ABD3999"; // for testing
-
-var inn = this.getInnovator();
+  <method_code><![CDATA[var inn = this.getInnovator();
 var qd_id = this.getID();
 
 var topWnd = aras.getMostTopWindowWithAras(window);
 topWnd = topWnd.main || topWnd;
 
 // get form
-var formName = "RDF to XML Options";
+var formName = "RDF Export Options";
 var fetchForm = inn.newItem("Form", "get");
 fetchForm.setProperty("name", formName);
 fetchForm = fetchForm.apply("get");
@@ -21,11 +20,11 @@ if (fetchForm.isError())
     
 // get form params
 var params = {
-    title: 'RDF/XML Export Options',
+    title: 'RDF Export Options',
     formId: fetchForm.getID(), // put your form's id here
     aras: aras,
-    dialogWidth: 300, // set width int
-    dialogHeight: 300, // set height int
+    dialogWidth: 260, // set width int
+    dialogHeight: 260, // set height int
     content: 'ShowFormAsADialog.html'
 };
 
@@ -38,14 +37,6 @@ var callback = function(res) {
     if (convert.isError())
         return alert(convert.getErrorString());
     
-    var nodeResult = convert.toString();
-    
-    nodeResult = nodeResult.replace('xmlns:SOAP-ENV=', "");
-    nodeResult = nodeResult.replace('"http://schemas.xmlsoap.org/soap/envelope/" ', "");
-    nodeResult = nodeResult.replace('<SOAP-ENV:Envelope xmlns:i18n="http://www.aras.com/I18N"><SOAP-ENV:Body><Result>', "");
-    nodeResult = nodeResult.replace('</Result></SOAP-ENV:Body></SOAP-ENV:Envelope>', "");
-    
-    //return nodeResult;
     return alert("Success!");
 };
     
@@ -53,6 +44,6 @@ var callback = function(res) {
 topWnd.ArasModules.Dialog.show("iframe", params).promise.then(callback);
 ]]></method_code>
   <method_type>JavaScript</method_type>
-  <name>Export QD to RDF XML</name>
+  <name>Export QD to RDF</name>
  </Item>
 </AML>
