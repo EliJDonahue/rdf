@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Method" id="84602649F8B3435AB2C9C1AFD4E8E6FD" action="add">
   <comments>Action method that uses QD2RDF method to export RDF</comments>
   <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
@@ -29,14 +29,26 @@ var params = {
 };
 
 var callback = function(res) {
-    var offset = res["offset"] === undefined ? "0" : res["offset"];
-    var fetch = res["fetch"] === undefined ? "0" : res["fetch"];
     
-    var convert = inn.applyMethod("QD2RDFXML", "<qd_id>" + qd_id + "</qd_id><offset>" + offset + "</offset><fetch>" + fetch + "</fetch>");
+    if (res === undefined || res === null)
+        return;
+    
+    var offset = res.offset === undefined ? "0" : res.offset;
+    var fetch = res.fetch === undefined ? "1" : res.fetch;
+    var output = res.output === undefined ? "RDF" : res.output;
+    var compact = res.compact === false ? "" : res.compact;
+    
+    var aml_body = "<qd_id>" + qd_id + "</qd_id>";
+    aml_body += "<offset>" + offset + "</offset>";
+    aml_body += "<fetch>" + fetch + "</fetch>";
+    aml_body += "<output>" + output + "</output>";
+    aml_body += "<compact_json>" + compact + "</compact_json>"; 
+    
+    var convert = inn.applyMethod('QD2RDF', aml_body);
 
     if (convert.isError())
         return alert(convert.getErrorString());
-    
+
     return alert("Success!");
 };
     
