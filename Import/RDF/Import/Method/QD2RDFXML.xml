@@ -11,6 +11,7 @@
     string output_type = this.getProperty("output","RDF");
     string file_name = this.getProperty("file_name",DateTime.Now.ToString("MMdd-HHmmss"));
     string file_path = this.getProperty("file_path",@"C:\temp\RDF\");
+    string compact = this.getProperty("compact_json","");
     
     // get query definition with relationships
     Item queryDef = inn.newItem("qry_QueryDefinition","get");
@@ -203,8 +204,16 @@
             break;
             
         case "JSON-LD":
-            output = JSONLD2String(g);
-            JSONLD2File(g, file + ".json");
+            if (compact == "")
+            {
+                output = JSONLD2String(g);
+                JSONLD2File(g, file + ".json");
+            }
+            else
+            {
+                output = CompactJSONLD2String(g);
+                CompactJSONLD2File(g, file + "-compact.json");
+            }
             break;
     }
 
@@ -367,6 +376,20 @@ private static string JSONLD2String (IGraph g)
     return strWriter.ToString();
 }
 
+// build a compact JSON-LD string
+private static string CompactJSONLD2String (IGraph g)
+{
+    // System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    JArray json_array = jsonldwriter.SerializeStore(store);
+    JToken context = JToken.Parse("{\"@context\": {\"base\": \"http://purl.org/aras-poc/base#\",\"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\"owl\": \"http://www.w3.org/2002/07/owl#\",\"xml\": \"http://www.w3.org/XML/1998/namespace\",\"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\"}}");
+    JObject compact_json = JsonLdProcessor.Compact(json_array,context,new JsonLdProcessorOptions());
+    
+    return compact_json.ToString();
+}
 // write RDF/XML to a file
 private static void RDF2File (IGraph g, string file)
 {
@@ -396,6 +419,22 @@ private static void JSONLD2File (IGraph g, string file)
     
     JsonLdWriter jsonldwriter = new JsonLdWriter();
     jsonldwriter.Save(store, file);
+}
+
+// write a compact JSON-LD string to a file
+private static void CompactJSONLD2File (IGraph g, string file)
+{
+    // System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    JArray json_array = jsonldwriter.SerializeStore(store);
+    JToken context = JToken.Parse("{\"@context\": {\"base\": \"http://purl.org/aras-poc/base#\",\"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\"owl\": \"http://www.w3.org/2002/07/owl#\",\"xml\": \"http://www.w3.org/XML/1998/namespace\",\"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\"}}");
+    JObject compact_json = VDS.RDF.JsonLd.JsonLdProcessor.Compact(json_array,context,new JsonLdProcessorOptions());
+    
+    File.WriteAllText(file, compact_json.ToString());
+    
     ]]></method_code>
   <method_type>C#</method_type>
   <name>QD2RDFXML</name>
