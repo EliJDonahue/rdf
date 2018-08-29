@@ -1,4 +1,4 @@
-﻿<AML>
+<AML>
  <Item type="Method" id="6E7D1A19E4444A19A962BE314786A24C" action="add">
   <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
   <method_code><![CDATA[    const string BASE = "http://purl.org/aras-poc/base#";
@@ -6,8 +6,12 @@
     
     Innovator inn = this.getInnovator();
     XmlDocument doc = new XmlDocument();
-    string qd_id = this.getProperty("qd_id","");
-    //string qd_id = "467143F3250D42CF9D2F6F880ABD3999"; // for testing
+    
+    string qd_id = this.getProperty("qd_id","5BE0A43C1D5E4184B1FB82F6D847A4B5");
+    string output_type = this.getProperty("output","RDF");
+    string file_name = this.getProperty("file_name",DateTime.Now.ToString("MMdd-HHmmss"));
+    string file_path = this.getProperty("file_path",@"C:\temp\RDF\");
+    string compact = this.getProperty("compact_json","");
     
     // get query definition with relationships
     Item queryDef = inn.newItem("qry_QueryDefinition","get");
@@ -17,7 +21,7 @@
     
     // get top-level query item (context item)                  
     string offset = "0";
-    string fetch = "3";
+    string fetch = "1";
     string offset_fetch = @"<configuration><option><offset>" + offset + 
                         "</offset><fetch>" + fetch + 
                         "</fetch></option></configuration>";
@@ -179,11 +183,40 @@
         }
     }
 
-    //string output = OutPutTriples(g);
-    string output = OutPutXML(g);
-    string file = DateTime.Now.ToString("MMdd-HHmmss");
-    OutPutRDF(g, @"C:\temp\RDF\" + file + ".rdf");
+    string output = "";
+    string file = file_path + file_name;
     
+    switch (output_type)
+    {
+        case "RDF":
+            output = RDF2String(g);
+            RDF2File(g, file + ".rdf");
+            break;
+            
+        case "CSV":
+            output = Triples2String(g);
+            Triples2File(g, file + ".csv");
+            break;
+        
+        case "Turtle":
+            output = Turtle2String(g);
+            Turtle2File(g, file + ".ttl");
+            break;
+            
+        case "JSON-LD":
+            if (compact == "")
+            {
+                output = JSONLD2String(g);
+                JSONLD2File(g, file + ".json");
+            }
+            else
+            {
+                output = CompactJSONLD2String(g);
+                CompactJSONLD2File(g, file + "-compact.json");
+            }
+            break;
+    }
+
     Item res = inn.newResult(output);
     return res;
 }
@@ -298,20 +331,18 @@ private static string GetIdFromNode(XmlNode node)
 }
 
 // build a string of triples
-private static string OutPutTriples(IGraph g)
+private static string Triples2String (IGraph g)
 {
-    string output = "";
+    System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    CsvWriter csvwriter = new CsvWriter();
     
-    foreach (Triple t in g.Triples)
-    {
-        output += t.ToString() + "\n";
-    }
+    csvwriter.Save(g, strWriter);
     
-    return output;
+    return strWriter.ToString();
 }
 
 // build a string of RDF/XML
-private static string OutPutXML(IGraph g)
+private static string RDF2String (IGraph g)
 {
     System.IO.StringWriter strWriter = new System.IO.StringWriter();
     RdfXmlWriter rdfxmlwriter = new RdfXmlWriter();
@@ -321,13 +352,90 @@ private static string OutPutXML(IGraph g)
     return strWriter.ToString();
 }
 
+// build a Turtle string
+private static string Turtle2String (IGraph g)
+{
+    System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    CompressingTurtleWriter turtlewriter = new CompressingTurtleWriter();
+    
+    turtlewriter.Save(g, strWriter);
+    
+    return strWriter.ToString();
+}
+
+// build a JSON-LD string
+private static string JSONLD2String (IGraph g)
+{
+    System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    jsonldwriter.Save(store, strWriter);
+    
+    return strWriter.ToString();
+}
+
+// build a compact JSON-LD string
+private static string CompactJSONLD2String (IGraph g)
+{
+    // System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    JArray json_array = jsonldwriter.SerializeStore(store);
+    JToken context = JToken.Parse("{\"@context\": {\"base\": \"http://purl.org/aras-poc/base#\",\"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\"owl\": \"http://www.w3.org/2002/07/owl#\",\"xml\": \"http://www.w3.org/XML/1998/namespace\",\"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\"}}");
+    JObject compact_json = JsonLdProcessor.Compact(json_array,context,new JsonLdProcessorOptions());
+    
+    return compact_json.ToString();
+}
 // write RDF/XML to a file
-private static void OutPutRDF(IGraph g, string file)
+private static void RDF2File (IGraph g, string file)
 {
     RdfXmlWriter rdfxmlwriter = new RdfXmlWriter();
     rdfxmlwriter.Save(g, file);
+}
 
-]]></method_code>
+// write Turtle to a file
+private static void Turtle2File (IGraph g, string file)
+{
+    CompressingTurtleWriter turtlewriter = new CompressingTurtleWriter();
+    turtlewriter.Save(g, file);
+}
+
+// write triples to a csv file
+private static void Triples2File (IGraph g, string file)
+{
+    CsvWriter csvwriter = new CsvWriter();
+    csvwriter.Save(g, file);
+}
+
+// write JSON-LD to a file
+private static void JSONLD2File (IGraph g, string file)
+{
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    jsonldwriter.Save(store, file);
+}
+
+// write a compact JSON-LD string to a file
+private static void CompactJSONLD2File (IGraph g, string file)
+{
+    // System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    JArray json_array = jsonldwriter.SerializeStore(store);
+    JToken context = JToken.Parse("{\"@context\": {\"base\": \"http://purl.org/aras-poc/base#\",\"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\"owl\": \"http://www.w3.org/2002/07/owl#\",\"xml\": \"http://www.w3.org/XML/1998/namespace\",\"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\"}}");
+    JObject compact_json = VDS.RDF.JsonLd.JsonLdProcessor.Compact(json_array,context,new JsonLdProcessorOptions());
+    
+    File.WriteAllText(file, compact_json.ToString());
+    
+    ]]></method_code>
   <method_type>C#</method_type>
   <name>QD2RDFXML</name>
  </Item>
