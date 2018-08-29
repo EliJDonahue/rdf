@@ -327,7 +327,13 @@ private static void RDF2File (IGraph g, string file)
 {
     RdfXmlWriter rdfxmlwriter = new RdfXmlWriter();
     rdfxmlwriter.Save(g, file);
+}
 
+// write triples to a csv file
+private static void Triples2File (IGraph g, string file)
+{
+    CsvWriter csvwriter = new CsvWriter();
+    csvwriter.Save(g, file);
 ]]></method_code>
   <method_type>C#</method_type>
   <name>QD2RDFXML</name>
