@@ -4,7 +4,7 @@
 
 The sample code contains a server method that executes a Query Definition and uses the [dotNetRDF library](http://www.dotnetrdf.org/) to convert the output to RDF/XML. For demo purposes, the sample code can be executed via the included client action or directly via AML. 
 
-As it's written, the method writes the RDF/XML to a file on the server, however it could easily be updated to pass the output to a service.
+As it's written, the method writes the RDF output to a file on the server, however it could easily be updated to pass the output to a service.
 
 ## Installation
 
@@ -14,7 +14,7 @@ As it's written, the method writes the RDF/XML to a file on the server, however 
 
 ### Pre-requisites
 
-1. Aras Innovator installed (version 11.0 SP10)
+1. Aras Innovator installed (version 11.0 SP12)
 2. Aras Package Import Utility
 3. aras.labs.poc.RDF import package
 4. RDF POC code tree overlay
@@ -50,13 +50,15 @@ As it's written, the method writes the RDF/XML to a file on the server, however 
 1. Log in to Innovator as admin.
 2. Navigate to **Administraton > Configuration > Query Definitions** in the TOC.
 3. Open the *RDF Part Query* Query Definition item.
-4. From the Actions menu, select **Convert to RDF/XML**.
+4. From the Actions menu, select **Convert to RDF**.
 5. Enter values for the Fetch and Offset fields. 
     * Fetch: The maximum number of results you would like returned.
     * Offset: The offset for the query execution. 
+    * Output Type: Choose from RDF/XML, CSV, Turtle, and JSON-LD.
+    * Compact: If JSON-LD is selected, you can choose to retrieve a compact result.
 6. Click **Begin Export**.
 
-A success dialog will appear when the export is complete. The exported RDF/XML is logged in `C:\temp\RDF\` on the server.
+A success dialog will appear when the export is complete. The exported RDF is logged in `C:\temp\RDF\` on the server.
 
 ### Nash
 
@@ -66,7 +68,7 @@ A success dialog will appear when the export is complete. The exported RDF/XML i
 4. Enter the following AML:
 ```(XML)
 <AML>
-    <Item type="qry_QueryDefinition" action="QD2RDFXML">
+    <Item type="qry_QueryDefinition" action="QD2RDF">
         <qd_id>467143F3250D42CF9D2F6F880ABD3999</qd_id>
         <offset>0</offset>
         <fetch>1</fetch>
