@@ -1,5 +1,6 @@
 <AML>
  <Item type="Method" id="6E7D1A19E4444A19A962BE314786A24C" action="add">
+  <comments>Executes a QD and converts the results to various RDF formats</comments>
   <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
   <method_code><![CDATA[    const string BASE = "http://purl.org/aras-poc/base#";
     const string NS = "aras"; // namespace for base url
@@ -7,11 +8,14 @@
     Innovator inn = this.getInnovator();
     XmlDocument doc = new XmlDocument();
     
+    // parse parameters
     string qd_id = this.getProperty("qd_id","5BE0A43C1D5E4184B1FB82F6D847A4B5");
     string output_type = this.getProperty("output","RDF");
     string file_name = this.getProperty("file_name",DateTime.Now.ToString("MMdd-HHmmss"));
     string file_path = this.getProperty("file_path",@"C:\temp\RDF\");
     string compact = this.getProperty("compact_json","");
+    string offset = this.getProperty("offset","0");
+    string fetch = this.getProperty("fetch","1");
     
     // get query definition with relationships
     Item queryDef = inn.newItem("qry_QueryDefinition","get");
@@ -20,8 +24,6 @@
     queryDef = queryDef.apply();
     
     // get top-level query item (context item)                  
-    string offset = "0";
-    string fetch = "1";
     string offset_fetch = @"<configuration><option><offset>" + offset + 
                         "</offset><fetch>" + fetch + 
                         "</fetch></option></configuration>";
@@ -89,18 +91,6 @@
                     {
                         XmlAttributeCollection relAttr = r.Attributes;
                         string relAlias = relAttr.GetNamedItem("alias").Value;
-                        // string relType = "relAlias_NOTFOUND";
-                        // if (propMap.ContainsKey(relAlias))
-                        // {
-                        //     if (propMap[relAlias].ContainsKey(r.Name))
-                        //     {
-                        //         relType = propMap[relAlias][r.Name];
-                        //     }
-                        //     else
-                        //     {
-                        //         relType += "(" + relAlias + ")(" + r.Name + ")";
-                        //     }
-                        // }
                             
                             
                         string relId = GetIdFromNode(r);
@@ -437,6 +427,6 @@ private static void CompactJSONLD2File (IGraph g, string file)
     
     ]]></method_code>
   <method_type>C#</method_type>
-  <name>QD2RDFXML</name>
+  <name>QD2RDF</name>
  </Item>
 </AML>

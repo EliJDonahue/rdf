@@ -57,7 +57,7 @@ Like [the approach we used with Aras 11 SP10](./Samples/RDFXML/RDFXML.md), this 
 
 1. Open up your HTTP/REST client.
 2. Create a new **POST** request.
-3. Enter the url for your request: `http://localhost/{webalias}/server/odata/method.QD2RDFXML`
+3. Enter the url for your request: `http://localhost/{webalias}/server/odata/method.QD2RDF`
 4. Enter the body for your request, where the value for **qd_id** is the id of your Query Definition:
     ```
     {
