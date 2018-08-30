@@ -1,0 +1,406 @@
+{
+  "@graph": [
+    {
+      "@id": "base:/Part/052B70BA995D47CF834EF103CCE0D85E",
+      "base:classification": "Assembly",
+      "base:created_by_id": {
+        "@id": "base:/User/30B991F927274FA3829655F50C99472E"
+      },
+      "base:created_on": "2018-07-17T16:15:33",
+      "base:description": "",
+      "base:generation": "1",
+      "base:id": {
+        "@id": "base:/Part/052B70BA995D47CF834EF103CCE0D85E"
+      },
+      "base:is_current": "1",
+      "base:is_released": "0",
+      "base:item_number": "MP2967",
+      "base:keyed_name": "MP2967",
+      "base:major_rev": "A",
+      "base:managed_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:name": "Wiring",
+      "base:owned_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:state": "Preliminary"
+    },
+    {
+      "@id": "base:/Part/39CB2792B428432490200368B87DE9CA",
+      "base:classification": "Assembly",
+      "base:created_by_id": {
+        "@id": "base:/User/30B991F927274FA3829655F50C99472E"
+      },
+      "base:created_on": "2018-07-17T16:15:33",
+      "base:description": "",
+      "base:generation": "1",
+      "base:id": {
+        "@id": "base:/Part/39CB2792B428432490200368B87DE9CA"
+      },
+      "base:is_current": "1",
+      "base:is_released": "0",
+      "base:item_number": "MP2954",
+      "base:keyed_name": "MP2954",
+      "base:major_rev": "A",
+      "base:managed_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:name": "Extruder",
+      "base:owned_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:state": "Preliminary"
+    },
+    {
+      "@id": "base:/Part/3AEFB5C97E964E0C8915370092022410",
+      "base:classification": "Assembly",
+      "base:created_by_id": {
+        "@id": "base:/User/30B991F927274FA3829655F50C99472E"
+      },
+      "base:created_on": "2018-07-17T16:15:33",
+      "base:description": "",
+      "base:generation": "1",
+      "base:id": {
+        "@id": "base:/Part/3AEFB5C97E964E0C8915370092022410"
+      },
+      "base:is_current": "1",
+      "base:is_released": "0",
+      "base:item_number": "MP2938",
+      "base:keyed_name": "MP2938",
+      "base:major_rev": "A",
+      "base:managed_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:name": "Additional Parts",
+      "base:owned_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:state": "Preliminary"
+    },
+    {
+      "@id": "base:/Part/4C40CCBC9E864E9CA7BE8A93423BD362",
+      "base:classification": "Assembly",
+      "base:created_by_id": {
+        "@id": "base:/User/30B991F927274FA3829655F50C99472E"
+      },
+      "base:created_on": "2018-07-17T16:15:33",
+      "base:description": "",
+      "base:generation": "1",
+      "base:id": {
+        "@id": "base:/Part/4C40CCBC9E864E9CA7BE8A93423BD362"
+      },
+      "base:is_current": "1",
+      "base:is_released": "0",
+      "base:item_number": "MP2968",
+      "base:keyed_name": "MP2968",
+      "base:major_rev": "A",
+      "base:managed_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:name": "XY Stage",
+      "base:owned_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:state": "Preliminary"
+    },
+    {
+      "@id": "base:/Part/526C66B626B64BCB869ACBB083A900A3",
+      "base:classification": "Assembly",
+      "base:created_by_id": {
+        "@id": "base:/User/30B991F927274FA3829655F50C99472E"
+      },
+      "base:created_on": "2018-07-17T16:15:33",
+      "base:description": "",
+      "base:generation": "1",
+      "base:id": {
+        "@id": "base:/Part/526C66B626B64BCB869ACBB083A900A3"
+      },
+      "base:is_current": "1",
+      "base:is_released": "0",
+      "base:item_number": "MP2956",
+      "base:keyed_name": "MP2956",
+      "base:major_rev": "A",
+      "base:managed_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:name": "Gantry",
+      "base:owned_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:state": "Preliminary"
+    },
+    {
+      "@id": "base:/Part/5620EAB3E6F34A4C9B02F753C484AEBB",
+      "base:classification": "Assembly",
+      "base:created_by_id": {
+        "@id": "base:/User/30B991F927274FA3829655F50C99472E"
+      },
+      "base:created_on": "2018-07-17T16:15:33",
+      "base:description": "",
+      "base:generation": "1",
+      "base:id": {
+        "@id": "base:/Part/5620EAB3E6F34A4C9B02F753C484AEBB"
+      },
+      "base:is_current": "1",
+      "base:is_released": "0",
+      "base:item_number": "MP2952",
+      "base:keyed_name": "MP2952",
+      "base:major_rev": "A",
+      "base:managed_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:name": "Electronics",
+      "base:owned_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:state": "Preliminary"
+    },
+    {
+      "@id": "base:/Part/6020DB29814C4D838E60D315A1C95E8C",
+      "base:classification": "Assembly",
+      "base:created_by_id": {
+        "@id": "base:/User/30B991F927274FA3829655F50C99472E"
+      },
+      "base:created_on": "2018-07-17T16:15:33",
+      "base:description": "",
+      "base:generation": "1",
+      "base:id": {
+        "@id": "base:/Part/6020DB29814C4D838E60D315A1C95E8C"
+      },
+      "base:is_current": "1",
+      "base:is_released": "0",
+      "base:item_number": "MP2943",
+      "base:keyed_name": "MP2943",
+      "base:major_rev": "A",
+      "base:managed_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:name": "Build Platform",
+      "base:owned_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:state": "Preliminary"
+    },
+    {
+      "@id": "base:/Part/A8D5E839DF11472A86619F0E519134FE",
+      "base:classification": "Assembly",
+      "base:created_by_id": {
+        "@id": "base:/User/30B991F927274FA3829655F50C99472E"
+      },
+      "base:created_on": "2018-07-17T16:15:33",
+      "base:description": "",
+      "base:generation": "1",
+      "base:id": {
+        "@id": "base:/Part/A8D5E839DF11472A86619F0E519134FE"
+      },
+      "base:is_current": "1",
+      "base:is_released": "0",
+      "base:item_number": "MP2961",
+      "base:keyed_name": "MP2961",
+      "base:major_rev": "A",
+      "base:managed_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:name": "Shipping",
+      "base:owned_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:state": "Preliminary"
+    },
+    {
+      "@id": "base:/Part/B9F8E908144948E48A1747AD88716D02",
+      "base:classification": "Assembly",
+      "base:created_on": "2018-07-17T16:15:31",
+      "base:description": "The MakerBot Replicator by MakerBot. Published on March 12, 2012. www.thingiverse.com/thing:18813",
+      "base:generation": "1",
+      "base:has_relationship": [
+        {
+          "@id": "base:/Part_BOM/F2662525E2BA4F4286C3825760C8F03A"
+        },
+        {
+          "@id": "base:/Part_BOM/7D4A61FBC7D84DDA8032267257AE3609"
+        },
+        {
+          "@id": "base:/Part_BOM/44D720FB7C094D2F9CC27C5C0F2B8DDE"
+        },
+        {
+          "@id": "base:/Part_BOM/078D162CB981456DA9E090D023E7F0C6"
+        },
+        {
+          "@id": "base:/Part_BOM/48A81199233141BDAA60EB1D99BE67BA"
+        },
+        {
+          "@id": "base:/Part_BOM/8F30E1C1ABE1488F940EBF8A42B0ACE8"
+        },
+        {
+          "@id": "base:/Part_BOM/EECB4BC364AD4EFB96028B0A99E1D73C"
+        },
+        {
+          "@id": "base:/Part_BOM/A9521B7233F245D484F6C2BB94E15F46"
+        },
+        {
+          "@id": "base:/Part_BOM/621A97A1886F44CDB500D2B1FC3C0CC4"
+        }
+      ],
+      "base:id": {
+        "@id": "base:/Part/B9F8E908144948E48A1747AD88716D02"
+      },
+      "base:is_current": "1",
+      "base:is_released": "0",
+      "base:item_number": "MP0101",
+      "base:keyed_name": "MP0101",
+      "base:major_rev": "A",
+      "base:managed_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:name": "Makerbot Replicator",
+      "base:owned_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:state": "Preliminary"
+    },
+    {
+      "@id": "base:/Part/BC5AF2203F90411999247B1C99379588",
+      "base:classification": "Assembly",
+      "base:created_by_id": {
+        "@id": "base:/User/30B991F927274FA3829655F50C99472E"
+      },
+      "base:created_on": "2018-07-17T16:15:33",
+      "base:description": "",
+      "base:generation": "1",
+      "base:id": {
+        "@id": "base:/Part/BC5AF2203F90411999247B1C99379588"
+      },
+      "base:is_current": "1",
+      "base:is_released": "0",
+      "base:item_number": "MP2942",
+      "base:keyed_name": "MP2942",
+      "base:major_rev": "A",
+      "base:managed_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:name": "Body",
+      "base:owned_by_id": {
+        "@id": "base:/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      },
+      "base:state": "Preliminary"
+    },
+    {
+      "@id": "base:/Part_BOM/078D162CB981456DA9E090D023E7F0C6",
+      "base:has_relationship": {
+        "@id": "base:/Part/4C40CCBC9E864E9CA7BE8A93423BD362"
+      },
+      "base:id": {
+        "@id": "base:/Part_BOM/078D162CB981456DA9E090D023E7F0C6"
+      },
+      "base:keyed_name": "078D162CB981456DA9E090D023E7F0C6",
+      "base:quantity": "1",
+      "base:sort_order": "512"
+    },
+    {
+      "@id": "base:/Part_BOM/44D720FB7C094D2F9CC27C5C0F2B8DDE",
+      "base:has_relationship": {
+        "@id": "base:/Part/3AEFB5C97E964E0C8915370092022410"
+      },
+      "base:id": {
+        "@id": "base:/Part_BOM/44D720FB7C094D2F9CC27C5C0F2B8DDE"
+      },
+      "base:keyed_name": "44D720FB7C094D2F9CC27C5C0F2B8DDE",
+      "base:quantity": "1",
+      "base:sort_order": "384"
+    },
+    {
+      "@id": "base:/Part_BOM/48A81199233141BDAA60EB1D99BE67BA",
+      "base:has_relationship": {
+        "@id": "base:/Part/526C66B626B64BCB869ACBB083A900A3"
+      },
+      "base:id": {
+        "@id": "base:/Part_BOM/48A81199233141BDAA60EB1D99BE67BA"
+      },
+      "base:keyed_name": "48A81199233141BDAA60EB1D99BE67BA",
+      "base:quantity": "1",
+      "base:sort_order": "640"
+    },
+    {
+      "@id": "base:/Part_BOM/621A97A1886F44CDB500D2B1FC3C0CC4",
+      "base:has_relationship": {
+        "@id": "base:/Part/BC5AF2203F90411999247B1C99379588"
+      },
+      "base:id": {
+        "@id": "base:/Part_BOM/621A97A1886F44CDB500D2B1FC3C0CC4"
+      },
+      "base:keyed_name": "621A97A1886F44CDB500D2B1FC3C0CC4",
+      "base:quantity": "1",
+      "base:sort_order": "1152"
+    },
+    {
+      "@id": "base:/Part_BOM/7D4A61FBC7D84DDA8032267257AE3609",
+      "base:has_relationship": {
+        "@id": "base:/Part/39CB2792B428432490200368B87DE9CA"
+      },
+      "base:id": {
+        "@id": "base:/Part_BOM/7D4A61FBC7D84DDA8032267257AE3609"
+      },
+      "base:keyed_name": "7D4A61FBC7D84DDA8032267257AE3609",
+      "base:quantity": "1",
+      "base:sort_order": "256"
+    },
+    {
+      "@id": "base:/Part_BOM/8F30E1C1ABE1488F940EBF8A42B0ACE8",
+      "base:has_relationship": {
+        "@id": "base:/Part/5620EAB3E6F34A4C9B02F753C484AEBB"
+      },
+      "base:id": {
+        "@id": "base:/Part_BOM/8F30E1C1ABE1488F940EBF8A42B0ACE8"
+      },
+      "base:keyed_name": "8F30E1C1ABE1488F940EBF8A42B0ACE8",
+      "base:quantity": "1",
+      "base:sort_order": "768"
+    },
+    {
+      "@id": "base:/Part_BOM/A9521B7233F245D484F6C2BB94E15F46",
+      "base:has_relationship": {
+        "@id": "base:/Part/A8D5E839DF11472A86619F0E519134FE"
+      },
+      "base:id": {
+        "@id": "base:/Part_BOM/A9521B7233F245D484F6C2BB94E15F46"
+      },
+      "base:keyed_name": "A9521B7233F245D484F6C2BB94E15F46",
+      "base:quantity": "1",
+      "base:sort_order": "1024"
+    },
+    {
+      "@id": "base:/Part_BOM/EECB4BC364AD4EFB96028B0A99E1D73C",
+      "base:has_relationship": {
+        "@id": "base:/Part/6020DB29814C4D838E60D315A1C95E8C"
+      },
+      "base:id": {
+        "@id": "base:/Part_BOM/EECB4BC364AD4EFB96028B0A99E1D73C"
+      },
+      "base:keyed_name": "EECB4BC364AD4EFB96028B0A99E1D73C",
+      "base:quantity": "1",
+      "base:sort_order": "896"
+    },
+    {
+      "@id": "base:/Part_BOM/F2662525E2BA4F4286C3825760C8F03A",
+      "base:has_relationship": {
+        "@id": "base:/Part/052B70BA995D47CF834EF103CCE0D85E"
+      },
+      "base:id": {
+        "@id": "base:/Part_BOM/F2662525E2BA4F4286C3825760C8F03A"
+      },
+      "base:keyed_name": "F2662525E2BA4F4286C3825760C8F03A",
+      "base:quantity": "1",
+      "base:sort_order": "128"
+    }
+  ],
+  "@context": {
+    "base": "http://purl.org/aras-poc/base#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xml": "http://www.w3.org/XML/1998/namespace",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

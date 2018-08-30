@@ -1,0 +1,1058 @@
+﻿[
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part/052B70BA995D47CF834EF103CCE0D85E",
+    "http://purl.org/aras-poc/base#classification": [
+      {
+        "@value": "Assembly"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/User/30B991F927274FA3829655F50C99472E"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_on": [
+      {
+        "@value": "2018-07-17T16:15:33"
+      }
+    ],
+    "http://purl.org/aras-poc/base#description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://purl.org/aras-poc/base#generation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/052B70BA995D47CF834EF103CCE0D85E"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_current": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_released": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "MP2967"
+      }
+    ],
+    "http://purl.org/aras-poc/base#major_rev": [
+      {
+        "@value": "A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#managed_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#name": [
+      {
+        "@value": "Wiring"
+      }
+    ],
+    "http://purl.org/aras-poc/base#owned_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#state": [
+      {
+        "@value": "Preliminary"
+      }
+    ],
+    "http://purl.org/aras-poc/base#item_number": [
+      {
+        "@value": "MP2967"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part/39CB2792B428432490200368B87DE9CA",
+    "http://purl.org/aras-poc/base#classification": [
+      {
+        "@value": "Assembly"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/User/30B991F927274FA3829655F50C99472E"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_on": [
+      {
+        "@value": "2018-07-17T16:15:33"
+      }
+    ],
+    "http://purl.org/aras-poc/base#description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://purl.org/aras-poc/base#generation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/39CB2792B428432490200368B87DE9CA"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_current": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_released": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "MP2954"
+      }
+    ],
+    "http://purl.org/aras-poc/base#major_rev": [
+      {
+        "@value": "A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#managed_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#name": [
+      {
+        "@value": "Extruder"
+      }
+    ],
+    "http://purl.org/aras-poc/base#owned_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#state": [
+      {
+        "@value": "Preliminary"
+      }
+    ],
+    "http://purl.org/aras-poc/base#item_number": [
+      {
+        "@value": "MP2954"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part/3AEFB5C97E964E0C8915370092022410",
+    "http://purl.org/aras-poc/base#classification": [
+      {
+        "@value": "Assembly"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/User/30B991F927274FA3829655F50C99472E"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_on": [
+      {
+        "@value": "2018-07-17T16:15:33"
+      }
+    ],
+    "http://purl.org/aras-poc/base#description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://purl.org/aras-poc/base#generation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/3AEFB5C97E964E0C8915370092022410"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_current": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_released": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "MP2938"
+      }
+    ],
+    "http://purl.org/aras-poc/base#major_rev": [
+      {
+        "@value": "A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#managed_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#name": [
+      {
+        "@value": "Additional Parts"
+      }
+    ],
+    "http://purl.org/aras-poc/base#owned_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#state": [
+      {
+        "@value": "Preliminary"
+      }
+    ],
+    "http://purl.org/aras-poc/base#item_number": [
+      {
+        "@value": "MP2938"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part/4C40CCBC9E864E9CA7BE8A93423BD362",
+    "http://purl.org/aras-poc/base#classification": [
+      {
+        "@value": "Assembly"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/User/30B991F927274FA3829655F50C99472E"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_on": [
+      {
+        "@value": "2018-07-17T16:15:33"
+      }
+    ],
+    "http://purl.org/aras-poc/base#description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://purl.org/aras-poc/base#generation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/4C40CCBC9E864E9CA7BE8A93423BD362"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_current": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_released": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "MP2968"
+      }
+    ],
+    "http://purl.org/aras-poc/base#major_rev": [
+      {
+        "@value": "A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#managed_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#name": [
+      {
+        "@value": "XY Stage"
+      }
+    ],
+    "http://purl.org/aras-poc/base#owned_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#state": [
+      {
+        "@value": "Preliminary"
+      }
+    ],
+    "http://purl.org/aras-poc/base#item_number": [
+      {
+        "@value": "MP2968"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part/526C66B626B64BCB869ACBB083A900A3",
+    "http://purl.org/aras-poc/base#classification": [
+      {
+        "@value": "Assembly"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/User/30B991F927274FA3829655F50C99472E"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_on": [
+      {
+        "@value": "2018-07-17T16:15:33"
+      }
+    ],
+    "http://purl.org/aras-poc/base#description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://purl.org/aras-poc/base#generation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/526C66B626B64BCB869ACBB083A900A3"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_current": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_released": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "MP2956"
+      }
+    ],
+    "http://purl.org/aras-poc/base#major_rev": [
+      {
+        "@value": "A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#managed_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#name": [
+      {
+        "@value": "Gantry"
+      }
+    ],
+    "http://purl.org/aras-poc/base#owned_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#state": [
+      {
+        "@value": "Preliminary"
+      }
+    ],
+    "http://purl.org/aras-poc/base#item_number": [
+      {
+        "@value": "MP2956"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part/5620EAB3E6F34A4C9B02F753C484AEBB",
+    "http://purl.org/aras-poc/base#classification": [
+      {
+        "@value": "Assembly"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/User/30B991F927274FA3829655F50C99472E"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_on": [
+      {
+        "@value": "2018-07-17T16:15:33"
+      }
+    ],
+    "http://purl.org/aras-poc/base#description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://purl.org/aras-poc/base#generation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/5620EAB3E6F34A4C9B02F753C484AEBB"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_current": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_released": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "MP2952"
+      }
+    ],
+    "http://purl.org/aras-poc/base#major_rev": [
+      {
+        "@value": "A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#managed_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#name": [
+      {
+        "@value": "Electronics"
+      }
+    ],
+    "http://purl.org/aras-poc/base#owned_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#state": [
+      {
+        "@value": "Preliminary"
+      }
+    ],
+    "http://purl.org/aras-poc/base#item_number": [
+      {
+        "@value": "MP2952"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part/6020DB29814C4D838E60D315A1C95E8C",
+    "http://purl.org/aras-poc/base#classification": [
+      {
+        "@value": "Assembly"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/User/30B991F927274FA3829655F50C99472E"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_on": [
+      {
+        "@value": "2018-07-17T16:15:33"
+      }
+    ],
+    "http://purl.org/aras-poc/base#description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://purl.org/aras-poc/base#generation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/6020DB29814C4D838E60D315A1C95E8C"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_current": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_released": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "MP2943"
+      }
+    ],
+    "http://purl.org/aras-poc/base#major_rev": [
+      {
+        "@value": "A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#managed_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#name": [
+      {
+        "@value": "Build Platform"
+      }
+    ],
+    "http://purl.org/aras-poc/base#owned_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#state": [
+      {
+        "@value": "Preliminary"
+      }
+    ],
+    "http://purl.org/aras-poc/base#item_number": [
+      {
+        "@value": "MP2943"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part/A8D5E839DF11472A86619F0E519134FE",
+    "http://purl.org/aras-poc/base#classification": [
+      {
+        "@value": "Assembly"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/User/30B991F927274FA3829655F50C99472E"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_on": [
+      {
+        "@value": "2018-07-17T16:15:33"
+      }
+    ],
+    "http://purl.org/aras-poc/base#description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://purl.org/aras-poc/base#generation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/A8D5E839DF11472A86619F0E519134FE"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_current": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_released": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "MP2961"
+      }
+    ],
+    "http://purl.org/aras-poc/base#major_rev": [
+      {
+        "@value": "A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#managed_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#name": [
+      {
+        "@value": "Shipping"
+      }
+    ],
+    "http://purl.org/aras-poc/base#owned_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#state": [
+      {
+        "@value": "Preliminary"
+      }
+    ],
+    "http://purl.org/aras-poc/base#item_number": [
+      {
+        "@value": "MP2961"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part/B9F8E908144948E48A1747AD88716D02",
+    "http://purl.org/aras-poc/base#classification": [
+      {
+        "@value": "Assembly"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_on": [
+      {
+        "@value": "2018-07-17T16:15:31"
+      }
+    ],
+    "http://purl.org/aras-poc/base#description": [
+      {
+        "@value": "The MakerBot Replicator by MakerBot. Published on March 12, 2012. www.thingiverse.com/thing:18813"
+      }
+    ],
+    "http://purl.org/aras-poc/base#generation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/B9F8E908144948E48A1747AD88716D02"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_current": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_released": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "MP0101"
+      }
+    ],
+    "http://purl.org/aras-poc/base#major_rev": [
+      {
+        "@value": "A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#managed_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#name": [
+      {
+        "@value": "Makerbot Replicator"
+      }
+    ],
+    "http://purl.org/aras-poc/base#owned_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#state": [
+      {
+        "@value": "Preliminary"
+      }
+    ],
+    "http://purl.org/aras-poc/base#item_number": [
+      {
+        "@value": "MP0101"
+      }
+    ],
+    "http://purl.org/aras-poc/base#has_relationship": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/F2662525E2BA4F4286C3825760C8F03A"
+      },
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/7D4A61FBC7D84DDA8032267257AE3609"
+      },
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/44D720FB7C094D2F9CC27C5C0F2B8DDE"
+      },
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/078D162CB981456DA9E090D023E7F0C6"
+      },
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/48A81199233141BDAA60EB1D99BE67BA"
+      },
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/8F30E1C1ABE1488F940EBF8A42B0ACE8"
+      },
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/EECB4BC364AD4EFB96028B0A99E1D73C"
+      },
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/A9521B7233F245D484F6C2BB94E15F46"
+      },
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/621A97A1886F44CDB500D2B1FC3C0CC4"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part/BC5AF2203F90411999247B1C99379588",
+    "http://purl.org/aras-poc/base#classification": [
+      {
+        "@value": "Assembly"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/User/30B991F927274FA3829655F50C99472E"
+      }
+    ],
+    "http://purl.org/aras-poc/base#created_on": [
+      {
+        "@value": "2018-07-17T16:15:33"
+      }
+    ],
+    "http://purl.org/aras-poc/base#description": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://purl.org/aras-poc/base#generation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/BC5AF2203F90411999247B1C99379588"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_current": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#is_released": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "MP2942"
+      }
+    ],
+    "http://purl.org/aras-poc/base#major_rev": [
+      {
+        "@value": "A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#managed_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#name": [
+      {
+        "@value": "Body"
+      }
+    ],
+    "http://purl.org/aras-poc/base#owned_by_id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Identity/DBA5D86402BF43D5976854B8B48FCDD1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#state": [
+      {
+        "@value": "Preliminary"
+      }
+    ],
+    "http://purl.org/aras-poc/base#item_number": [
+      {
+        "@value": "MP2942"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part_BOM/078D162CB981456DA9E090D023E7F0C6",
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/078D162CB981456DA9E090D023E7F0C6"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "078D162CB981456DA9E090D023E7F0C6"
+      }
+    ],
+    "http://purl.org/aras-poc/base#quantity": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#sort_order": [
+      {
+        "@value": "512"
+      }
+    ],
+    "http://purl.org/aras-poc/base#has_relationship": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/4C40CCBC9E864E9CA7BE8A93423BD362"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part_BOM/44D720FB7C094D2F9CC27C5C0F2B8DDE",
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/44D720FB7C094D2F9CC27C5C0F2B8DDE"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "44D720FB7C094D2F9CC27C5C0F2B8DDE"
+      }
+    ],
+    "http://purl.org/aras-poc/base#quantity": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#sort_order": [
+      {
+        "@value": "384"
+      }
+    ],
+    "http://purl.org/aras-poc/base#has_relationship": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/3AEFB5C97E964E0C8915370092022410"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part_BOM/48A81199233141BDAA60EB1D99BE67BA",
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/48A81199233141BDAA60EB1D99BE67BA"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "48A81199233141BDAA60EB1D99BE67BA"
+      }
+    ],
+    "http://purl.org/aras-poc/base#quantity": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#sort_order": [
+      {
+        "@value": "640"
+      }
+    ],
+    "http://purl.org/aras-poc/base#has_relationship": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/526C66B626B64BCB869ACBB083A900A3"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part_BOM/621A97A1886F44CDB500D2B1FC3C0CC4",
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/621A97A1886F44CDB500D2B1FC3C0CC4"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "621A97A1886F44CDB500D2B1FC3C0CC4"
+      }
+    ],
+    "http://purl.org/aras-poc/base#quantity": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#sort_order": [
+      {
+        "@value": "1152"
+      }
+    ],
+    "http://purl.org/aras-poc/base#has_relationship": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/BC5AF2203F90411999247B1C99379588"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part_BOM/7D4A61FBC7D84DDA8032267257AE3609",
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/7D4A61FBC7D84DDA8032267257AE3609"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "7D4A61FBC7D84DDA8032267257AE3609"
+      }
+    ],
+    "http://purl.org/aras-poc/base#quantity": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#sort_order": [
+      {
+        "@value": "256"
+      }
+    ],
+    "http://purl.org/aras-poc/base#has_relationship": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/39CB2792B428432490200368B87DE9CA"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part_BOM/8F30E1C1ABE1488F940EBF8A42B0ACE8",
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/8F30E1C1ABE1488F940EBF8A42B0ACE8"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "8F30E1C1ABE1488F940EBF8A42B0ACE8"
+      }
+    ],
+    "http://purl.org/aras-poc/base#quantity": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#sort_order": [
+      {
+        "@value": "768"
+      }
+    ],
+    "http://purl.org/aras-poc/base#has_relationship": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/5620EAB3E6F34A4C9B02F753C484AEBB"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part_BOM/A9521B7233F245D484F6C2BB94E15F46",
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/A9521B7233F245D484F6C2BB94E15F46"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "A9521B7233F245D484F6C2BB94E15F46"
+      }
+    ],
+    "http://purl.org/aras-poc/base#quantity": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#sort_order": [
+      {
+        "@value": "1024"
+      }
+    ],
+    "http://purl.org/aras-poc/base#has_relationship": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/A8D5E839DF11472A86619F0E519134FE"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part_BOM/EECB4BC364AD4EFB96028B0A99E1D73C",
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/EECB4BC364AD4EFB96028B0A99E1D73C"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "EECB4BC364AD4EFB96028B0A99E1D73C"
+      }
+    ],
+    "http://purl.org/aras-poc/base#quantity": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#sort_order": [
+      {
+        "@value": "896"
+      }
+    ],
+    "http://purl.org/aras-poc/base#has_relationship": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/6020DB29814C4D838E60D315A1C95E8C"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/aras-poc/base#/Part_BOM/F2662525E2BA4F4286C3825760C8F03A",
+    "http://purl.org/aras-poc/base#id": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part_BOM/F2662525E2BA4F4286C3825760C8F03A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#keyed_name": [
+      {
+        "@value": "F2662525E2BA4F4286C3825760C8F03A"
+      }
+    ],
+    "http://purl.org/aras-poc/base#quantity": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://purl.org/aras-poc/base#sort_order": [
+      {
+        "@value": "128"
+      }
+    ],
+    "http://purl.org/aras-poc/base#has_relationship": [
+      {
+        "@id": "http://purl.org/aras-poc/base#/Part/052B70BA995D47CF834EF103CCE0D85E"
+      }
+    ]
+  }
+]
