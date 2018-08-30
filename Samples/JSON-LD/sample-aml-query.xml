@@ -1,6 +1,0 @@
-<AML>
-    <Item type="Method" action="RDF Transform Query Execution">
-        <!-- use id of query definition you want to execute -->
-        <qd_id>467143F3250D42CF9D2F6F880ABD3999</qd_id>
-    </Item>
-</AML>
