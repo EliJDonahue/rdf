@@ -1767,6 +1767,7 @@
 
     <owl:Class rdf:about="http://purl.org/aras-poc/base#Change_Controlled_Item">
         <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Item"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/aras-poc/base#Poly_Item"/>
         <rdfs:label>Change Controlled Item</rdfs:label>
     </owl:Class>
     
@@ -2344,7 +2345,6 @@
             <rdf:Description rdf:about="http://purl.org/aras-poc/base#Life_Cycle_State"/>
             <rdf:Description rdf:about="http://purl.org/aras-poc/base#List"/>
             <rdf:Description rdf:about="http://purl.org/aras-poc/base#Permission"/>
-            <rdf:Description rdf:about="http://purl.org/aras-poc/base#Poly_Item"/>
             <rdf:Description rdf:about="http://purl.org/aras-poc/base#Relationship"/>
             <rdf:Description rdf:about="http://purl.org/aras-poc/base#Team"/>
             <rdf:Description rdf:about="http://purl.org/aras-poc/base#User"/>
