@@ -1,6 +1,18 @@
 # RDF Proof of Concept for Aras Innovator
 
-# 1 - Exporting RDF 
+# 1 - Installation
+
+
+
+
+# 2 - Ontology
+
+[This ontology](./root-ontology.owl) is solely intended as a proof of concept and is not for production use. Work in progress.
+
+Ontology can be referenced via [http://purl.org/aras-poc/base#](http://purl.org/aras-poc/base#).
+
+
+# 3 - Exporting RDF 
 
 ## About the QD2RDF Method
 Formerly known as QD2RDFXML, the QD2RDF method executes a query definition and then uses [the dotnetRDF library](https://www.dotnetrdf.org/) to process the results as the specified output type. We can technically support any [output format](https://github.com/dotnetrdf/dotnetrdf/wiki/UserGuide-Writing-RDF) offered by the dotnetRDF library, but currently we have implemented 4 options:
@@ -126,11 +138,4 @@ For this approach, we use an external web service and the QD2RDF server method t
 This approach requires Aras Innovator 11 SP12 or newer. Taking advantage of the new RESTful API, we can execute the QD2RDF via the built-in OData interface - no external web service required. However, the Aras RESTful API only returns JSON responses. 
 
 If we want to use this approach, we'll need to use a JSON-based output format like JSON-LD. [See more info about this approach here.](./Samples/RDFXML/odata-interface-approach.md)
-
-
-# 2 - Ontology
-
-[This ontology](./root-ontology.owl) is solely intended as a proof of concept and is not for production use. Work in progress.
-
-Ontology can be referenced via [http://purl.org/aras-poc/base#](http://purl.org/aras-poc/base#).
 
