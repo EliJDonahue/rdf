@@ -1,6 +1,6 @@
 <AML>
     <Item type="qry_QueryDefinition" action="QD2RDF">
-        <qd_id>5BE0A43C1D5E4184B1FB82F6D847A4B5</qd_id>
+        <qd_id>22361BF39E244901B861ACAF7689A29F</qd_id>
         <output>JSON-LD</output>
 
         <file_name>my_file_name</file_name>     <!-- optional -->

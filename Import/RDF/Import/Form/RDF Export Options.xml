@@ -1,0 +1,179 @@
+﻿<AML>
+ <Item type="Form" id="4C237F87D1EA47CCA0835562F57F644B" action="add">
+  <category_form>0</category_form>
+  <height>260</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>260</width>
+  <name>RDF Export Options</name>
+  <Relationships>
+   <Item type="Body" id="B6FC3E8A414546D8B71229C8B175567F" action="add">
+    <sort_order>128</sort_order>
+    <source_id keyed_name="RDF Export Options" type="Form">4C237F87D1EA47CCA0835562F57F644B</source_id>
+    <Relationships>
+     <Item type="Field" id="B9602327046643DAAE7E4A3D941E7924" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<div style="background-color: #e8e8ef; width: 240px; height: 140px;"> </div>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
+      <tab_stop>1</tab_stop>
+      <x>0</x>
+      <y>40</y>
+      <z_index>-100</z_index>
+      <name>background</name>
+     </Item>
+     <Item type="Field" id="CBC93C90A2294B00BFB10BA8627179D9" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Compact</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
+      <tab_stop>1</tab_stop>
+      <x>160</x>
+      <y>130</y>
+      <name>compact</name>
+     </Item>
+     <Item type="Field" id="5F3C203CD8E1483A9ED72FB1FF0E3777" action="add">
+      <border_width>0</border_width>
+      <display_length>190</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Fetch (max results)</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
+      <tab_stop>1</tab_stop>
+      <x>20</x>
+      <y>50</y>
+      <name>fetch</name>
+     </Item>
+     <Item type="Field" id="C006D115706F4158B298DABAF2A84D50" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>label</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>12pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">RDF Export Options</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>left</text_align>
+      <x>40</x>
+      <y>5</y>
+      <name>label</name>
+     </Item>
+     <Item type="Field" id="AEBE5243E3D54789A6147B0AD7419DD1" action="add">
+      <border_width>0</border_width>
+      <display_length>190</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Offset</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
+      <tab_stop>1</tab_stop>
+      <x>20</x>
+      <y>90</y>
+      <name>offset</name>
+     </Item>
+     <Item type="Field" id="E03B6B7E2F584770BB87CE51432DA28B" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<select id="output_type_list" style="width:110px">
+  <option value="RDF">RDF XML</option>
+  <option value="CSV">CSV Triples</option>
+  <option value="Turtle">Turtle</option>
+  <option value="JSON-LD">JSON-LD</option>
+</select>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Output Type</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
+      <tab_stop>1</tab_stop>
+      <x>20</x>
+      <y>130</y>
+      <name>output_type</name>
+     </Item>
+     <Item type="Field" id="ED3F22DD2F1F4A229AE92AEEF8133AC3" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Begin Export</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="B6FC3E8A414546D8B71229C8B175567F" type="Body">B6FC3E8A414546D8B71229C8B175567F</source_id>
+      <tab_stop>1</tab_stop>
+      <x>66</x>
+      <y>198</y>
+      <name>submit</name>
+      <Relationships>
+       <Item type="Field Event" id="CFA65E3B5C604611A6C336CA5E976AE9" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="Submit RDF Export Options" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>Submit RDF Export Options</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="submit" type="Field">ED3F22DD2F1F4A229AE92AEEF8133AC3</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

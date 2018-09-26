@@ -1,0 +1,432 @@
+<AML>
+ <Item type="Method" id="6E7D1A19E4444A19A962BE314786A24C" action="add">
+  <comments>Executes a QD and converts the results to various RDF formats</comments>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[    const string BASE = "http://purl.org/aras-poc/base#";
+    const string NS = "aras"; // namespace for base url
+    
+    Innovator inn = this.getInnovator();
+    XmlDocument doc = new XmlDocument();
+    
+    // parse parameters
+    string qd_id = this.getProperty("qd_id","5BE0A43C1D5E4184B1FB82F6D847A4B5");
+    string output_type = this.getProperty("output","RDF");
+    string file_name = this.getProperty("file_name",DateTime.Now.ToString("MMdd-HHmmss"));
+    string file_path = this.getProperty("file_path",@"C:\temp\RDF\");
+    string compact = this.getProperty("compact_json","");
+    string offset = this.getProperty("offset","0");
+    string fetch = this.getProperty("fetch","1");
+    
+    // get query definition with relationships
+    Item queryDef = inn.newItem("qry_QueryDefinition","get");
+    queryDef.setID(qd_id);
+    queryDef.setAttribute("levels","2");
+    queryDef = queryDef.apply();
+    
+    // get top-level query item (context item)                  
+    string offset_fetch = @"<configuration><option><offset>" + offset + 
+                        "</offset><fetch>" + fetch + 
+                        "</fetch></option></configuration>";
+    
+    XmlNode rootItem = queryDef.dom.SelectSingleNode("//Item[@type='qry_QueryDefinition']/Relationships/Item[1]");
+    XmlCDataSection cdata = queryDef.dom.CreateCDataSection(offset_fetch);
+    XmlElement newNode = queryDef.dom.CreateElement("offset_fetch_xml");
+    newNode.AppendChild(cdata);
+    rootItem.AppendChild(newNode);
+    
+    // execute query
+    queryDef.setAction("qry_ExecuteQueryDefinition");
+    queryDef.setAttribute("levels","0");
+    queryDef = queryDef.apply();
+        
+    string xml = queryDef.ToString();
+    XmlDocument resDoc = new XmlDocument();
+    resDoc.LoadXml(xml);
+    
+    XmlNodeList items = resDoc.SelectNodes("//Item");
+    
+    // populate a dictionary of relevant itemtypes and their item properties
+    // we do this all at once up front to eliminate repeat queries in foreach loops
+    Dictionary<string,Dictionary<string,string>> propMap = BuildPropertyMap(inn, resDoc.SelectSingleNode("//AML"));
+    
+    // start building RDF
+    IGraph g = new Graph();
+    
+    // define namespace mapping
+    g.NamespaceMap.AddNamespace(NS, UriFactory.Create(BASE));
+    
+    foreach (XmlNode itemXML in items)
+    {
+        //XmlNode itemXML = resDoc.SelectSingleNode("//AML/Item");
+        XmlNodeList childNodes = itemXML.ChildNodes;
+        
+        string IT = itemXML.Attributes.GetNamedItem("alias").Value;
+        string ID = GetIdFromNode(itemXML);
+        string resource = StringToResource(IT);
+        
+        // subject node
+        IUriNode itemNode = g.CreateUriNode(UriFactory.Create(BASE + "/" + resource + "/" + ID));
+    
+        // predicates and objects will depend on property names and values
+        foreach (XmlNode childNode in childNodes)
+        {
+            // predicate
+            IUriNode propNode = g.CreateUriNode("aras:" + childNode.Name);
+    
+            // object
+            // figure out if the value represents an item or a static value
+            // value is an item if the keyed_name attribute is defined on a property
+            XmlAttributeCollection attr = childNode.Attributes;
+            XmlNode kn = attr.GetNamedItem("keyed_name");
+    
+            if (kn == null)
+            {
+                string value = childNode.InnerText;
+                
+                if (childNode.Name == "Relationships")
+                {
+                    // this is the relationships node
+                    XmlNodeList relItems = childNode.ChildNodes;
+                    foreach (XmlNode r in relItems)
+                    {
+                        XmlAttributeCollection relAttr = r.Attributes;
+                        string relAlias = relAttr.GetNamedItem("alias").Value;
+                            
+                            
+                        string relId = GetIdFromNode(r);
+                        
+                        string relResource = StringToResource(relAlias);
+                        IUriNode relNode = g.CreateUriNode("aras:has_relationship");
+    
+                        IUriNode objNode = g.CreateUriNode(UriFactory.Create(BASE + "/" + relResource + "/" + relId));
+                        g.Assert(new Triple(itemNode, relNode, objNode));
+                    }
+                }
+                // this is not a typical item property
+                else if (value != null)
+                {
+                    if (value.Contains("vault:///?fileId="))
+                    {
+                        // this is an image property that uses a vault file
+                        string fileId = value.Substring(17,32);
+                        
+                        IUriNode objNode = g.CreateUriNode(UriFactory.Create(BASE + "/File/" + fileId));
+                        g.Assert(new Triple(itemNode, propNode, objNode));
+                    }
+                    else if (childNode.Name == "itemtype" && value.Length == 32)
+                    {
+                        // this is (probably) the itemtype property on a poly item
+                        IUriNode objNode = g.CreateUriNode(UriFactory.Create(BASE + "/ItemType/" + value));
+                        g.Assert(new Triple(itemNode, propNode, objNode));
+                    }
+                    else
+                    {
+                        // if it's a boolean property, we need to return true/false instead of 1/0
+                        if (propMap.ContainsKey(IT))
+                        {
+                            if (propMap[IT].ContainsKey(childNode.Name))
+                            {
+                                string type = propMap[IT][childNode.Name];
+                                if (type == "boolean")
+                                    value = value == "1" ? "true" : "false";
+                            }
+                        }
+                        // this is a property with a string/date/etc value
+                        ILiteralNode literalNode = g.CreateLiteralNode(value);
+                        g.Assert(new Triple(itemNode, propNode, literalNode));
+                    }
+                }   
+            }
+            else
+            {
+                // value is the id of an item
+                // need to figure out what type of item and then create UriNode
+                string type = "resource_NOTFOUND";
+                if (propMap.ContainsKey(resource))
+                {
+                    if (propMap[resource].ContainsKey(childNode.Name))
+                    {
+                        type = propMap[resource][childNode.Name];
+                    }
+                    else
+                    {
+                        type += "(" + resource + ")(" + childNode.Name + ")";
+                    }
+                }
+                else if (propMap.ContainsKey(IT))
+                {
+                    if (propMap[IT].ContainsKey(childNode.Name))
+                    {
+                        type = propMap[IT][childNode.Name];
+                    }
+                    else
+                    {
+                        type += "(" + IT + ")(" + childNode.Name + ")";
+                    }
+                }
+                
+                type = StringToResource(type);
+                
+                IUriNode objNode = g.CreateUriNode(UriFactory.Create(BASE + "/" + type + "/" + childNode.InnerText));
+                g.Assert(new Triple(itemNode, propNode, objNode));
+            }
+        }
+    }
+
+    string output = "";
+    string file = file_path + file_name;
+    
+    switch (output_type)
+    {
+        case "RDF":
+            output = RDF2String(g);
+            RDF2File(g, file + ".rdf");
+            break;
+            
+        case "CSV":
+            output = Triples2String(g);
+            Triples2File(g, file + ".csv");
+            break;
+        
+        case "Turtle":
+            output = Turtle2String(g);
+            Turtle2File(g, file + ".ttl");
+            break;
+            
+        case "JSON-LD":
+            if (compact == "")
+            {
+                output = JSONLD2String(g);
+                JSONLD2File(g, file + ".json");
+            }
+            else
+            {
+                output = CompactJSONLD2String(g);
+                CompactJSONLD2File(g, file + "-compact.json");
+            }
+            break;
+    }
+
+    Item res = inn.newResult(output);
+    return res;
+}
+
+private static string StringToResource(string s)
+{
+    // all aliases should be in the format 'ItemType' or 'ItemType_#'  
+    
+    // replace spaces with underscores, capitalize first letters
+    string[] words = s.Split(' ');
+    string res = "";
+
+    foreach (string word in words)
+        res += char.ToUpper(word[0]) + word.Substring(1) + "_";
+        
+    // remove trailing underscore
+    res = res.Substring(0,res.Length-1);
+
+    // remove _# if exists
+    Regex rgx = new Regex(@"_\d{0,}$");
+    res = rgx.Replace(res, "");
+
+    // exception for the Value itemtype - must be renamed "ListValue" to avoid conflict with properties named "value"
+    if (res == "Value")
+        res = "ListValue";
+
+    return res;
+}
+
+// for debugging purposes
+private static string PrintMap(Dictionary<string,Dictionary<string,string>> map)
+{
+    string res = "";
+    
+    foreach (KeyValuePair<string,Dictionary<string,string>> itemtype in map)
+    {
+        res += itemtype.Key + "\n";
+        
+        foreach (KeyValuePair<string,string> prop in itemtype.Value)
+        {
+            res += "\t" + prop.Key + " : " + prop.Value + "\n";
+        }
+    }
+    
+    return res;
+}
+
+// itemtype => {(property,data_source itemtype), (property,data_source itemtype), ...}
+private static Dictionary<string,Dictionary<string,string>> BuildPropertyMap(Innovator inn, XmlNode el)
+{
+    List<string> itemtypes = new List<string>();
+    Dictionary<string,Dictionary<string,string>> map = new Dictionary<string,Dictionary<string,string>>();
+    
+    XmlNodeList items = el.SelectNodes("//Item[@alias]");
+    
+    foreach (XmlNode item in items)
+    {
+        string alias = item.Attributes.GetNamedItem("alias").Value;
+        Regex rgx = new Regex(@"_\d{0,}$");
+        alias = rgx.Replace(alias, "");
+        
+        if (!map.ContainsKey(alias)) 
+        {
+            map.Add(alias, new Dictionary<string,string>());
+            itemtypes.Add(alias);
+        }
+    }
+    
+    string aml = "<AML>";
+    aml += "<Item type='Property' action='get' select='name,data_type,data_source,source_id' where=\"data_type='Item'\">";
+    aml += "<source_id>";
+    aml += "<Item type='ItemType' action='get' select='id' where=\"name in ('" + string.Join("","",itemtypes) + "')\" />";
+    aml += "</source_id>";
+    aml += "</Item>";
+    aml += "</AML>";
+    
+    Item properties = inn.applyAML(aml);
+    
+    // need to parse each itemtype's item properties and add entries to the value dictionary
+    
+    for (int i=0; i < properties.getItemCount(); i++)
+    {
+        Item property = properties.getItemByIndex(i);
+        string name = property.getProperty("name");
+        string itemtype = property.getPropertyAttribute("source_id","keyed_name","");
+        string type = property.getPropertyAttribute("data_source","keyed_name","");
+        
+        if (map.ContainsKey(itemtype) && !map[itemtype].ContainsKey(name))
+        {
+            map[itemtype].Add(name,type);
+        }
+    }
+    
+    return map;
+}
+
+private static string GetIdFromNode(XmlNode node)
+{
+    string id = "";
+    XmlNodeList childNodes = node.ChildNodes;
+    
+    foreach (XmlNode n in childNodes)
+    {
+        if (n.Name == "id")
+        {
+            id = n.InnerText;
+            break;
+        }
+    }
+    
+    return id;
+}
+
+// build a string of triples
+private static string Triples2String (IGraph g)
+{
+    System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    CsvWriter csvwriter = new CsvWriter();
+    
+    csvwriter.Save(g, strWriter);
+    
+    return strWriter.ToString();
+}
+
+// build a string of RDF/XML
+private static string RDF2String (IGraph g)
+{
+    System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    RdfXmlWriter rdfxmlwriter = new RdfXmlWriter();
+    
+    rdfxmlwriter.Save(g, strWriter);
+    
+    return strWriter.ToString();
+}
+
+// build a Turtle string
+private static string Turtle2String (IGraph g)
+{
+    System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    CompressingTurtleWriter turtlewriter = new CompressingTurtleWriter();
+    
+    turtlewriter.Save(g, strWriter);
+    
+    return strWriter.ToString();
+}
+
+// build a JSON-LD string
+private static string JSONLD2String (IGraph g)
+{
+    System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    jsonldwriter.Save(store, strWriter);
+    
+    return strWriter.ToString();
+}
+
+// build a compact JSON-LD string
+private static string CompactJSONLD2String (IGraph g)
+{
+    // System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    JArray json_array = jsonldwriter.SerializeStore(store);
+    JToken context = JToken.Parse("{\"@context\": {\"base\": \"http://purl.org/aras-poc/base#\",\"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\"owl\": \"http://www.w3.org/2002/07/owl#\",\"xml\": \"http://www.w3.org/XML/1998/namespace\",\"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\"}}");
+    JObject compact_json = JsonLdProcessor.Compact(json_array,context,new JsonLdProcessorOptions());
+    
+    return compact_json.ToString();
+}
+// write RDF/XML to a file
+private static void RDF2File (IGraph g, string file)
+{
+    RdfXmlWriter rdfxmlwriter = new RdfXmlWriter();
+    rdfxmlwriter.Save(g, file);
+}
+
+// write Turtle to a file
+private static void Turtle2File (IGraph g, string file)
+{
+    CompressingTurtleWriter turtlewriter = new CompressingTurtleWriter();
+    turtlewriter.Save(g, file);
+}
+
+// write triples to a csv file
+private static void Triples2File (IGraph g, string file)
+{
+    CsvWriter csvwriter = new CsvWriter();
+    csvwriter.Save(g, file);
+}
+
+// write JSON-LD to a file
+private static void JSONLD2File (IGraph g, string file)
+{
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    jsonldwriter.Save(store, file);
+}
+
+// write a compact JSON-LD string to a file
+private static void CompactJSONLD2File (IGraph g, string file)
+{
+    // System.IO.StringWriter strWriter = new System.IO.StringWriter();
+    TripleStore store = new TripleStore();
+    store.Add(g);
+    
+    JsonLdWriter jsonldwriter = new JsonLdWriter();
+    JArray json_array = jsonldwriter.SerializeStore(store);
+    JToken context = JToken.Parse("{\"@context\": {\"base\": \"http://purl.org/aras-poc/base#\",\"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\"owl\": \"http://www.w3.org/2002/07/owl#\",\"xml\": \"http://www.w3.org/XML/1998/namespace\",\"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\"}}");
+    JObject compact_json = VDS.RDF.JsonLd.JsonLdProcessor.Compact(json_array,context,new JsonLdProcessorOptions());
+    
+    File.WriteAllText(file, compact_json.ToString());
+    
+    ]]></method_code>
+  <method_type>C#</method_type>
+  <name>QD2RDF</name>
+ </Item>
+</AML>

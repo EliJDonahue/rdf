@@ -62,7 +62,7 @@ Like [the approach we used with Aras 11 SP10](./Samples/RDFXML/RDFXML.md), this 
     ```
     {
         "@odata.type": "http://localhost/RDF_SP12/server/odata/$metadata#qry_QueryDefinition", 
-        "qd_id": "5BE0A43C1D5E4184B1FB82F6D847A4B5"
+        "qd_id": "22361BF39E244901B861ACAF7689A29F"
     }
     ```
 5. Enter the headers for your request:
