@@ -45,6 +45,8 @@ You are now ready to login to Aras and start converting Aras data to RDF.
 
 Ontology can be referenced via [http://purl.org/aras-poc/base#](http://purl.org/aras-poc/base#).
 
+[See this page](./Misc/strategy.md) for more info on a general strategy for representing Aras data via RDF.
+
 
 # 3 - Exporting RDF 
 
