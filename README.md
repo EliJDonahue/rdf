@@ -2,7 +2,41 @@
 
 # 1 - Installation
 
+#### Important!
+**Always back up your code tree and database before applying an import package or code tree patch!**
 
+## Pre-requisites
+
+1. Aras Innovator installed (version 11.0 SP12 preferred)
+2. Aras Package Import tool
+3. RDF import package
+4. RDF code tree overlay
+
+## Install Steps
+
+### Code Tree
+1. Backup your code tree and store the backup in a safe place.
+2. Copy the Innovator folder from the project's CodeTree subdirectory.
+3. Paste the Innovator folder into the root directory of your Aras installation.
+    * Tip: This is the same directory that contains the InnovatorServerConfig.xml file.
+
+### Database
+1. Backup your database and store the BAK file in a safe place.
+2. Open up the Aras Package Import tool.
+3. Enter your login credentials and click **Login**
+    * _Note: You must login as root for the package import to succeed!_
+4. Enter the package name in the TargetRelease field.
+    * Optional: Enter a description in the Description field.
+5. Enter the path to your local `..\RDF\Import\imports.mf` file in the Manifest File field.
+6. Select **aras.labs.poc.rdf** in the Available for Import field.
+7. Select Type = **Merge** and Mode = **Thorough Mode**.
+8. Click **Import** in the top left corner.
+9. Close the Aras Package Import tool.
+
+### Web Service
+*To Do*
+
+You are now ready to login to Aras and start converting Aras data to RDF.
 
 
 # 2 - Ontology
