@@ -82,7 +82,7 @@ RDF/XML is the default output type for the QD2RDF method.
 ```(xml)
 <AML>
     <Item type="qry_QueryDefinition" action="QD2RDF">
-        <qd_id>5BE0A43C1D5E4184B1FB82F6D847A4B5</qd_id>
+        <qd_id>22361BF39E244901B861ACAF7689A29F</qd_id>
         <output>RDF</output>
     </Item>
 </AML>
@@ -99,7 +99,7 @@ The CSV output type returns RDF triples in CSV format. This conversion takes a l
 ```(xml)
 <AML>
     <Item type="qry_QueryDefinition" action="QD2RDF">
-        <qd_id>5BE0A43C1D5E4184B1FB82F6D847A4B5</qd_id>
+        <qd_id>22361BF39E244901B861ACAF7689A29F</qd_id>
         <output>CSV</output>
     </Item>
 </AML>
@@ -116,7 +116,7 @@ Turtle is one of the requested output types.
 ```(xml)
 <AML>
     <Item type="qry_QueryDefinition" action="QD2RDF">
-        <qd_id>5BE0A43C1D5E4184B1FB82F6D847A4B5</qd_id>
+        <qd_id>22361BF39E244901B861ACAF7689A29F</qd_id>
         <output>Turtle</output>
     </Item>
 </AML>
@@ -135,7 +135,7 @@ Returns an expanded JSON-LD result. For a compact result, use the compact_json p
 ```(xml)
 <AML>
     <Item type="qry_QueryDefinition" action="QD2RDF">
-        <qd_id>5BE0A43C1D5E4184B1FB82F6D847A4B5</qd_id>
+        <qd_id>22361BF39E244901B861ACAF7689A29F</qd_id>
         <output>JSON-LD</output>
     </Item>
 </AML>
@@ -152,7 +152,7 @@ When the compact_json parameter is passed to QD2RDF, we use the built-in [dotnet
 ```(xml)
 <AML>
     <Item type="qry_QueryDefinition" action="QD2RDF">
-        <qd_id>5BE0A43C1D5E4184B1FB82F6D847A4B5</qd_id>
+        <qd_id>22361BF39E244901B861ACAF7689A29F</qd_id>
         <output>JSON-LD</output>
         <compact_json>1</compact_json>
     </Item>
