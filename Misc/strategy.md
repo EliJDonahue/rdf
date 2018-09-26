@@ -16,7 +16,7 @@ All classes representing ItemTypes are disjoint with their sibling classes, as w
 ## Properties
 
 ### Data Types
-Aras properties may have one of 20 data types. See the table below for the recommended RDFS/OWL representation of each data type.
+Aras properties may have one of 20 data types. See the table below for the recommended RDFS/OWL representation of each data type. Any of these datatypes could be overridden for specific ItemTypes depending on the ontology in use, but these seem like a good starting point.
 
 Aras Data Type  | Aras Data Source  | Recommended Representation    | Notes
 ----------------|-------------------|-------------------------------|------
@@ -43,7 +43,7 @@ Multi Value List    |               | xsd:string                    | This prope
 
 ### Object Properties vs. Data Properties
 
-[TO DO]
+Generally speaking, Aras Item properties will be represented by Object Properties and most other property types will be represented by Data Properties. 
 
 ### Axioms
 
@@ -84,3 +84,13 @@ No Aras Item may be related to itself, so all Object Properties representing Rel
 
 
 ## Relationships
+
+Relationship items are represented by individuals of a class corresponding to the items' ItemType, just like any other type of Aras item described above. The following diagram shows how an Aras item, its relationship(s), and child item(s) may be represented in RDF.
+
+![RDF Relationships](rdf-relationships.png)
+
+The individual representing the relationship item has four properties that may reference the parent and child items - has_source, has_related, source_id, and related_id. The has_source property is equivalent to the source_id property, and has_related is equivalent to related_id. Source_id and related_id are properties in the Aras data model. Has_source and has_related only exist in the RDF/OWL ontology.
+
+Note that a relationship may not have a child item. This is a null relationship in Innovator, and a valid scenario.
+
+The RDF/OWL ontology includes a has_relationship Object Property on the individual representing the parent item in Aras. There is no corresponding property in the Aras data model. We only use it in RDF to form the triple to connect a parent item to its relationships.
